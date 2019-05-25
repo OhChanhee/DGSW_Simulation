@@ -1,0 +1,7287 @@
+fileFormatVersion: 2
+guid: c78d4d33b58e0de42841a6067d99b083
+timeCreated: 1523871206
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PS1_MetalSlugX_tarmaRoving[1]_0
+    21300002: PS1_MetalSlugX_tarmaRoving[1]_1
+    21300004: PS1_MetalSlugX_tarmaRoving[1]_2
+    21300006: PS1_MetalSlugX_tarmaRoving[1]_3
+    21300008: PS1_MetalSlugX_tarmaRoving[1]_4
+    21300010: PS1_MetalSlugX_tarmaRoving[1]_5
+    21300012: PS1_MetalSlugX_tarmaRoving[1]_6
+    21300014: PS1_MetalSlugX_tarmaRoving[1]_7
+    21300016: PS1_MetalSlugX_tarmaRoving[1]_8
+    21300018: PS1_MetalSlugX_tarmaRoving[1]_9
+    21300020: PS1_MetalSlugX_tarmaRoving[1]_10
+    21300022: PS1_MetalSlugX_tarmaRoving[1]_11
+    21300024: PS1_MetalSlugX_tarmaRoving[1]_12
+    21300026: PS1_MetalSlugX_tarmaRoving[1]_13
+    21300028: PS1_MetalSlugX_tarmaRoving[1]_14
+    21300030: PS1_MetalSlugX_tarmaRoving[1]_15
+    21300032: PS1_MetalSlugX_tarmaRoving[1]_16
+    21300034: PS1_MetalSlugX_tarmaRoving[1]_17
+    21300036: PS1_MetalSlugX_tarmaRoving[1]_18
+    21300038: PS1_MetalSlugX_tarmaRoving[1]_19
+    21300040: PS1_MetalSlugX_tarmaRoving[1]_20
+    21300042: PS1_MetalSlugX_tarmaRoving[1]_21
+    21300044: PS1_MetalSlugX_tarmaRoving[1]_22
+    21300046: PS1_MetalSlugX_tarmaRoving[1]_23
+    21300048: PS1_MetalSlugX_tarmaRoving[1]_24
+    21300050: PS1_MetalSlugX_tarmaRoving[1]_25
+    21300052: PS1_MetalSlugX_tarmaRoving[1]_26
+    21300054: PS1_MetalSlugX_tarmaRoving[1]_27
+    21300056: PS1_MetalSlugX_tarmaRoving[1]_28
+    21300058: PS1_MetalSlugX_tarmaRoving[1]_29
+    21300060: PS1_MetalSlugX_tarmaRoving[1]_30
+    21300062: PS1_MetalSlugX_tarmaRoving[1]_31
+    21300064: PS1_MetalSlugX_tarmaRoving[1]_32
+    21300066: PS1_MetalSlugX_tarmaRoving[1]_33
+    21300068: PS1_MetalSlugX_tarmaRoving[1]_34
+    21300070: PS1_MetalSlugX_tarmaRoving[1]_35
+    21300072: PS1_MetalSlugX_tarmaRoving[1]_36
+    21300074: PS1_MetalSlugX_tarmaRoving[1]_37
+    21300076: PS1_MetalSlugX_tarmaRoving[1]_38
+    21300078: PS1_MetalSlugX_tarmaRoving[1]_39
+    21300080: PS1_MetalSlugX_tarmaRoving[1]_40
+    21300082: PS1_MetalSlugX_tarmaRoving[1]_41
+    21300084: PS1_MetalSlugX_tarmaRoving[1]_42
+    21300086: PS1_MetalSlugX_tarmaRoving[1]_43
+    21300088: PS1_MetalSlugX_tarmaRoving[1]_44
+    21300090: PS1_MetalSlugX_tarmaRoving[1]_45
+    21300092: PS1_MetalSlugX_tarmaRoving[1]_46
+    21300094: PS1_MetalSlugX_tarmaRoving[1]_47
+    21300096: PS1_MetalSlugX_tarmaRoving[1]_48
+    21300098: PS1_MetalSlugX_tarmaRoving[1]_49
+    21300100: PS1_MetalSlugX_tarmaRoving[1]_50
+    21300102: PS1_MetalSlugX_tarmaRoving[1]_51
+    21300104: PS1_MetalSlugX_tarmaRoving[1]_52
+    21300106: PS1_MetalSlugX_tarmaRoving[1]_53
+    21300108: PS1_MetalSlugX_tarmaRoving[1]_54
+    21300110: PS1_MetalSlugX_tarmaRoving[1]_55
+    21300112: PS1_MetalSlugX_tarmaRoving[1]_56
+    21300114: PS1_MetalSlugX_tarmaRoving[1]_57
+    21300116: PS1_MetalSlugX_tarmaRoving[1]_58
+    21300118: PS1_MetalSlugX_tarmaRoving[1]_59
+    21300120: PS1_MetalSlugX_tarmaRoving[1]_60
+    21300122: PS1_MetalSlugX_tarmaRoving[1]_61
+    21300124: PS1_MetalSlugX_tarmaRoving[1]_62
+    21300126: PS1_MetalSlugX_tarmaRoving[1]_63
+    21300128: PS1_MetalSlugX_tarmaRoving[1]_64
+    21300130: PS1_MetalSlugX_tarmaRoving[1]_65
+    21300132: PS1_MetalSlugX_tarmaRoving[1]_66
+    21300134: PS1_MetalSlugX_tarmaRoving[1]_67
+    21300136: PS1_MetalSlugX_tarmaRoving[1]_68
+    21300138: PS1_MetalSlugX_tarmaRoving[1]_69
+    21300140: PS1_MetalSlugX_tarmaRoving[1]_70
+    21300142: PS1_MetalSlugX_tarmaRoving[1]_71
+    21300144: PS1_MetalSlugX_tarmaRoving[1]_72
+    21300146: PS1_MetalSlugX_tarmaRoving[1]_73
+    21300148: PS1_MetalSlugX_tarmaRoving[1]_74
+    21300150: PS1_MetalSlugX_tarmaRoving[1]_75
+    21300152: PS1_MetalSlugX_tarmaRoving[1]_76
+    21300154: PS1_MetalSlugX_tarmaRoving[1]_77
+    21300156: PS1_MetalSlugX_tarmaRoving[1]_78
+    21300158: PS1_MetalSlugX_tarmaRoving[1]_79
+    21300160: PS1_MetalSlugX_tarmaRoving[1]_80
+    21300162: PS1_MetalSlugX_tarmaRoving[1]_81
+    21300164: PS1_MetalSlugX_tarmaRoving[1]_82
+    21300166: PS1_MetalSlugX_tarmaRoving[1]_83
+    21300168: PS1_MetalSlugX_tarmaRoving[1]_84
+    21300170: PS1_MetalSlugX_tarmaRoving[1]_85
+    21300172: PS1_MetalSlugX_tarmaRoving[1]_86
+    21300174: PS1_MetalSlugX_tarmaRoving[1]_87
+    21300176: PS1_MetalSlugX_tarmaRoving[1]_88
+    21300178: PS1_MetalSlugX_tarmaRoving[1]_89
+    21300180: PS1_MetalSlugX_tarmaRoving[1]_90
+    21300182: PS1_MetalSlugX_tarmaRoving[1]_91
+    21300184: PS1_MetalSlugX_tarmaRoving[1]_92
+    21300186: PS1_MetalSlugX_tarmaRoving[1]_93
+    21300188: PS1_MetalSlugX_tarmaRoving[1]_94
+    21300190: PS1_MetalSlugX_tarmaRoving[1]_95
+    21300192: PS1_MetalSlugX_tarmaRoving[1]_96
+    21300194: PS1_MetalSlugX_tarmaRoving[1]_97
+    21300196: PS1_MetalSlugX_tarmaRoving[1]_98
+    21300198: PS1_MetalSlugX_tarmaRoving[1]_99
+    21300200: PS1_MetalSlugX_tarmaRoving[1]_100
+    21300202: PS1_MetalSlugX_tarmaRoving[1]_101
+    21300204: PS1_MetalSlugX_tarmaRoving[1]_102
+    21300206: PS1_MetalSlugX_tarmaRoving[1]_103
+    21300208: PS1_MetalSlugX_tarmaRoving[1]_104
+    21300210: PS1_MetalSlugX_tarmaRoving[1]_105
+    21300212: PS1_MetalSlugX_tarmaRoving[1]_106
+    21300214: PS1_MetalSlugX_tarmaRoving[1]_107
+    21300216: PS1_MetalSlugX_tarmaRoving[1]_108
+    21300218: PS1_MetalSlugX_tarmaRoving[1]_109
+    21300220: PS1_MetalSlugX_tarmaRoving[1]_110
+    21300222: PS1_MetalSlugX_tarmaRoving[1]_111
+    21300224: PS1_MetalSlugX_tarmaRoving[1]_112
+    21300226: PS1_MetalSlugX_tarmaRoving[1]_113
+    21300228: PS1_MetalSlugX_tarmaRoving[1]_114
+    21300230: PS1_MetalSlugX_tarmaRoving[1]_115
+    21300232: PS1_MetalSlugX_tarmaRoving[1]_116
+    21300234: PS1_MetalSlugX_tarmaRoving[1]_117
+    21300236: PS1_MetalSlugX_tarmaRoving[1]_118
+    21300238: PS1_MetalSlugX_tarmaRoving[1]_119
+    21300240: PS1_MetalSlugX_tarmaRoving[1]_120
+    21300242: PS1_MetalSlugX_tarmaRoving[1]_121
+    21300244: PS1_MetalSlugX_tarmaRoving[1]_122
+    21300246: PS1_MetalSlugX_tarmaRoving[1]_123
+    21300248: PS1_MetalSlugX_tarmaRoving[1]_124
+    21300250: PS1_MetalSlugX_tarmaRoving[1]_125
+    21300252: PS1_MetalSlugX_tarmaRoving[1]_126
+    21300254: PS1_MetalSlugX_tarmaRoving[1]_127
+    21300256: PS1_MetalSlugX_tarmaRoving[1]_128
+    21300258: PS1_MetalSlugX_tarmaRoving[1]_129
+    21300260: PS1_MetalSlugX_tarmaRoving[1]_130
+    21300262: PS1_MetalSlugX_tarmaRoving[1]_131
+    21300264: PS1_MetalSlugX_tarmaRoving[1]_132
+    21300266: PS1_MetalSlugX_tarmaRoving[1]_133
+    21300268: PS1_MetalSlugX_tarmaRoving[1]_134
+    21300270: PS1_MetalSlugX_tarmaRoving[1]_135
+    21300272: PS1_MetalSlugX_tarmaRoving[1]_136
+    21300274: PS1_MetalSlugX_tarmaRoving[1]_137
+    21300276: PS1_MetalSlugX_tarmaRoving[1]_138
+    21300278: PS1_MetalSlugX_tarmaRoving[1]_139
+    21300280: PS1_MetalSlugX_tarmaRoving[1]_140
+    21300282: PS1_MetalSlugX_tarmaRoving[1]_141
+    21300284: PS1_MetalSlugX_tarmaRoving[1]_142
+    21300286: PS1_MetalSlugX_tarmaRoving[1]_143
+    21300288: PS1_MetalSlugX_tarmaRoving[1]_144
+    21300290: PS1_MetalSlugX_tarmaRoving[1]_145
+    21300292: PS1_MetalSlugX_tarmaRoving[1]_146
+    21300294: PS1_MetalSlugX_tarmaRoving[1]_147
+    21300296: PS1_MetalSlugX_tarmaRoving[1]_148
+    21300298: PS1_MetalSlugX_tarmaRoving[1]_149
+    21300300: PS1_MetalSlugX_tarmaRoving[1]_150
+    21300302: PS1_MetalSlugX_tarmaRoving[1]_151
+    21300304: PS1_MetalSlugX_tarmaRoving[1]_152
+    21300306: PS1_MetalSlugX_tarmaRoving[1]_153
+    21300308: PS1_MetalSlugX_tarmaRoving[1]_154
+    21300310: PS1_MetalSlugX_tarmaRoving[1]_155
+    21300312: PS1_MetalSlugX_tarmaRoving[1]_156
+    21300314: PS1_MetalSlugX_tarmaRoving[1]_157
+    21300316: PS1_MetalSlugX_tarmaRoving[1]_158
+    21300318: PS1_MetalSlugX_tarmaRoving[1]_159
+    21300320: PS1_MetalSlugX_tarmaRoving[1]_160
+    21300322: PS1_MetalSlugX_tarmaRoving[1]_161
+    21300324: PS1_MetalSlugX_tarmaRoving[1]_162
+    21300326: PS1_MetalSlugX_tarmaRoving[1]_163
+    21300328: PS1_MetalSlugX_tarmaRoving[1]_164
+    21300330: PS1_MetalSlugX_tarmaRoving[1]_165
+    21300332: PS1_MetalSlugX_tarmaRoving[1]_166
+    21300334: PS1_MetalSlugX_tarmaRoving[1]_167
+    21300336: PS1_MetalSlugX_tarmaRoving[1]_168
+    21300338: PS1_MetalSlugX_tarmaRoving[1]_169
+    21300340: PS1_MetalSlugX_tarmaRoving[1]_170
+    21300342: PS1_MetalSlugX_tarmaRoving[1]_171
+    21300344: PS1_MetalSlugX_tarmaRoving[1]_172
+    21300346: PS1_MetalSlugX_tarmaRoving[1]_173
+    21300348: PS1_MetalSlugX_tarmaRoving[1]_174
+    21300350: PS1_MetalSlugX_tarmaRoving[1]_175
+    21300352: PS1_MetalSlugX_tarmaRoving[1]_176
+    21300354: PS1_MetalSlugX_tarmaRoving[1]_177
+    21300356: PS1_MetalSlugX_tarmaRoving[1]_178
+    21300358: PS1_MetalSlugX_tarmaRoving[1]_179
+    21300360: PS1_MetalSlugX_tarmaRoving[1]_180
+    21300362: PS1_MetalSlugX_tarmaRoving[1]_181
+    21300364: PS1_MetalSlugX_tarmaRoving[1]_182
+    21300366: PS1_MetalSlugX_tarmaRoving[1]_183
+    21300368: PS1_MetalSlugX_tarmaRoving[1]_184
+    21300370: PS1_MetalSlugX_tarmaRoving[1]_185
+    21300372: PS1_MetalSlugX_tarmaRoving[1]_186
+    21300374: PS1_MetalSlugX_tarmaRoving[1]_187
+    21300376: PS1_MetalSlugX_tarmaRoving[1]_188
+    21300378: PS1_MetalSlugX_tarmaRoving[1]_189
+    21300380: PS1_MetalSlugX_tarmaRoving[1]_190
+    21300382: PS1_MetalSlugX_tarmaRoving[1]_191
+    21300384: PS1_MetalSlugX_tarmaRoving[1]_192
+    21300386: PS1_MetalSlugX_tarmaRoving[1]_193
+    21300388: PS1_MetalSlugX_tarmaRoving[1]_194
+    21300390: PS1_MetalSlugX_tarmaRoving[1]_195
+    21300392: PS1_MetalSlugX_tarmaRoving[1]_196
+    21300394: PS1_MetalSlugX_tarmaRoving[1]_197
+    21300396: PS1_MetalSlugX_tarmaRoving[1]_198
+    21300398: PS1_MetalSlugX_tarmaRoving[1]_199
+    21300400: PS1_MetalSlugX_tarmaRoving[1]_200
+    21300402: PS1_MetalSlugX_tarmaRoving[1]_201
+    21300404: PS1_MetalSlugX_tarmaRoving[1]_202
+    21300406: PS1_MetalSlugX_tarmaRoving[1]_203
+    21300408: PS1_MetalSlugX_tarmaRoving[1]_204
+    21300410: PS1_MetalSlugX_tarmaRoving[1]_205
+    21300412: PS1_MetalSlugX_tarmaRoving[1]_206
+    21300414: PS1_MetalSlugX_tarmaRoving[1]_207
+    21300416: PS1_MetalSlugX_tarmaRoving[1]_208
+    21300418: PS1_MetalSlugX_tarmaRoving[1]_209
+    21300420: PS1_MetalSlugX_tarmaRoving[1]_210
+    21300422: PS1_MetalSlugX_tarmaRoving[1]_211
+    21300424: PS1_MetalSlugX_tarmaRoving[1]_212
+    21300426: PS1_MetalSlugX_tarmaRoving[1]_213
+    21300428: PS1_MetalSlugX_tarmaRoving[1]_214
+    21300430: PS1_MetalSlugX_tarmaRoving[1]_215
+    21300432: PS1_MetalSlugX_tarmaRoving[1]_216
+    21300434: PS1_MetalSlugX_tarmaRoving[1]_217
+    21300436: PS1_MetalSlugX_tarmaRoving[1]_218
+    21300438: PS1_MetalSlugX_tarmaRoving[1]_219
+    21300440: PS1_MetalSlugX_tarmaRoving[1]_220
+    21300442: PS1_MetalSlugX_tarmaRoving[1]_221
+    21300444: PS1_MetalSlugX_tarmaRoving[1]_222
+    21300446: PS1_MetalSlugX_tarmaRoving[1]_223
+    21300448: PS1_MetalSlugX_tarmaRoving[1]_224
+    21300450: PS1_MetalSlugX_tarmaRoving[1]_225
+    21300452: PS1_MetalSlugX_tarmaRoving[1]_226
+    21300454: PS1_MetalSlugX_tarmaRoving[1]_227
+    21300456: PS1_MetalSlugX_tarmaRoving[1]_228
+    21300458: PS1_MetalSlugX_tarmaRoving[1]_229
+    21300460: PS1_MetalSlugX_tarmaRoving[1]_230
+    21300462: PS1_MetalSlugX_tarmaRoving[1]_231
+    21300464: PS1_MetalSlugX_tarmaRoving[1]_232
+    21300466: PS1_MetalSlugX_tarmaRoving[1]_233
+    21300468: PS1_MetalSlugX_tarmaRoving[1]_234
+    21300470: PS1_MetalSlugX_tarmaRoving[1]_235
+    21300472: PS1_MetalSlugX_tarmaRoving[1]_236
+    21300474: PS1_MetalSlugX_tarmaRoving[1]_237
+    21300476: PS1_MetalSlugX_tarmaRoving[1]_238
+    21300478: PS1_MetalSlugX_tarmaRoving[1]_239
+    21300480: PS1_MetalSlugX_tarmaRoving[1]_240
+    21300482: PS1_MetalSlugX_tarmaRoving[1]_241
+    21300484: PS1_MetalSlugX_tarmaRoving[1]_242
+    21300486: PS1_MetalSlugX_tarmaRoving[1]_243
+    21300488: PS1_MetalSlugX_tarmaRoving[1]_244
+    21300490: PS1_MetalSlugX_tarmaRoving[1]_245
+    21300492: PS1_MetalSlugX_tarmaRoving[1]_246
+    21300494: PS1_MetalSlugX_tarmaRoving[1]_247
+    21300496: PS1_MetalSlugX_tarmaRoving[1]_248
+    21300498: PS1_MetalSlugX_tarmaRoving[1]_249
+    21300500: PS1_MetalSlugX_tarmaRoving[1]_250
+    21300502: PS1_MetalSlugX_tarmaRoving[1]_251
+    21300504: PS1_MetalSlugX_tarmaRoving[1]_252
+    21300506: PS1_MetalSlugX_tarmaRoving[1]_253
+    21300508: PS1_MetalSlugX_tarmaRoving[1]_254
+    21300510: PS1_MetalSlugX_tarmaRoving[1]_255
+    21300512: PS1_MetalSlugX_tarmaRoving[1]_256
+    21300514: PS1_MetalSlugX_tarmaRoving[1]_257
+    21300516: PS1_MetalSlugX_tarmaRoving[1]_258
+    21300518: PS1_MetalSlugX_tarmaRoving[1]_259
+    21300520: PS1_MetalSlugX_tarmaRoving[1]_260
+    21300522: PS1_MetalSlugX_tarmaRoving[1]_261
+    21300524: PS1_MetalSlugX_tarmaRoving[1]_262
+    21300526: PS1_MetalSlugX_tarmaRoving[1]_263
+    21300528: PS1_MetalSlugX_tarmaRoving[1]_264
+    21300530: PS1_MetalSlugX_tarmaRoving[1]_265
+    21300532: PS1_MetalSlugX_tarmaRoving[1]_266
+    21300534: PS1_MetalSlugX_tarmaRoving[1]_267
+    21300536: PS1_MetalSlugX_tarmaRoving[1]_268
+    21300538: PS1_MetalSlugX_tarmaRoving[1]_269
+    21300540: PS1_MetalSlugX_tarmaRoving[1]_270
+    21300542: PS1_MetalSlugX_tarmaRoving[1]_271
+    21300544: PS1_MetalSlugX_tarmaRoving[1]_272
+    21300546: PS1_MetalSlugX_tarmaRoving[1]_273
+    21300548: PS1_MetalSlugX_tarmaRoving[1]_274
+    21300550: PS1_MetalSlugX_tarmaRoving[1]_275
+    21300552: PS1_MetalSlugX_tarmaRoving[1]_276
+    21300554: PS1_MetalSlugX_tarmaRoving[1]_277
+    21300556: PS1_MetalSlugX_tarmaRoving[1]_278
+    21300558: PS1_MetalSlugX_tarmaRoving[1]_279
+    21300560: PS1_MetalSlugX_tarmaRoving[1]_280
+    21300562: PS1_MetalSlugX_tarmaRoving[1]_281
+    21300564: PS1_MetalSlugX_tarmaRoving[1]_282
+    21300566: PS1_MetalSlugX_tarmaRoving[1]_283
+    21300568: PS1_MetalSlugX_tarmaRoving[1]_284
+    21300570: PS1_MetalSlugX_tarmaRoving[1]_285
+    21300572: PS1_MetalSlugX_tarmaRoving[1]_286
+    21300574: PS1_MetalSlugX_tarmaRoving[1]_287
+    21300576: PS1_MetalSlugX_tarmaRoving[1]_288
+    21300578: PS1_MetalSlugX_tarmaRoving[1]_289
+    21300580: PS1_MetalSlugX_tarmaRoving[1]_290
+    21300582: PS1_MetalSlugX_tarmaRoving[1]_291
+    21300584: PS1_MetalSlugX_tarmaRoving[1]_292
+    21300586: PS1_MetalSlugX_tarmaRoving[1]_293
+    21300588: PS1_MetalSlugX_tarmaRoving[1]_294
+    21300590: PS1_MetalSlugX_tarmaRoving[1]_295
+    21300592: PS1_MetalSlugX_tarmaRoving[1]_296
+    21300594: PS1_MetalSlugX_tarmaRoving[1]_297
+    21300596: PS1_MetalSlugX_tarmaRoving[1]_298
+    21300598: PS1_MetalSlugX_tarmaRoving[1]_299
+    21300600: PS1_MetalSlugX_tarmaRoving[1]_300
+    21300602: PS1_MetalSlugX_tarmaRoving[1]_301
+    21300604: PS1_MetalSlugX_tarmaRoving[1]_302
+    21300606: PS1_MetalSlugX_tarmaRoving[1]_303
+    21300608: PS1_MetalSlugX_tarmaRoving[1]_304
+    21300610: PS1_MetalSlugX_tarmaRoving[1]_305
+    21300612: PS1_MetalSlugX_tarmaRoving[1]_306
+    21300614: PS1_MetalSlugX_tarmaRoving[1]_307
+    21300616: PS1_MetalSlugX_tarmaRoving[1]_308
+    21300618: PS1_MetalSlugX_tarmaRoving[1]_309
+    21300620: PS1_MetalSlugX_tarmaRoving[1]_310
+    21300622: PS1_MetalSlugX_tarmaRoving[1]_311
+    21300624: PS1_MetalSlugX_tarmaRoving[1]_312
+    21300626: PS1_MetalSlugX_tarmaRoving[1]_313
+    21300628: PS1_MetalSlugX_tarmaRoving[1]_314
+    21300630: PS1_MetalSlugX_tarmaRoving[1]_315
+    21300632: PS1_MetalSlugX_tarmaRoving[1]_316
+    21300634: PS1_MetalSlugX_tarmaRoving[1]_317
+    21300636: PS1_MetalSlugX_tarmaRoving[1]_318
+    21300638: PS1_MetalSlugX_tarmaRoving[1]_319
+    21300640: PS1_MetalSlugX_tarmaRoving[1]_320
+    21300642: PS1_MetalSlugX_tarmaRoving[1]_321
+    21300644: PS1_MetalSlugX_tarmaRoving[1]_322
+    21300646: PS1_MetalSlugX_tarmaRoving[1]_323
+    21300648: PS1_MetalSlugX_tarmaRoving[1]_324
+    21300650: PS1_MetalSlugX_tarmaRoving[1]_325
+    21300652: PS1_MetalSlugX_tarmaRoving[1]_326
+    21300654: PS1_MetalSlugX_tarmaRoving[1]_327
+    21300656: PS1_MetalSlugX_tarmaRoving[1]_328
+    21300658: PS1_MetalSlugX_tarmaRoving[1]_329
+    21300660: PS1_MetalSlugX_tarmaRoving[1]_330
+    21300662: PS1_MetalSlugX_tarmaRoving[1]_331
+    21300664: PS1_MetalSlugX_tarmaRoving[1]_332
+    21300666: PS1_MetalSlugX_tarmaRoving[1]_333
+    21300668: PS1_MetalSlugX_tarmaRoving[1]_334
+    21300670: PS1_MetalSlugX_tarmaRoving[1]_335
+    21300672: PS1_MetalSlugX_tarmaRoving[1]_336
+    21300674: PS1_MetalSlugX_tarmaRoving[1]_337
+    21300676: PS1_MetalSlugX_tarmaRoving[1]_338
+    21300678: PS1_MetalSlugX_tarmaRoving[1]_339
+    21300680: PS1_MetalSlugX_tarmaRoving[1]_340
+    21300682: PS1_MetalSlugX_tarmaRoving[1]_341
+    21300684: PS1_MetalSlugX_tarmaRoving[1]_342
+    21300686: PS1_MetalSlugX_tarmaRoving[1]_343
+    21300688: PS1_MetalSlugX_tarmaRoving[1]_344
+    21300690: PS1_MetalSlugX_tarmaRoving[1]_345
+    21300692: PS1_MetalSlugX_tarmaRoving[1]_346
+    21300694: PS1_MetalSlugX_tarmaRoving[1]_347
+    21300696: PS1_MetalSlugX_tarmaRoving[1]_348
+    21300698: PS1_MetalSlugX_tarmaRoving[1]_349
+    21300700: PS1_MetalSlugX_tarmaRoving[1]_350
+    21300702: PS1_MetalSlugX_tarmaRoving[1]_351
+    21300704: PS1_MetalSlugX_tarmaRoving[1]_352
+    21300706: PS1_MetalSlugX_tarmaRoving[1]_353
+    21300708: PS1_MetalSlugX_tarmaRoving[1]_354
+    21300710: PS1_MetalSlugX_tarmaRoving[1]_355
+    21300712: PS1_MetalSlugX_tarmaRoving[1]_356
+    21300714: PS1_MetalSlugX_tarmaRoving[1]_357
+    21300716: PS1_MetalSlugX_tarmaRoving[1]_358
+    21300718: PS1_MetalSlugX_tarmaRoving[1]_359
+    21300720: PS1_MetalSlugX_tarmaRoving[1]_360
+    21300722: PS1_MetalSlugX_tarmaRoving[1]_361
+    21300724: PS1_MetalSlugX_tarmaRoving[1]_362
+    21300726: PS1_MetalSlugX_tarmaRoving[1]_363
+    21300728: PS1_MetalSlugX_tarmaRoving[1]_364
+    21300730: PS1_MetalSlugX_tarmaRoving[1]_365
+    21300732: PS1_MetalSlugX_tarmaRoving[1]_366
+    21300734: PS1_MetalSlugX_tarmaRoving[1]_367
+    21300736: PS1_MetalSlugX_tarmaRoving[1]_368
+    21300738: PS1_MetalSlugX_tarmaRoving[1]_369
+    21300740: PS1_MetalSlugX_tarmaRoving[1]_370
+    21300742: PS1_MetalSlugX_tarmaRoving[1]_371
+    21300744: PS1_MetalSlugX_tarmaRoving[1]_372
+    21300746: PS1_MetalSlugX_tarmaRoving[1]_373
+    21300748: PS1_MetalSlugX_tarmaRoving[1]_374
+    21300750: PS1_MetalSlugX_tarmaRoving[1]_375
+    21300752: PS1_MetalSlugX_tarmaRoving[1]_376
+    21300754: PS1_MetalSlugX_tarmaRoving[1]_377
+    21300756: PS1_MetalSlugX_tarmaRoving[1]_378
+    21300758: PS1_MetalSlugX_tarmaRoving[1]_379
+    21300760: PS1_MetalSlugX_tarmaRoving[1]_380
+    21300762: PS1_MetalSlugX_tarmaRoving[1]_381
+    21300764: PS1_MetalSlugX_tarmaRoving[1]_382
+    21300766: PS1_MetalSlugX_tarmaRoving[1]_383
+    21300768: PS1_MetalSlugX_tarmaRoving[1]_384
+    21300770: PS1_MetalSlugX_tarmaRoving[1]_385
+    21300772: PS1_MetalSlugX_tarmaRoving[1]_386
+    21300774: PS1_MetalSlugX_tarmaRoving[1]_387
+    21300776: PS1_MetalSlugX_tarmaRoving[1]_388
+    21300778: PS1_MetalSlugX_tarmaRoving[1]_389
+    21300780: PS1_MetalSlugX_tarmaRoving[1]_390
+    21300782: PS1_MetalSlugX_tarmaRoving[1]_391
+    21300784: PS1_MetalSlugX_tarmaRoving[1]_392
+    21300786: PS1_MetalSlugX_tarmaRoving[1]_393
+    21300788: PS1_MetalSlugX_tarmaRoving[1]_394
+    21300790: PS1_MetalSlugX_tarmaRoving[1]_395
+    21300792: PS1_MetalSlugX_tarmaRoving[1]_396
+    21300794: PS1_MetalSlugX_tarmaRoving[1]_397
+    21300796: PS1_MetalSlugX_tarmaRoving[1]_398
+    21300798: PS1_MetalSlugX_tarmaRoving[1]_399
+    21300800: PS1_MetalSlugX_tarmaRoving[1]_400
+    21300802: PS1_MetalSlugX_tarmaRoving[1]_401
+    21300804: PS1_MetalSlugX_tarmaRoving[1]_402
+    21300806: PS1_MetalSlugX_tarmaRoving[1]_403
+    21300808: PS1_MetalSlugX_tarmaRoving[1]_404
+    21300810: PS1_MetalSlugX_tarmaRoving[1]_405
+    21300812: PS1_MetalSlugX_tarmaRoving[1]_406
+    21300814: PS1_MetalSlugX_tarmaRoving[1]_407
+    21300816: PS1_MetalSlugX_tarmaRoving[1]_408
+    21300818: PS1_MetalSlugX_tarmaRoving[1]_409
+    21300820: PS1_MetalSlugX_tarmaRoving[1]_410
+    21300822: PS1_MetalSlugX_tarmaRoving[1]_411
+    21300824: PS1_MetalSlugX_tarmaRoving[1]_412
+    21300826: PS1_MetalSlugX_tarmaRoving[1]_413
+    21300828: PS1_MetalSlugX_tarmaRoving[1]_414
+    21300830: PS1_MetalSlugX_tarmaRoving[1]_415
+    21300832: PS1_MetalSlugX_tarmaRoving[1]_416
+    21300834: PS1_MetalSlugX_tarmaRoving[1]_417
+    21300836: PS1_MetalSlugX_tarmaRoving[1]_418
+    21300838: PS1_MetalSlugX_tarmaRoving[1]_419
+    21300840: PS1_MetalSlugX_tarmaRoving[1]_420
+    21300842: PS1_MetalSlugX_tarmaRoving[1]_421
+    21300844: PS1_MetalSlugX_tarmaRoving[1]_422
+    21300846: PS1_MetalSlugX_tarmaRoving[1]_423
+    21300848: PS1_MetalSlugX_tarmaRoving[1]_424
+    21300850: PS1_MetalSlugX_tarmaRoving[1]_425
+    21300852: PS1_MetalSlugX_tarmaRoving[1]_426
+    21300854: PS1_MetalSlugX_tarmaRoving[1]_427
+    21300856: PS1_MetalSlugX_tarmaRoving[1]_428
+    21300858: PS1_MetalSlugX_tarmaRoving[1]_429
+    21300860: PS1_MetalSlugX_tarmaRoving[1]_430
+    21300862: PS1_MetalSlugX_tarmaRoving[1]_431
+    21300864: PS1_MetalSlugX_tarmaRoving[1]_432
+    21300866: PS1_MetalSlugX_tarmaRoving[1]_433
+    21300868: PS1_MetalSlugX_tarmaRoving[1]_434
+    21300870: PS1_MetalSlugX_tarmaRoving[1]_435
+    21300872: PS1_MetalSlugX_tarmaRoving[1]_436
+    21300874: PS1_MetalSlugX_tarmaRoving[1]_437
+    21300876: PS1_MetalSlugX_tarmaRoving[1]_438
+    21300878: PS1_MetalSlugX_tarmaRoving[1]_439
+    21300880: PS1_MetalSlugX_tarmaRoving[1]_440
+    21300882: PS1_MetalSlugX_tarmaRoving[1]_441
+    21300884: PS1_MetalSlugX_tarmaRoving[1]_442
+    21300886: PS1_MetalSlugX_tarmaRoving[1]_443
+    21300888: PS1_MetalSlugX_tarmaRoving[1]_444
+    21300890: PS1_MetalSlugX_tarmaRoving[1]_445
+    21300892: PS1_MetalSlugX_tarmaRoving[1]_446
+    21300894: PS1_MetalSlugX_tarmaRoving[1]_447
+    21300896: PS1_MetalSlugX_tarmaRoving[1]_448
+    21300898: PS1_MetalSlugX_tarmaRoving[1]_449
+    21300900: PS1_MetalSlugX_tarmaRoving[1]_450
+    21300902: PS1_MetalSlugX_tarmaRoving[1]_451
+    21300904: PS1_MetalSlugX_tarmaRoving[1]_452
+    21300906: PS1_MetalSlugX_tarmaRoving[1]_453
+    21300908: PS1_MetalSlugX_tarmaRoving[1]_454
+    21300910: PS1_MetalSlugX_tarmaRoving[1]_455
+    21300912: PS1_MetalSlugX_tarmaRoving[1]_456
+    21300914: PS1_MetalSlugX_tarmaRoving[1]_457
+    21300916: PS1_MetalSlugX_tarmaRoving[1]_458
+    21300918: PS1_MetalSlugX_tarmaRoving[1]_459
+    21300920: PS1_MetalSlugX_tarmaRoving[1]_460
+    21300922: PS1_MetalSlugX_tarmaRoving[1]_461
+    21300924: PS1_MetalSlugX_tarmaRoving[1]_462
+    21300926: PS1_MetalSlugX_tarmaRoving[1]_463
+    21300928: PS1_MetalSlugX_tarmaRoving[1]_464
+    21300930: PS1_MetalSlugX_tarmaRoving[1]_465
+    21300932: PS1_MetalSlugX_tarmaRoving[1]_466
+    21300934: PS1_MetalSlugX_tarmaRoving[1]_467
+    21300936: PS1_MetalSlugX_tarmaRoving[1]_468
+    21300938: PS1_MetalSlugX_tarmaRoving[1]_469
+    21300940: PS1_MetalSlugX_tarmaRoving[1]_470
+    21300942: PS1_MetalSlugX_tarmaRoving[1]_471
+    21300944: PS1_MetalSlugX_tarmaRoving[1]_472
+    21300946: PS1_MetalSlugX_tarmaRoving[1]_473
+    21300948: PS1_MetalSlugX_tarmaRoving[1]_474
+    21300950: PS1_MetalSlugX_tarmaRoving[1]_475
+    21300952: PS1_MetalSlugX_tarmaRoving[1]_476
+    21300954: PS1_MetalSlugX_tarmaRoving[1]_477
+    21300956: PS1_MetalSlugX_tarmaRoving[1]_478
+    21300958: PS1_MetalSlugX_tarmaRoving[1]_479
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 689
+        width: 100
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 767
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 760
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 764
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 689
+        width: 67
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 720
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 717
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_7
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 721
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_8
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 754
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_9
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 764
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_10
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 764
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_11
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 755
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_12
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 766
+        width: 104
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_13
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 778
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_14
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 779
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_15
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 766
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_16
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 766
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_17
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 766
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_18
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 712
+        width: 79
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_19
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 721
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_20
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 728
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_21
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 732
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_22
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 688
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_23
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 734
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_24
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 734
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_25
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 736
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 682
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 660
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_28
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 686
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_29
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 700
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_30
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 686
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_31
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 672
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_32
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 676
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_33
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 690
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_34
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 690
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_35
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 696
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 694
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_37
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 696
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_38
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 696
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_39
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 655
+        width: 35
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_40
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 633
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_41
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 642
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_42
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 627
+        width: 32
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_43
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 686
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 658
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_45
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 666
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 656
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_47
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 661
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_48
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 659
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_49
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 682
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_50
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 657
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_51
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 656
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 632
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_53
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 658
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_54
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 651
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_55
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 669
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_56
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 640
+        width: 68
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_57
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 646
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_58
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 629
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_59
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 653
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_60
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 630
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_61
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 636
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_62
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 601
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_63
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 547
+        width: 31
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_64
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 581
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_65
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 616
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_66
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 596
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_67
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 630
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_68
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 578
+        width: 39
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_69
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 566
+        width: 37
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_70
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 637
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_71
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 606
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_72
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 606
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 590
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_74
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 614
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_75
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 603
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_76
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 592
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_77
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 582
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_78
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 609
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_79
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 574
+        width: 70
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_80
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 593
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_81
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 547
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_82
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 594
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_83
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 567
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_84
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 579
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_85
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 572
+        width: 58
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_86
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 559
+        width: 108
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_87
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 562
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 552
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_89
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 546
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_90
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 569
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_91
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 551
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_92
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 561
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_93
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 582
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_94
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 547
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_95
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 553
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_96
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 556
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_97
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 564
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_98
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 552
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_99
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 558
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_100
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 549
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_101
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 547
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_102
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 550
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_103
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 548
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_104
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 547
+        width: 72
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 35
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_106
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 488
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_107
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 489
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_108
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 494
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_109
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 434
+        width: 98
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_110
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 518
+        width: 67
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_111
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 516
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_112
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 521
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_113
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 507
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_114
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 405
+        width: 22
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_115
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 515
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_116
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 513
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_117
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 521
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_118
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 515
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_119
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 517
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_120
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 517
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_121
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 486
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_122
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 486
+        width: 80
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_123
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 509
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_124
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 453
+        width: 42
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_125
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 525
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_126
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 510
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_127
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 515
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_128
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 501
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_129
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 517
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_130
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 534
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_131
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 506
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_132
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 460
+        width: 43
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_133
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 508
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_134
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 517
+        width: 68
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_135
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 450
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_136
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 493
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_137
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 483
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_138
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 489
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_139
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 485
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_140
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 435
+        width: 114
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_141
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 485
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 489
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_143
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 487
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_144
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 484
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_145
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 476
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_146
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 486
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_147
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 468
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_148
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 487
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_149
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 468
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_150
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 480
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_151
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 484
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_152
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 486
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_153
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 458
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_154
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 462
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_155
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 444
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_156
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 464
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_157
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 412
+        width: 22
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_158
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 369
+        width: 43
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_159
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 455
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_160
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 460
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_161
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 406
+        width: 34
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_162
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 457
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_163
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 456
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_164
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 457
+        width: 65
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_165
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 457
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_166
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 466
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_167
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 468
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_168
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 428
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_169
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 446
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_170
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 456
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_171
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 459
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_172
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 442
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_173
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 454
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_174
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 450
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 418
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_176
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 400
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_177
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 372
+        width: 39
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_178
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 452
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_179
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 392
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_180
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 423
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_181
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 371
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_182
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 418
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_183
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 428
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_184
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 425
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_185
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 427
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_186
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 430
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_187
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 438
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_188
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 432
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_189
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 414
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_190
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 446
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_191
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 419
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_192
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 417
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_193
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 422
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_194
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 380
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_195
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 422
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_196
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 424
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_197
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 418
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_198
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 398
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_199
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 364
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_200
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 412
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_201
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 405
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_202
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 367
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_203
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 367
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_204
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 373
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_205
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 411
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_206
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 412
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_207
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 426
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_208
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 392
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_209
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 402
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_210
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 360
+        width: 30
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_211
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 399
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_212
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 414
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_213
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 384
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_214
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 384
+        width: 59
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_215
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 370
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_216
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 387
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_217
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 389
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_218
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 387
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_219
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 357
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_220
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 394
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_221
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 410
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_222
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 386
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_223
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 373
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_224
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 366
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_225
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 388
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_226
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_227
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 356
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_228
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 366
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_229
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 354
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_230
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 345
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_231
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 343
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_232
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 357
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_233
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 358
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_234
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 334
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_235
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 383
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_236
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 362
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_237
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 380
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_238
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 358
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_239
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 373
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_240
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 367
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_241
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 358
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_242
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 289
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_243
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 328
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_244
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 356
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_245
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 362
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_246
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 327
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_247
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 317
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_248
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 318
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_249
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 343
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_250
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 338
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_251
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 349
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_252
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 352
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_253
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 356
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_254
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 342
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_255
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 363
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_256
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 359
+        width: 45
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_257
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 314
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_258
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 338
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_259
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 316
+        width: 80
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_260
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 314
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_261
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 290
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_262
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 317
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_263
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 294
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_264
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 327
+        width: 55
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_265
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 305
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_266
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 299
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_267
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 293
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_268
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 299
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_269
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 296
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_270
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 328
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_271
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 303
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_272
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 296
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_273
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 330
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_274
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 337
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_275
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 296
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_276
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 331
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_277
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 330
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_278
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 326
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_279
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 328
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_280
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 290
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_281
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 292
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_282
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 290
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_283
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 292
+        width: 51
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_284
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 290
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_285
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 289
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_286
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 297
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_287
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 304
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_288
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 301
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_289
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 297
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_290
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 293
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_291
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 306
+        width: 68
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_292
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 300
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_293
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 309
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_294
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 300
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_295
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 306
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_296
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 296
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_297
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 296
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_298
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 306
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_299
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 293
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_300
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 293
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_301
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 277
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_302
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 262
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_303
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 262
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_304
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 232
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_305
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_306
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 262
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_307
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 237
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_308
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 225
+        width: 22
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_309
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 268
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_310
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 249
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_311
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 253
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_312
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 261
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_313
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 263
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_314
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 263
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_315
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_316
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 219
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_317
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 233
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_318
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 233
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_319
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 235
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_320
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 225
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_321
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 225
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_322
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 224
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_323
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 231
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_324
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 236
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_325
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 233
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_326
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 233
+        width: 4
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_327
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 201
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_328
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 222
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_329
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 222
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_330
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 222
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_331
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 222
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_332
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 233
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_333
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 222
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_334
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 232
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_335
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 206
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_336
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 205
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_337
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_338
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 204
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_339
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 205
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_340
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 205
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_341
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 203
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_342
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 176
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_343
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 188
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_344
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 140
+        width: 30
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_345
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 150
+        width: 34
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_346
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 177
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_347
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 189
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_348
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 152
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_349
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 187
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_350
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 157
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_351
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 191
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_352
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 180
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_353
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 200
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_354
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 130
+        width: 26
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_355
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 196
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_356
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 196
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_357
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 196
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_358
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 196
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_359
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 196
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_360
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 167
+        width: 17
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_361
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 181
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_362
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 112
+        width: 36
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_363
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 148
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_364
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 78
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_365
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 153
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_366
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 159
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_367
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 151
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_368
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 168
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_369
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 167
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_370
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 181
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_371
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 159
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_372
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 159
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_373
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 167
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_374
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 167
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_375
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 166
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_376
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 167
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_377
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 167
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_378
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 166
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_379
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 175
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_380
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 170
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_381
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 145
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_382
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 167
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_383
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 137
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_384
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 158
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_385
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 168
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_386
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 152
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_387
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 142
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_388
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 95
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_389
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 129
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_390
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 127
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_391
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 125
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_392
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 125
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_393
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 143
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_394
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 128
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_395
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 126
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_396
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 136
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_397
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 121
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_398
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 138
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_399
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 139
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_400
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 144
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_401
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 138
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_402
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 138
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_403
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 138
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_404
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 143
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_405
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 126
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_406
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 125
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_407
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 146
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_408
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_409
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 89
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_410
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 101
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_411
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 97
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_412
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 101
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_413
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 39
+        width: 66
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_414
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 97
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_415
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 93
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_416
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 117
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_417
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 98
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_418
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 63
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_419
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 111
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_420
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 107
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_421
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 110
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_422
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 110
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_423
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 104
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_424
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 106
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_425
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 114
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_426
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 114
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_427
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 113
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_428
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 105
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_429
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 101
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_430
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 87
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_431
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 119
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_432
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 112
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_433
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 92
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_434
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 80
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_435
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 80
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_436
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 106
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_437
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 72
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_438
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 74
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_439
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 74
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_440
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 103
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_441
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_442
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 53
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_443
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 65
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_444
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 65
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_445
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 35
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_446
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 67
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_447
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 92
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_448
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 74
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_449
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 81
+        width: 59
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_450
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 82
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_451
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 81
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_452
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 72
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_453
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 70
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_454
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 84
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_455
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 70
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_456
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_457
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 62
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_458
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 65
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_459
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 63
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_460
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 62
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_461
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 62
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_462
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 35
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_463
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 66
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_464
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 65
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_465
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 54
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_466
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 55
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_467
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 67
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_468
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 65
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_469
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 58
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_470
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 61
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_471
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_472
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 36
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_473
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 35
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_474
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 37
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_475
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 41
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_476
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 43
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_477
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 35
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_478
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 36
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PS1_MetalSlugX_tarmaRoving[1]_479
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 35
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
