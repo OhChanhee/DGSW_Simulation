@@ -10,16 +10,9 @@ public class ShowText : MonoBehaviour
     public string nextScene;
     string contents;
 
-    // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(ReadText());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public IEnumerator ReadText()
@@ -32,5 +25,4 @@ public class ShowText : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
     }
-
 }
