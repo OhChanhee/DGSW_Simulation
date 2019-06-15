@@ -1,25 +1,11 @@
-﻿using UnityEngine;
-using UnityEditor;
-using System;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class CharacterManager : ScriptableObject
+public class CharacterManager : MonoBehaviour
 {
-    /*
-    [MenuItem("Tools/MyTool/Do It in C#")]
-    static void DoIt()
-    {
-        EditorUtility.DisplayDialog("MyTool", "Do It in C# !", "OK", "");
-    }
-    */
-
     public static CharacterManager instance;
-
-    // 캐릭터의 정보
-    public string playerName;
-    public Gender gender;
-    public DateTime birthday;
-
-    // 캐릭터의 스탯
+// 캐릭터의 스탯
     int hp;
     int sociability;
     int intelligence;
@@ -33,8 +19,7 @@ public class CharacterManager : ScriptableObject
     int exercise;
     int creative;
     int leadership;
-
-    // 프로그래밍 스탯의 세부 스탯
+// 프로그래밍 스탯의 세부 스탯
     int web;
     int windows;
     int mobile;
@@ -49,9 +34,10 @@ public class CharacterManager : ScriptableObject
     {
         if (instance == null)
         {
-            instance = CreateInstance<CharacterManager>();
+            instance = (CharacterManager)FindObjectOfType(typeof(CharacterManager));
         }
 
         return instance;
     }
+
 }
