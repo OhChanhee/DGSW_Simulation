@@ -2,22 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class ShowText : MonoBehaviour
+public class InitMonth : MonoBehaviour
 {
-    public Text textComponent;
-    public float startTime;
+    public Text month;
 
+    void Awake()
+    {
+        month.text = System.DateTime.Now.Month.ToString();
+    }
+    
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(UIEffect.ShowEachChar(textComponent, 0.1f));
+
     }
 
     // Update is called once per frame
     void Update()
-    {        
+    {
         
     }
 }

@@ -2,22 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class ShowText : MonoBehaviour
+public class InitYear : MonoBehaviour
 {
-    public Text textComponent;
-    public float startTime;
+    public Text year;
+
+    void Awake()
+    {
+        year.text = System.DateTime.Now.Year.ToString();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(UIEffect.ShowEachChar(textComponent, 0.1f));
+
     }
 
     // Update is called once per frame
     void Update()
-    {        
+    {
         
     }
 }

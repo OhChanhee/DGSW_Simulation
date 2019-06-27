@@ -27,7 +27,7 @@ public class FadeOut : MonoBehaviour
                 {
                     if(Time.time > startTime + duration)
                     {
-                        //SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
+                        SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
                     }
                 };
             }
