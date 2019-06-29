@@ -4,20 +4,24 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class ChooseName : SceneBase
+public class Birthday : SceneBase
 {
-    public InputField PName;
+    public Button submit;
 
     // Start is called before the first frame update
     new void Start()
     {
-        PName.onEndEdit.AddListener((string name) =>
-        {
-            nextScene = "Prologue_birthday";
-            CharacterManager.Get_instance().playerName = name;
+        submit.onClick.AddListener(() => {
+            nextScene = "Main";
             EndScene();
         });
 
         base.Start();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }

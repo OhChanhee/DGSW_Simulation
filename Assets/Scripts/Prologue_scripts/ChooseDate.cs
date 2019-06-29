@@ -6,16 +6,15 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Events;
 using System;
 
-public class ChooseDate : MonoBehaviour
+public class ChooseDate : SceneBase
 {
     public Text tYear, tMonth;
     public RawImage calendar;
-    public Canvas canvas;
     GameObject[] objList;
     int year, month, day;
 
     // Start is called before the first frame update
-    void Start()
+    new void Start()
     {
         objList = GameObject.FindGameObjectsWithTag("Day");
 
@@ -25,13 +24,13 @@ public class ChooseDate : MonoBehaviour
             {
                 day = Int32.Parse(obj.GetComponent<Text>().text);
                 CharacterManager.Get_instance().birthday = new DateTime(year, month, day);
-                StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 0f, 1f));
-                StartCoroutine(TaskManager.Delay(1f, () => { SceneManager.LoadScene("Title", LoadSceneMode.Single); }));
+                //nextScene = "Main"; //메인 화면으로 이동
+                base.EndScene();
             });
         }
 
-        StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 1f, 1f));
         Show();
+        base.Start();
     }
 
     // Update is called once per frame

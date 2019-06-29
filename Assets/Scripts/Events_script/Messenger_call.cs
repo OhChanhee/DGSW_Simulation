@@ -2,28 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class SelectGender : SceneBase
+public class Messenger_call : SceneBase
 {
-    public Button genderM, genderF;
+    public Button yes;
+    public Button no;
 
     // Start is called before the first frame update
     new void Start()
     {
-        genderM.onClick.AddListener(() =>
+        nextScene = "Main";
+
+        yes.onClick.AddListener(() =>
         {
-            CharacterManager.Get_instance().gender = Gender.man;
+            // To do
             EndScene();
         });
 
-        genderF.onClick.AddListener(() =>
+        no.onClick.AddListener(() =>
         {
-            CharacterManager.Get_instance().gender = Gender.woman;
             EndScene();
         });
+
         base.Start();
-        nextScene = "Prologue_name";
     }
 
     // Update is called once per frame
