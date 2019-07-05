@@ -20,30 +20,30 @@ public class CharacterManager : ScriptableObject
     public DateTime birthday;
 
     // 캐릭터의 스탯
-    public int hp;
-    public int sociability;
-    public int intelligence;
-    public int sensibility;
-    public int charm;
-    public int fatigue;
-    public int stress;
-    public int programming;
-    public int music;
-    public int design;
-    public int exercise;
-    public int creative;
-    public int leadership;
+    int hp;
+    int sociability;
+    int intelligence;
+    int sensibility;
+    int charm;
+    int fatigue;
+    int stress;
+    int programming;
+    int music;
+    int design;
+    int exercise;
+    int creative;
+    int leadership;
 
     // 프로그래밍 스탯의 세부 스탯
-    public int web;
-    public int windows;
-    public int mobile;
-    public int embedded;
-    public int server;
-    public int game;
-    public int programmingKnowledge;
-    public int database;
-    public int data_structure;
+    int web;
+    int windows;
+    int mobile;
+    int embedded;
+    int server;
+    int game;
+    int programmingKnowledge;
+    int database;
+    int data_structure;
 
     public static CharacterManager Get_instance()
     {

@@ -4,20 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class ChooseName : SceneBase
+public class ChooseName : MonoBehaviour
 {
     public InputField PName;
+    public Canvas canvas;
 
     // Start is called before the first frame update
-    new void Start()
+    void Start()
     {
-        PName.onEndEdit.AddListener((string name) =>
-        {
-            nextScene = "Prologue_birthday";
-            CharacterManager.Get_instance().playerName = name;
-            EndScene();
-        });
+        PName.onEndEdit.AddListener(SetName);
+        StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 1.0f, 1.0f));
+    }
 
-        base.Start();
+    void SetName(string name)
+    {
+        CharacterManager.Get_instance().playerName = name;
+        StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 0f, 1.0f));
+        StartCoroutine(TaskManager.Delay(1.0f, () => { SceneManager.LoadScene("Prologue_birthday", LoadSceneMode.Single); }));
     }
 }
