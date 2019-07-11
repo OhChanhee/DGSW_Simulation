@@ -12,7 +12,14 @@ public class ShowText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(UIEffect.ShowEachChar(textComponent, 0.1f));
+        string text = textComponent.text;
+        textComponent.text = "";
+        StartCoroutine(TaskManager.Delay(startTime,
+        () =>
+        {
+            textComponent.text = text;
+            StartCoroutine(UIEffect.ShowEachChar(textComponent, 0.1f));
+        }));
     }
 
     // Update is called once per frame

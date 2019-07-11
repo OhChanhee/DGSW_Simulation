@@ -10,7 +10,7 @@ public abstract class SceneBase : MonoBehaviour
     protected Action endScene = () => { };
     protected float fadeInTime = 1f;
     protected float fadeOutTime = 1f;
-    protected String nextScene = null;
+    protected string nextScene = null;
 
     // Start is called before the first frame update
     protected void Start()
