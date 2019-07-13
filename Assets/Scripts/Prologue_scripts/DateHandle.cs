@@ -8,6 +8,7 @@ public class DateHandle : MonoBehaviour
     public Button up, down;
     public Text text;
     public RawImage calendar;
+    public int max, min;
     int curValue;
     ChooseDate chooseDate;
 
@@ -29,6 +30,7 @@ public class DateHandle : MonoBehaviour
     void Up()
     {
         curValue += 1;
+        curValue = Mathf.Min(max, curValue);
         text.text = curValue.ToString();
         chooseDate.Show();
     }
@@ -36,6 +38,7 @@ public class DateHandle : MonoBehaviour
     void Down()
     {
         curValue -= 1;
+        curValue = Mathf.Max(min, curValue);
         text.text = curValue.ToString();
         chooseDate.Show();
     }
