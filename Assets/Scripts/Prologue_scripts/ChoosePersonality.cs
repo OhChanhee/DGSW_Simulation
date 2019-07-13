@@ -56,6 +56,7 @@ public class ChoosePersonality : SceneBase
         report.gameObject.SetActive(true);
         stop.gameObject.SetActive(true);
         textComponent.text = contentList[1];
+        StopAllCoroutines();
         StartCoroutine(UIEffect.ShowEachChar(textComponent, .1f));
     }
 
