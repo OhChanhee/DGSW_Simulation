@@ -16,8 +16,12 @@ public class Discriminate : MonoBehaviour
         Debug.Log("져징이벤트");
         switch (PlayerPrefs.GetInt("whatEvent"))
         {
+            case 126:
+                GameObject[] game = Resources.LoadAll<GameObject>("MiniGame3");
+                bringGame(game);
+                break;
             case 129:
-                GameObject[] game = Resources.LoadAll<GameObject>("MiniGame1");
+                game = Resources.LoadAll<GameObject>("MiniGame1");
                 bringGame(game);
                 break;
             case 131:

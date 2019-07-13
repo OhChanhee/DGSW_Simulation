@@ -12,6 +12,8 @@ public class MoveManager : MonoBehaviour
     private float forwardSpeed;
     private float sideSpeed;
 
+    private float gravity = 1000;
+
     private float rotLeftRight;
     private float verticalRotation = 0f;
 
@@ -40,6 +42,9 @@ public class MoveManager : MonoBehaviour
 
         speed = new Vector3(sideSpeed, verticalVelocity, forwardSpeed);
         speed = transform.rotation * speed;
+
+        speed.y -= gravity * Time.deltaTime;
+
         cc.Move(speed * Time.deltaTime);
     }
 
