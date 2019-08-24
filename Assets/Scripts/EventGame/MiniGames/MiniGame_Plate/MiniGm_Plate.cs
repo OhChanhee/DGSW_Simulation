@@ -8,12 +8,12 @@ public class MiniGm_Plate : MonoBehaviour
     
     private SpriteRenderer spriterenderer;
     MiniGm_PlateManager miniPm;
+    public Sprite[] colorSprite;
 
     void Start()
     {
         spriterenderer = gameObject.GetComponent<SpriteRenderer>();
-        miniPm = GameObject.Find("plates(Clone)").GetComponent<MiniGm_PlateManager>();
-       
+        miniPm = GameObject.Find("plates").GetComponent<MiniGm_PlateManager>();
     }
 
     void OnMouseDown()
@@ -36,12 +36,12 @@ public class MiniGm_Plate : MonoBehaviour
 
     public void changeColor_ToRed()
     {
-        spriterenderer.color = new Color(255, 0, 0, 255);
+        spriterenderer.sprite = colorSprite[0];
     }
 
     public void changeColor_ToBlue()
     {
-        spriterenderer.color = new Color(0, 0, 255, 255);
+        spriterenderer.sprite = colorSprite[1];
     }
 
     /*public void textingCount()

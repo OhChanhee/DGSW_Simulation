@@ -10,7 +10,7 @@ public class MiniGm_PlateManager : MonoBehaviour
     public List<GameObject> plateList = new List<GameObject>();
     private SpriteRenderer spriterenderer;
     private int delayTIme = 0;
-    private bool isDelay = false;
+    private bool isDelay = false; 
     private bool isPlayAi = true;
     [HideInInspector]
     public bool isEnded = false;
@@ -78,7 +78,7 @@ public class MiniGm_PlateManager : MonoBehaviour
         if (thePlate.tag == "red")
         {
             spriterenderer = thePlate.GetComponent<SpriteRenderer>();
-            spriterenderer.color = new Color(0, 0, 255, 255);
+            spriterenderer.sprite = mgp.colorSprite[1];
             thePlate.tag = "blue";
             blue_count++;
             red_count--;

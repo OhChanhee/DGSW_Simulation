@@ -13,7 +13,6 @@ public class Discriminate : MonoBehaviour
 
     public void judgingEvent()
     {
-        Debug.Log("져징이벤트");
         switch (PlayerPrefs.GetInt("whatEvent"))
         {
             case 126:
@@ -26,6 +25,10 @@ public class Discriminate : MonoBehaviour
                 break;
             case 131:
                 game = Resources.LoadAll<GameObject>("MiniGame2");
+                bringGame(game);
+                break;
+            case 127:
+                game = Resources.LoadAll<GameObject>("MiniGame_hideClass");
                 bringGame(game);
                 break;
             default:
