@@ -7,7 +7,7 @@ public class TeammateMovement : AIMovement
 {
     public RawImage player;
 
-    public override void endCirculate()
+    public override void endCirculation()
     {
         player.gameObject.SetActive(true);
     }

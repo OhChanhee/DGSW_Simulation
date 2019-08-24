@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class EnemyMovement : AIMovement
 {
-    public override void endCirculate()
+    public override void endCirculation()
     {
-        Debug.Log("Lose");
-        //SceneManager.LoadScene("Main");
+        PlayerPrefs.SetString("MinigameResult", "Failure");
+
+        SceneManager.LoadScene("Result");
     }
 }

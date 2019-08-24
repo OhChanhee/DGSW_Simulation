@@ -6,58 +6,54 @@ public abstract class AIMovement : MonoBehaviour
 {
     public GameObject wayPointHolder;
     public int loopCount;
-    delegate void Method();
-    Method move;
     float exerciseSkill;
+    bool isCirculationEnd;
 
     // Start is called before the first frame update
     public void Start()
     {
-        exerciseSkill = Random.Range(.6f, .7f);
-        StartCoroutine(Circulate());
+        isCirculationEnd = false;
+        exerciseSkill = Random.Range(.4f, .5f);
+        StartCoroutine(loopCirculation());
     }
 
-    // Update is called once per frame
-    public void Update()
+    public abstract void endCirculation();
+
+    IEnumerator loopCirculation()
     {
-        move();
-    }
+        Vector2[] wayPoints = new Vector2[wayPointHolder.transform.childCount];
 
-    public abstract void endCirculate();
-
-    IEnumerator Circulate()
-    {
-        List<Transform> wayPoints = new List<Transform>();
-
-        foreach (Transform wayPoint in wayPointHolder.transform)
+        for(int i = 0; i < wayPointHolder.transform.childCount; i++)
         {
-            wayPoints.Add(wayPoint);
-        }
+            Transform wayPoint = wayPointHolder.transform.GetChild(i);
 
-        Vector2[] pointsLocation = new Vector2[wayPoints.Count];
-
-        for (int i = 0; i < wayPoints.Count; i++)
-        {
-            pointsLocation.SetValue(new Vector2(wayPoints[i].position.x, wayPoints[i].position.y), i);
+            wayPoints.SetValue(new Vector2(wayPoint.position.x, wayPoint.position.y), i);
         }
 
         for (int i = 0; i < loopCount; i++)
         {
-            for (int j = 0; j < wayPoints.Count; j++)
-            {
-                Vector2 target = pointsLocation[(j == wayPoints.Count - 1 ? 0 : j + 1)];
-                move = () => 
-                {
-                    transform.position = Vector3.MoveTowards(pointsLocation[j], target, exerciseSkill * Time.deltaTime * .1f);
-                };
-                
-                yield return new WaitForSeconds(Vector2.Distance(pointsLocation[j], target) / exerciseSkill * Time.deltaTime * .1f);
-                
-                Debug.Log("Passed");
-            }
+            StartCoroutine(Circulation(wayPoints));
+
+            yield return new WaitUntil(() => isCirculationEnd);
         }
 
         this.gameObject.SetActive(false);
-        endCirculate();
+        endCirculation();
+    }
+    
+    IEnumerator Circulation(Vector2[] wayPoints)
+    {
+        isCirculationEnd = false;
+
+        for (int i = 0; i < wayPoints.Length; i++)
+        {
+            Vector2 nextPoint = wayPoints[(i == wayPoints.Length - 1 ? 0 : i + 1)];
+
+            transform.position = wayPoints[i];
+
+            yield return new WaitForSeconds(Vector2.Distance(wayPoints[i], nextPoint) / exerciseSkill * Time.deltaTime * .1f);
+        }
+        
+        isCirculationEnd = true;
     }
 }

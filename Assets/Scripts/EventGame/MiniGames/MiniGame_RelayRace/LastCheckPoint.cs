@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class LastCheckPoint : MonoBehaviour
@@ -9,9 +10,9 @@ public class LastCheckPoint : MonoBehaviour
     {
         if (col.tag.Equals("Player"))
         {
-            Debug.Log("Win");
-            //스탯 상승
-            //SceneManager.LoadScene("Main");
+            PlayerPrefs.SetString("MinigameResult", "Success");
+
+            SceneManager.LoadScene("Result");
         }
     }
 }

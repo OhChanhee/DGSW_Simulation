@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject checkPointHolder;
     Vector2 checkPoint;
     float exerciseSkill;
-    List<Transform> checkPoints = new List<Transform>();
+    readonly List<Transform> checkPoints = new List<Transform>();
 
     // Start is called before the first frame update
     void Start()
@@ -18,20 +18,20 @@ public class PlayerMovement : MonoBehaviour
             checkPoints.Add(checkPoint);
         }
 
-        checkPoints.ToArray()[0].gameObject.SetActive(true);
+        checkPoints[0].gameObject.SetActive(true);
 
         checkPoint = transform.position;
-        exerciseSkill = CharacterManager.Get_instance().exercise / 1000f;
-        exerciseSkill = .5f;
+        exerciseSkill = CharacterManager.Get_instance().exercise;
+        exerciseSkill = 500f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 velocity = new Vector3(Input.GetAxis("Horizontal"),
+        Vector3 direction = new Vector3(Input.GetAxis("Horizontal"),
             Input.GetAxis("Vertical"));
 
-        transform.Translate(velocity * exerciseSkill * Time.deltaTime * 1000f);
+        transform.Translate(direction * exerciseSkill * Time.deltaTime);
     }
 
     void OnTriggerEnter2D(Collider2D col)
