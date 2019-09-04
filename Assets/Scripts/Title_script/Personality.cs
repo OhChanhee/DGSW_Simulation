@@ -1,7 +1,7 @@
 ﻿public enum Personality
 {
-    introverted_stable,
-    introverted_emotional,
-    extroverted_stable,
-    extroverted_emotional
+    내향적_안정적,
+    내향적_감정적,
+    외향적_안정적,
+    외향적_감정적
 }

@@ -68,7 +68,7 @@ public class ChoosePersonality : SceneBase
         CharacterManager.Get_instance().personality = (Personality)((int)(extroverted | emotional));
         Debug.Log(CharacterManager.Get_instance().personality);
 
-        //nextScene = "Main"; //메인화면으로 이동
+        nextScene = "Main"; //메인화면으로 이동
         EndScene();
     }
 

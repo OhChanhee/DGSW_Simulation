@@ -22,7 +22,7 @@ public class CharacterManager : ScriptableObject
     public Gender gender;
     public DateTime birthday;
     public bool isCouple;
-    public Gamedate curdate;
+    public Gamedate curdate = new Gamedate();
     public Personality personality;
     public int Money;
 
@@ -342,27 +342,30 @@ public class CharacterManager : ScriptableObject
 
     public class Gamedate
     {
+        DateTime _dateTime;
+
         public System.DateTime dateTime
         {
             get
             {
-                return dateTime;
+                return _dateTime;
             }
             set
             {
-                dateTime = value;
+                _dateTime = value;
             }
         }
 
+        int _week = 1;
         public int week
         {
             get
             {
-                return week;
+                return _week;
             }
             set
             {
-                week = value > 4 || value < 1 ? value % 4 + 1 : value;
+                _week = value > 4 || value < 1 ? value % 4 + 1 : value;
             }
         }
     }

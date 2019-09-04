@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class Choose_Title : MonoBehaviour
 {
     public GameObject option;
@@ -10,7 +10,7 @@ public class Choose_Title : MonoBehaviour
     public GameObject load_Tap;
     public void OnClick_NewStart()
     {
-        GetComponent<Text>().color = Color.red;
+        SceneManager.LoadScene("Prologue_gender");
     }
 
     public void OnClick_Load()
