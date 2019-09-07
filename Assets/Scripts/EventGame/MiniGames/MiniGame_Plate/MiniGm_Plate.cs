@@ -13,7 +13,7 @@ public class MiniGm_Plate : MonoBehaviour
     void Start()
     {
         spriterenderer = gameObject.GetComponent<SpriteRenderer>();
-        miniPm = GameObject.Find("plates").GetComponent<MiniGm_PlateManager>();
+        miniPm = GameObject.Find("plates(Clone)").GetComponent<MiniGm_PlateManager>();
     }
 
     void OnMouseDown()
