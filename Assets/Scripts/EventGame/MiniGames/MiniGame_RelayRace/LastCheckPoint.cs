@@ -12,6 +12,13 @@ public class LastCheckPoint : MonoBehaviour
         {
             PlayerPrefs.SetString("MinigameResult", "Success");
 
+            StatSave holder = FindObjectOfType<StatSave>();
+
+            holder.oldStat = CharacterManager.Get_instance().characterStat.clone;
+            DontDestroyOnLoad(holder);
+
+            CharacterManager.Get_instance().characterStat.exercise += 300;
+
             SceneManager.LoadScene("Result");
         }
     }

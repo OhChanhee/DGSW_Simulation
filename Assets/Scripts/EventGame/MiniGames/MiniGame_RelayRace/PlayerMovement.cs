@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public GameObject checkPointHolder;
     Vector2 checkPoint;
-    float exerciseSkill;
+    int exerciseSkill;
     readonly List<Transform> checkPoints = new List<Transform>();
 
     // Start is called before the first frame update
@@ -21,8 +21,7 @@ public class PlayerMovement : MonoBehaviour
         checkPoints[0].gameObject.SetActive(true);
 
         checkPoint = transform.position;
-        exerciseSkill = CharacterManager.Get_instance().exercise;
-        exerciseSkill = 500f;
+        exerciseSkill = CharacterManager.Get_instance().characterStat.exercise;
     }
 
     // Update is called once per frame

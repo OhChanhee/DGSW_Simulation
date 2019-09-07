@@ -2,6 +2,7 @@
 using UnityEditor;
 using System;
 using UnityEngine.SceneManagement;
+using Assets.Scripts.Title_script;
 
 public class CharacterManager : ScriptableObject 
 {
@@ -25,257 +26,44 @@ public class CharacterManager : ScriptableObject
     public Gamedate curdate = new Gamedate();
     public Personality personality;
     public int Money;
+    public CharacterStat characterStat = new CharacterStat();
 
-    // 캐릭터의 스탯
-    int _hp = 1000;
-    public int hp
-    {
-        get { return _hp * MAX_HEALTH / MAX_STAT; }
-        set { _hp = Math.Min(value * MAX_STAT / MAX_HEALTH, MAX_STAT); }
-    }
-
-    public int rawHp
-    {
-        get { return _hp; }
-    }
-
-    int _sociability = 50;
-    public int sociability
-    {
-        get { return _sociability; }
-        set { _sociability = Math.Min(value, MAX_STAT); }
-    }
-
-    int _intelligence = 50;
-    public int intelligence
-    {
-        get { return _intelligence; }
-        set { _intelligence = Math.Min(value, MAX_STAT); }
-    }
-
-    int _sensibility = 50;
-    public int sensibility
-    {
-        get { return _sensibility; }
-        set { _sensibility = Math.Min(value, MAX_STAT); }
-    }
-
-    int _charm = 50;
-    public int charm
-    {
-        get { return _charm; }
-        set { _charm = Math.Min(value, MAX_STAT); }
-    }
-
-    int _fatigue = 500;
-    public int fatigue
-    {
-        get { return _fatigue * MAX_HEALTH / MAX_STAT; }
-        set { _fatigue = Math.Min(value * MAX_STAT / MAX_HEALTH, MAX_STAT); }
-    }
-
-    public int rawFatigue
-    {
-        get { return _fatigue; }
-    }
-
-    int _stress = 0;
-    public int stress
-    {
-        get { return _stress * MAX_HEALTH / MAX_STAT; }
-        set { _stress = Math.Min(value * MAX_STAT / MAX_HEALTH, MAX_STAT); }
-    }
-
-    public int rawStress
-    {
-        get { return _stress; }
-    }
-
-    int _programming = 50;
-    public int programming
-    {
-        get { return _programming; }
-        set { _programming = Math.Min(value, MAX_STAT); }
-    }
-
-    int _music = 50;
-    public int music
-    {
-        get { return _music; }
-        set { _music = Math.Min(value, MAX_STAT); }
-    }
-
-    int _design = 50;
-    public int design
-    {
-        get { return _design; }
-        set { _design = Math.Min(value, MAX_STAT); }
-    }
-
-    int _exercise = 50;
-    public int exercise
-    {
-        get { return _exercise; }
-        set { _exercise = Math.Min(value, MAX_STAT); }
-    }
-
-    int _creative = 50;
-    public int creative
-    {
-        get { return _creative; }
-        set { _creative = Math.Min(value, MAX_STAT); }
-    }
-
-    int _leadership = 50;
-    public int leadership
-    {
-        get { return _leadership; }
-        set { _leadership = Math.Min(value, MAX_STAT); }
-    }
-
-    int _rewardPoint = 0;
-    public int rewardPoint
-    {
-        get { return _rewardPoint; }
-        set { _rewardPoint = value; }
-    }
-
-
-    // 프로그래밍 스탯의 세부 스탯
-    int _web = 0;
-    public int web
-    {
-        get { return _web; }
-        set { _web = Math.Min(value, MAX_STAT); }
-    }
-
-
-    int _windows = 0;
-    public int windows
-    {
-        get { return _windows; }
-        set { _windows = Math.Min(value, MAX_STAT); }
-    }
-
-    int _mobile = 0;
-    public int mobile
-    {
-        get { return _mobile; }
-        set { _mobile = Math.Min(value, MAX_STAT); }
-    }
-
-    int _embedded = 0;
-    public int embedded
-    {
-        get { return _embedded; }
-        set { _embedded = Math.Min(value, MAX_STAT); }
-    }
-
-    int _server = 0;
-    public int server
-    {
-        get { return _server; }
-        set { _server = Math.Min(value, MAX_STAT); }
-    }
-
-    int _game = 0;
-    public int game
-    {
-        get { return _game; }
-        set { _game = Math.Min(value, MAX_STAT); }
-    }
-
-    int _programmingKnowledge = 0;
-    public int programmingKnowledge
-    {
-        get { return _programmingKnowledge; }
-        set { _programmingKnowledge = Math.Min(value, MAX_STAT); }
-    }
-
-    int _database = 0;
-    public int database
-    {
-        get { return _database; }
-        set { _database = Math.Min(value, MAX_STAT); }
-    }
-
-    int _dataStructure = 0;
-    public int dataStructure
-    {
-        get { return _dataStructure; }
-        set { _dataStructure = Math.Min(value, MAX_STAT); }
-    }
+    
 
     public static CharacterManager operator+(CharacterManager param1, CharacterManager param2)
     {
         CharacterManager result = new CharacterManager();
+        CharacterStat resultStat = result.characterStat;
+        CharacterStat param1Stat = param1.characterStat;
+        CharacterStat param2Stat = param2.characterStat;
 
-        result.hp = param1.hp + param2.hp;
-        result.sociability = param1.sociability + param2.sociability;
-        result.intelligence = param1.intelligence + param2.intelligence;
-        result.sensibility = param1.sensibility + param2.sensibility;
-        result.charm = param1.charm + param2.charm;
-        result.fatigue = param1.fatigue + param2.fatigue;
-        result.stress = param1.stress + param2.stress;
-        result.programming = param1.programming + param2.programming;
-        result.music = param1.music + param2.music;
-        result.design = param1.design + param2.design;
-        result.exercise = param1.exercise + param2.exercise;
-        result.creative = param1.creative + param2.creative;
-        result.leadership = param1.leadership + param2.leadership;
-        result.rewardPoint = param1.rewardPoint + param2.rewardPoint;
-        result.web = param1.web + param2.web;
-        result.windows = param1.windows + param2.windows;
-        result.mobile = param1.mobile + param2.mobile;
-        result.embedded = param1.embedded + param2.embedded;
-        result.server = param1.server + param2.server;
-        result.game = param1.game + param2.game;
-        result.programmingKnowledge = param1.programmingKnowledge + param2.programmingKnowledge;
-        result.database = param1.database + param2.database;
-        result.dataStructure = param1.dataStructure + param2.dataStructure;
+        resultStat.hp = param1Stat.hp + param2Stat.hp;
+        resultStat.sociability = param1Stat.sociability + param2Stat.sociability;
+        resultStat.intelligence = param1Stat.intelligence + param2Stat.intelligence;
+        resultStat.sensibility = param1Stat.sensibility + param2Stat.sensibility;
+        resultStat.charm = param1Stat.charm + param2Stat.charm;
+        resultStat.fatigue = param1Stat.fatigue + param2Stat.fatigue;
+        resultStat.stress = param1Stat.stress + param2Stat.stress;
+        resultStat.programming = param1Stat.programming + param2Stat.programming;
+        resultStat.music = param1Stat.music + param2Stat.music;
+        resultStat.design = param1Stat.design + param2Stat.design;
+        resultStat.exercise = param1Stat.exercise + param2Stat.exercise;
+        resultStat.creative = param1Stat.creative + param2Stat.creative;
+        resultStat.leadership = param1Stat.leadership + param2Stat.leadership;
+        resultStat.rewardPoint = param1Stat.rewardPoint + param2Stat.rewardPoint;
+        resultStat.web = param1Stat.web + param2Stat.web;
+        resultStat.windows = param1Stat.windows + param2Stat.windows;
+        resultStat.mobile = param1Stat.mobile + param2Stat.mobile;
+        resultStat.embedded = param1Stat.embedded + param2Stat.embedded;
+        resultStat.server = param1Stat.server + param2Stat.server;
+        resultStat.game = param1Stat.game + param2Stat.game;
+        resultStat.database = param1Stat.database + param2Stat.database;
+        resultStat.dataStructure = param1Stat.dataStructure + param2Stat.dataStructure;
 
         return result;
     }
 
-    public float GetStatRatio(string statName)
-    {
-        int rawValue = (int)GetType().GetProperty(statName).GetValue(this);
-        return rawValue / (float)MAX_STAT;
-    }
-
-    public CharacterManager clone
-    {
-        get
-        {
-            CharacterManager clone = CreateInstance<CharacterManager>();
-
-            clone.hp = hp;
-            clone.sociability = sociability;
-            clone.intelligence = intelligence;
-            clone.sensibility = sensibility;
-            clone.charm = charm;
-            clone.fatigue = fatigue;
-            clone.stress = stress;
-            clone.programming = programming;
-            clone.music = music;
-            clone.design = design;
-            clone.exercise = exercise;
-            clone.creative = creative;
-            clone.leadership = leadership;
-            clone.rewardPoint = rewardPoint;
-            clone.web = web;
-            clone.windows = windows;
-            clone.mobile = mobile;
-            clone.embedded = embedded;
-            clone.server = server;
-            clone.game = game;
-            clone.programmingKnowledge = programmingKnowledge;
-            clone.database = database;
-            clone.dataStructure = dataStructure;
-
-            return clone;
-        }
-    }
+    
 
     public static CharacterManager Get_instance()
     {

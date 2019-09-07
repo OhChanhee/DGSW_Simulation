@@ -11,6 +11,7 @@ public class CheckResult : MonoBehaviour
     void Start()
     {
         textComponent.text = PlayerPrefs.GetString("MinigameResult");
+
         PlayerPrefs.DeleteKey("MinigameResult");
     }
 
