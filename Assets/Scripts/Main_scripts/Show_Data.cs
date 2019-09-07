@@ -51,20 +51,20 @@ public class Show_Data : MonoBehaviour
             personality.text = CharacterManager.Get_instance().personality.ToString();
             Money.text = CharacterManager.Get_instance().Money.ToString();
 
-            hp.text = String.Format("HP:{0}", CharacterManager.Get_instance().hp);
-            sociability.text = String.Format("사회성:{0}", CharacterManager.Get_instance().sociability);
-            intelligence.text = String.Format("지능:{0}", CharacterManager.Get_instance().intelligence);
-            sensibility.text = String.Format("감수성:{0}", CharacterManager.Get_instance().sensibility);
-            charm.text = String.Format("매력:{0}", CharacterManager.Get_instance().charm);
-            fatigue.text = String.Format("피로:{0}", CharacterManager.Get_instance().fatigue);
-            stress.text = String.Format("스트레스:{0}", CharacterManager.Get_instance().stress);
-            programming.text = String.Format("프로그래밍:{0}", CharacterManager.Get_instance().programming);
-            music.text = String.Format("음악:{0}", CharacterManager.Get_instance().music);
-            design.text = String.Format("디자인:{0}", CharacterManager.Get_instance().design);
-            exercise.text = String.Format("운동:{0}", CharacterManager.Get_instance().exercise);
-            creative.text = String.Format("창의력:{0}", CharacterManager.Get_instance().creative); ;
-            leadership.text = String.Format("리더쉽:{0}", CharacterManager.Get_instance().leadership);
-            rewardPoint.text = String.Format("상/벌점:{0}", CharacterManager.Get_instance().rewardPoint);
+            hp.text = String.Format("HP:{0}", CharacterManager.Get_instance().characterStat.hp);
+            sociability.text = String.Format("사회성:{0}", CharacterManager.Get_instance().characterStat.sociability);
+            intelligence.text = String.Format("지능:{0}", CharacterManager.Get_instance().characterStat.intelligence);
+            sensibility.text = String.Format("감수성:{0}", CharacterManager.Get_instance().characterStat.sensibility);
+            charm.text = String.Format("매력:{0}", CharacterManager.Get_instance().characterStat.charm);
+            fatigue.text = String.Format("피로:{0}", CharacterManager.Get_instance().characterStat.fatigue);
+            stress.text = String.Format("스트레스:{0}", CharacterManager.Get_instance().characterStat.stress);
+            programming.text = String.Format("프로그래밍:{0}", CharacterManager.Get_instance().characterStat.programming);
+            music.text = String.Format("음악:{0}", CharacterManager.Get_instance().characterStat.music);
+            design.text = String.Format("디자인:{0}", CharacterManager.Get_instance().characterStat.design);
+            exercise.text = String.Format("운동:{0}", CharacterManager.Get_instance().characterStat.exercise);
+            creative.text = String.Format("창의력:{0}", CharacterManager.Get_instance().characterStat.creative); ;
+            leadership.text = String.Format("리더쉽:{0}", CharacterManager.Get_instance().characterStat.leadership);
+            rewardPoint.text = String.Format("상/벌점:{0}", CharacterManager.Get_instance().characterStat.rewardPoint);
 
             Cal_year.text = CharacterManager.Get_instance().curdate.dateTime.Year.ToString();
             Cal_month.text = CharacterManager.Get_instance().curdate.dateTime.Month.ToString();
