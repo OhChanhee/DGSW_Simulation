@@ -16,8 +16,8 @@ public class Option_tap : Tap
 
     void Start()
     {
-        effect_bar.value = 0.5f;
-        bgm_bar.value = 0.5f;
+        effect_bar.value = SoundManager.Get_instance().Effect_Speaker.volume;
+        bgm_bar.value = SoundManager.Get_instance().BGM_Speaker.volume;
     }
     public void Change_effect()
     {
