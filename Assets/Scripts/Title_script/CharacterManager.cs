@@ -2,7 +2,6 @@
 using UnityEditor;
 using System;
 using UnityEngine.SceneManagement;
-using Assets.Scripts.Title_script;
 
 public class CharacterManager : ScriptableObject 
 {

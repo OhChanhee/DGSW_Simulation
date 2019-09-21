@@ -10,16 +10,12 @@ public class LastCheckPoint : MonoBehaviour
     {
         if (col.tag.Equals("Player"))
         {
-            PlayerPrefs.SetString("MinigameResult", "Success");
-
-            StatSave holder = FindObjectOfType<StatSave>();
-
-            holder.oldStat = CharacterManager.Get_instance().characterStat.clone;
-            DontDestroyOnLoad(holder);
-
-            CharacterManager.Get_instance().characterStat.exercise += 300;
-
-            SceneManager.LoadScene("Result");
+            MinigameResult.LoadResultScene(gameObject, true, () =>
+            {
+                CharacterManager.Get_instance().characterStat.exercise += 200;
+                CharacterManager.Get_instance().characterStat.fatigue += 20;
+                CharacterManager.Get_instance().characterStat.hp -= 10;
+            });
         }
     }
 }
