@@ -13,7 +13,7 @@ public class subTexting : MonoBehaviour
     void Start()
     {
         StartCoroutine(ReadText());
-        PlayerPrefs.SetInt("whatEvent", 133);
+        PlayerPrefs.SetInt("whatEvent", 137);
     }
 
     public IEnumerator ReadText()
