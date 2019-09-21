@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/Intro.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scene/Main.unity
+    guid: 5b040fcd64b3af64097998274decd7be
+  - enabled: 1
+    path: Assets/Scene/Prologue_birthday.unity
+    guid: cded4a48a0764b84a81897356ab895a5
+  - enabled: 1
+    path: Assets/Scene/Prologue_gender.unity
+    guid: 20ab206dfed747145adb0f85d95e1780
+  - enabled: 1
+    path: Assets/Scene/Prologue_name.unity
+    guid: af3bd6a47874c6746bd0049dfa163fb6
+  - enabled: 1
+    path: Assets/Scene/Prologue_personality.unity
+    guid: 8a9ba60167a461549aa1cf0cd355aff2
+  - enabled: 1
+    path: Assets/Scene/Title.unity
+    guid: a604803d0870f2544a3b3160846d65e7
+  m_configObjects: {}

@@ -528,7 +528,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3254764788312345511
 RectTransform:
   m_ObjectHideFlags: 0
@@ -608,8 +608,12 @@ MonoBehaviour:
   exit: {fileID: 3254764788719645285}
   window_btn: {fileID: 3254764788758652798}
   fullscreen_btn: {fileID: 1079689946}
+  reset_btn: {fileID: 8018895360599303338}
+  init_btn: {fileID: 5491026105665345872}
   effect_bar: {fileID: 3254764788937779743}
   bgm_bar: {fileID: 3254764788710332923}
+  effect_txt: {fileID: 7891318398093955334}
+  bgm_txt: {fileID: 7595091632697716464}
 --- !u!1 &3254764788384237144
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,8 +830,8 @@ RectTransform:
   m_Father: {fileID: 3254764789812607963}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.000061035156, y: 0.000019073486}
   m_SizeDelta: {x: 40, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1441,7 +1445,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1586,8 +1590,8 @@ RectTransform:
   m_Father: {fileID: 3254764788398112493}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.000030517578, y: -0.000011444092}
   m_SizeDelta: {x: 40, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1773,7 +1777,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 5, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1933,7 +1937,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3254764788312345498}
-        m_MethodName: Set_init
+        m_MethodName: Onclick_init_btn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2141,7 +2145,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3254764788312345498}
-        m_MethodName: Set_apply
+        m_MethodName: Onclick_apply_btn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
