@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
         checkPoint = transform.position;
         exerciseSkill = CharacterManager.Get_instance().characterStat.exercise;
+        exerciseSkill = 700;
     }
 
     // Update is called once per frame

@@ -1,5 +1,4 @@
-﻿using Assets.Scripts.Title_script;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
@@ -37,14 +36,12 @@ public class HandleStat : SceneBase
     // Start is called before the first frame update
     new void Start()
     {
-        oldStat = FindObjectOfType<StatSave>().oldStat;
+        oldStat = FindObjectOfType<StatHolder>().oldStat;
 
         if(oldStat != null)
         {
             StartCoroutine(TaskManager.Delay(fadeInTime, () =>
             {
-                Debug.Log("Test");
-
                 foreach (Stat stat in statList)
                 {
                     StartCoroutine(IncreaseStat(stat));
@@ -144,12 +141,13 @@ public class HandleStat : SceneBase
         int normalized = Mathf.Clamp(amountOfChange, -1, 1);
 
         string sign = normalized > 0 ? "+" : "-";
+        int scale = stat.statType.name.StartsWith("raw") ? 10 : 1;
 
-        for(int i = 0; i <= Mathf.Abs(amountOfChange) && normalized != 0; i++)
+        for (int i = 0; i <= Mathf.Abs(amountOfChange) && normalized != 0; i++)
         {
             oldProperty.SetValue(oldStat, (int)oldProperty.GetValue(oldStat) + Mathf.Clamp(amountOfChange, -1, 1));
             UpdateGaugeBar(stat, oldStat);
-            stat.change.text = sign + i;
+            stat.change.text = sign + (i / scale);
 
             yield return new WaitForSeconds(1 / 150f);
         }

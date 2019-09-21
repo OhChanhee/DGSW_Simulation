@@ -1,9 +1,8 @@
-﻿using Assets.Scripts.Title_script;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StatSave : MonoBehaviour
+public class StatHolder : MonoBehaviour
 {
     [HideInInspector]
     public CharacterStat oldStat;
