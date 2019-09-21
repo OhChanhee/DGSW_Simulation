@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Resources/Result/Result.unity
+- path: Assets/Scene/Prologue_birthday.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
