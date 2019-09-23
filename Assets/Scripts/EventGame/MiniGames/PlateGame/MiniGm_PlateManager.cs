@@ -17,13 +17,20 @@ public class MiniGm_PlateManager : MonoBehaviour
     private float time;
     private Text time_Text;
     private MiniGm_Plate mgp;
+    [HideInInspector]
     public int red_count = 16;
+    [HideInInspector]
     public int blue_count = 16;
     private Text red_Text;
     private Text blue_Text;
+    private float strength;
+    private int balance;
+    private int balanceTime;
 
     void Start()
     {
+        strength = CharacterManager.Get_instance().characterStat.exercise / 1000f;
+        setBalance();
         mgp = GameObject.Find("redPlate").GetComponent<MiniGm_Plate>();
         red_Text = GameObject.Find("plateRedNumber").GetComponent<Text>();
         blue_Text = GameObject.Find("plateBlueNumber").GetComponent<Text>();
@@ -42,7 +49,7 @@ public class MiniGm_PlateManager : MonoBehaviour
         {
             isPlayAi = false;
             delayTIme += 1;
-            if(delayTIme == 30)
+            if(delayTIme == balanceTime)
             {
                 isDelay = false;
                 isPlayAi = true; 
@@ -130,8 +137,8 @@ public class MiniGm_PlateManager : MonoBehaviour
 
     public bool random()
     {
-        int rand = Random.Range(0, 4);
-        if(rand == 0 || rand == 1)
+        int rand = Random.Range(0, balance);
+        if(rand == 0 || rand == 1 || rand == 2 || rand == 3)
         {
             return true;
         }
@@ -141,5 +148,22 @@ public class MiniGm_PlateManager : MonoBehaviour
     public int random_Plate()
     {
         return Random.Range(0, 32);
+    }
+
+    public void setBalance()
+    {
+        if(strength < 0.4)
+        {
+            balance = 4;
+            balanceTime = 15;
+        } else if(strength < 0.7)
+        {
+            balance = 7;
+            balanceTime = 20;
+        } else if(strength <= 1)
+        {
+            balance = 9;
+            balanceTime = 27;
+        }
     }
 }
