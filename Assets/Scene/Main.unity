@@ -3240,7 +3240,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1041449300}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &1054718941
@@ -5152,6 +5163,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Option_Tap
       objectReference: {fileID: 0}
+    - target: {fileID: 3254764788312345510, guid: dab6564e5af080f47bba017351d90660,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3254764788312345511, guid: dab6564e5af080f47bba017351d90660,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5256,6 +5272,56 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254764789771986481, guid: dab6564e5af080f47bba017351d90660,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254764789771986481, guid: dab6564e5af080f47bba017351d90660,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254764789771986481, guid: dab6564e5af080f47bba017351d90660,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254764789121857142, guid: dab6564e5af080f47bba017351d90660,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254764789121857142, guid: dab6564e5af080f47bba017351d90660,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254764789971451728, guid: dab6564e5af080f47bba017351d90660,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254764789971451728, guid: dab6564e5af080f47bba017351d90660,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254764788457690272, guid: dab6564e5af080f47bba017351d90660,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254764788457690272, guid: dab6564e5af080f47bba017351d90660,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254764788457690272, guid: dab6564e5af080f47bba017351d90660,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dab6564e5af080f47bba017351d90660, type: 3}
