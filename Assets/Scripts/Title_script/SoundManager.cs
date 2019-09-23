@@ -20,4 +20,8 @@ public class SoundManager : MonoBehaviour
         return instance;
     }
   
+    void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
 }

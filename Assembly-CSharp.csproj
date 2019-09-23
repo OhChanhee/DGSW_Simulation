@@ -101,6 +101,7 @@
      <Compile Include="Assets\Scripts\Events_script\Project_call.cs" />
      <Compile Include="Assets\Scripts\Main_scripts\Acting.cs" />
      <Compile Include="Assets\Scripts\Main_scripts\ActingCategory.cs" />
+     <Compile Include="Assets\Scripts\Main_scripts\Calendar.cs" />
      <Compile Include="Assets\Scripts\Main_scripts\Category.cs" />
      <Compile Include="Assets\Scripts\Main_scripts\DataManager.cs" />
      <Compile Include="Assets\Scripts\Main_scripts\loading_Data.cs" />

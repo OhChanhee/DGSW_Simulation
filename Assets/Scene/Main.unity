@@ -1632,6 +1632,7 @@ GameObject:
   - component: {fileID: 468239882}
   - component: {fileID: 468239884}
   - component: {fileID: 468239883}
+  - component: {fileID: 468239885}
   m_Layer: 5
   m_Name: Calendar
   m_TagString: Untagged
@@ -1708,6 +1709,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468239881}
   m_CullTransparentMesh: 0
+--- !u!114 &468239885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468239881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db0b09f647ebe5743ab4db5d94ce789e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exit_btn: {fileID: 1041449302}
 --- !u!1 &481003847
 GameObject:
   m_ObjectHideFlags: 0
@@ -5018,7 +5032,6 @@ GameObject:
   - component: {fileID: 1702973036}
   - component: {fileID: 1702973035}
   - component: {fileID: 1702973034}
-  - component: {fileID: 1702973037}
   m_Layer: 5
   m_Name: Category1
   m_TagString: Untagged
@@ -5127,19 +5140,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702973032}
   m_CullTransparentMesh: 0
---- !u!114 &1702973037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702973032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 1
 --- !u!1001 &1722477171
 PrefabInstance:
   m_ObjectHideFlags: 0
