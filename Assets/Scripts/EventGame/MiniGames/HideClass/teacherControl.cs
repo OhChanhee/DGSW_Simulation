@@ -9,11 +9,9 @@ public class teacherControl : MonoBehaviour
     private bool isRand = true;
     private bool isSpin = false;
     public bool isFinish = false;
-    private Transform teacherTrans;
 
     void Start()
     {
-        teacherTrans = GameObject.Find("professor(Clone)").GetComponent<Transform>();
     }
 
     void Update()
@@ -68,7 +66,7 @@ public class teacherControl : MonoBehaviour
 
     private void spinTeacher()
     {
-        teacherTrans.eulerAngles = new Vector2(0, 200f * Time.deltaTime);
+        //선생님이 뒤도는 애니메이션 추가
         Debug.Log("spin");
         //isSpin = true;
     }

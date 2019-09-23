@@ -11,9 +11,11 @@ public class MiniGm_LineManager : MonoBehaviour
     private bool clickRight_Limit = true;
     private float time;
     private Text time_Text;
+    private float strength;
 
     void Start()
     {
+        strength = CharacterManager.Get_instance().characterStat.exercise / 1000f;
         line_Transform = line.GetComponent<Transform>();
         time_Text = GameObject.Find("time_Text").GetComponent<Text>();
         time = 30;
@@ -33,8 +35,6 @@ public class MiniGm_LineManager : MonoBehaviour
     {
         if (judging_game() == false)
         {
-            Debug.Log(judging_game());
-
             if (Input.GetKeyUp(KeyCode.LeftArrow) && clickLeft_Limit == true)
             {
                 clickLeft_Limit = false;
@@ -53,7 +53,7 @@ public class MiniGm_LineManager : MonoBehaviour
 
     public void pullingLine_ToPlayer()
     {
-        line_Transform.position = new Vector3(line_Transform.position.x - 0.15f, 0, -1);
+        line_Transform.position = new Vector3(line_Transform.position.x - strength, 0, -1);
     }
 
     public void pullingLine_ToAi()

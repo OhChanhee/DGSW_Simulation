@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class MiniGm_Plate : MonoBehaviour
 {
-    
     private SpriteRenderer spriterenderer;
     MiniGm_PlateManager miniPm;
     public Sprite[] colorSprite;
@@ -43,19 +42,4 @@ public class MiniGm_Plate : MonoBehaviour
     {
         spriterenderer.sprite = colorSprite[1];
     }
-
-    /*public void textingCount()
-    {
-        foreach (GameObject i in plateList)
-        {
-            if (i.tag == "red")
-            {
-                
-            }
-            else if (i.tag == "blue")
-            {
-               
-            }
-        }
-    }*/
 }
