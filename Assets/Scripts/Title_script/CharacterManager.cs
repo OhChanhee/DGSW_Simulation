@@ -83,7 +83,7 @@ public class CharacterManager : ScriptableObject
             set { _dateTime = value; }
         }
 
-        int _week = 0;
+        int _week = 1;
         public int week
         {
             get { return _week; }
