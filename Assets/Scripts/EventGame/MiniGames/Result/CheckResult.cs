@@ -16,7 +16,7 @@ public class CheckResult : MonoBehaviour
 
         title.texture = Resources.Load<Texture>("/Clear/cl_" + gameResult + "Title");
         background.texture = Resources.Load<Texture>("/Clear/cl_" + gameResult + "Bg");
-        done.image.sprite.texture = Resources.Load<Texture2D>("/Clear/cl_" + gameResult + "Confilm");
+        done.image.sprite = Resources.Load<Sprite>("/Clear/cl_" + gameResult + "Confilm");
         PlayerPrefs.DeleteKey("MinigameResult");
 
         
