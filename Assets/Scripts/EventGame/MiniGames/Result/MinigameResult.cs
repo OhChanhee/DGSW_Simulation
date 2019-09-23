@@ -8,45 +8,44 @@ using UnityEngine.SceneManagement;
 
 public class MinigameResult
 {
-    public static void LoadResultScene(GameObject obj,
-                                       bool isWin,
-                                       System.Action transformation)
+    public static void LoadResultScene(bool isWin, System.Action transformation)
     {
-        string result = isWin ? "Success" : "Failure";
-
-        SaveStat(obj);
+        SaveStat();
 
         transformation(); //스탯 변화
 
-        PlayerPrefs.SetString("MinigameResult", result); // 미니게임 성공여부
+        SaveResult(isWin);
 
-        SceneManager.LoadScene("Result");
+        SceneManager.LoadScene("Result", LoadSceneMode.Single);
     }
 
-    public static void LoadResultScene(GameObject obj,
-                                       bool isWin,
-                                       CharacterStat newStat)
+    public static void LoadResultScene(bool isWin, CharacterStat newStat)
     {
-        string result = isWin ? "Success" : "Failure";
 
-        SaveStat(obj);
+        SaveStat();
 
         CharacterManager.Get_instance().characterStat = newStat; //스탯 변화
 
-        PlayerPrefs.SetString("MinigameResult", result); // 미니게임 성공여부
+        SaveResult(isWin);
 
-        SceneManager.LoadScene("Result");
+        SceneManager.LoadScene("Result", LoadSceneMode.Single);
     }
 
-    private static void SaveStat(GameObject obj)
+    private static void SaveStat()
     {
+        GameObject gObj = new GameObject("Holder");
 
-        GameObject gObj = SceneManager.GetActiveScene().GetRootGameObjects()[1];
-        gObj.AddComponent(typeof(StatHolder));
-        StatHolder holder = gObj.GetComponent<StatHolder>();
+        StatHolder holder = gObj.AddComponent(typeof(StatHolder)).GetComponent<StatHolder>();
 
         holder.oldStat = CharacterManager.Get_instance().characterStat.clone;
 
         UnityEngine.Object.DontDestroyOnLoad(holder); //스탯 저장
+    }
+
+    private static void SaveResult(bool isWin)
+    {
+        string result = isWin ? "Success" : "Failure";
+
+        PlayerPrefs.SetString("MinigameResult", result); // 미니게임 성공여부
     }
 }

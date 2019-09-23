@@ -10,7 +10,7 @@ public class LastCheckPoint : MonoBehaviour
     {
         if (col.tag.Equals("Player"))
         {
-            MinigameResult.LoadResultScene(gameObject, true, () =>
+            MinigameResult.LoadResultScene(true, () =>
             {
                 CharacterManager.Get_instance().characterStat.exercise += 200;
                 CharacterManager.Get_instance().characterStat.fatigue += 20;

@@ -5,20 +5,24 @@ using UnityEngine.UI;
 
 public class CheckResult : MonoBehaviour
 {
-    public RawImage title;
-    public RawImage background;
+    public SpriteRenderer title;
+    public SpriteRenderer background;
     public Button done;
+
+    void Awake()
+    {
+        string gameResult = PlayerPrefs.GetString("MinigameResult");
+
+        title.sprite = Resources.Load<Sprite>("Clear/cl_" + gameResult + "Title");
+        background.sprite = Resources.Load<Sprite>("Clear/cl_" + gameResult + "Bg");
+        done.image.sprite = Resources.Load<Sprite>("Clear/cl_" + gameResult + "Confirm");
+
+        PlayerPrefs.DeleteKey("MinigameResult");
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        string gameResult = PlayerPrefs.GetString("MinigameResult");
-
-        title.texture = Resources.Load<Texture>("/Clear/cl_" + gameResult + "Title");
-        background.texture = Resources.Load<Texture>("/Clear/cl_" + gameResult + "Bg");
-        done.image.sprite = Resources.Load<Sprite>("/Clear/cl_" + gameResult + "Confilm");
-        PlayerPrefs.DeleteKey("MinigameResult");
-
         
     }
 

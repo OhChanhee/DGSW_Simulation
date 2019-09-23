@@ -7,7 +7,7 @@ public class EnemyMovement : AIMovement
 {
     public override void endCirculation()
     {
-        MinigameResult.LoadResultScene(gameObject, false, () =>
+        MinigameResult.LoadResultScene(false, () =>
         {
             CharacterManager.Get_instance().characterStat.charm -= 100;
         });
