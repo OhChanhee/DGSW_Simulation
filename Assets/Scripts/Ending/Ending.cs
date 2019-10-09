@@ -1,10 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public interface IEnding
+public abstract class Ending : ScriptableObject
 {
-    bool CheckPossibility();
+    public abstract bool CheckPossibility();
 
-    void LoadEnding();
+    public void LoadEnding()
+    {
+        SceneManager.LoadScene(GetType().Name);
+        Debug.Log("Test");
+    }
 }

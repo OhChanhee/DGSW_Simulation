@@ -6,7 +6,7 @@ using System;
 
 public abstract class SceneBase : MonoBehaviour
 {
-    public Canvas canvas;
+    public CanvasGroup canvasGroup;
     protected Action endScene = () => { };
     protected float fadeInTime = 1f;
     protected float fadeOutTime = 1f;
@@ -15,8 +15,8 @@ public abstract class SceneBase : MonoBehaviour
     // Start is called before the first frame update
     protected void Start()
     {
-        canvas.GetComponent<CanvasGroup>().alpha = 0f;
-        StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 1f ,fadeInTime));
+        canvasGroup.alpha = 0f;
+        StartCoroutine(UIEffect.Fade(canvasGroup, 1f ,fadeInTime));
     }
 
     // Update is called once per frame
@@ -28,13 +28,12 @@ public abstract class SceneBase : MonoBehaviour
     protected void EndScene()
     {
         endScene();
+
         if(nextScene != null)
         {
-            StartCoroutine(TaskManager.Delay(fadeOutTime, () =>
-            {
-                SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
-            }));
+            StartCoroutine(TaskManager.Delay(fadeOutTime, () => SceneManager.LoadScene(nextScene, LoadSceneMode.Single)));
         }
-        StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 0f, fadeOutTime));
+
+        StartCoroutine(UIEffect.Fade(canvasGroup, 0f, fadeOutTime));
     }
 }

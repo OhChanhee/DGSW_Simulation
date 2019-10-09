@@ -5590,7 +5590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eb9d55ecf2b3064dbb80b32352a969f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 641898161}
+  canvasGroup: {fileID: 641898163}
   statTypes: {fileID: 2044116841}
   gaugeBars: {fileID: 2146238218}
   changes: {fileID: 629605188}

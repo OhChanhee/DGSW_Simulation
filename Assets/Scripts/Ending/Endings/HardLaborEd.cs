@@ -2,17 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HardLaborEd : MonoBehaviour
+public class HardLaborEd : Ending
 {
-    // Start is called before the first frame update
-    void Start()
+    public override bool CheckPossibility()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        CharacterStat currentStat = CharacterManager.Get_instance().characterStat;
+        return currentStat.hp >= 80;
     }
 }

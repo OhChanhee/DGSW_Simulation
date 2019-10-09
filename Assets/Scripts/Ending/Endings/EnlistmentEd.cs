@@ -2,17 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnlistmentEd : MonoBehaviour
+public class EnlistmentEd : Ending
 {
-    // Start is called before the first frame update
-    void Start()
+    public override bool CheckPossibility()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        CharacterStat currentStat = CharacterManager.Get_instance().characterStat;
+        return currentStat.exercise >= 800;
     }
 }
