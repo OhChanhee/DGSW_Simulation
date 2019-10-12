@@ -40,13 +40,13 @@ public class HandleStat : SceneBase
 
         if(oldStat != null)
         {
-            StartCoroutine(TaskManager.Delay(fadeInTime, () =>
+            TaskManager.Delay(fadeInTime, () =>
             {
                 foreach (Stat stat in statList)
                 {
                     StartCoroutine(IncreaseStat(stat));
                 }
-            }));
+            });
         }
 
         LoadStatInfoList();

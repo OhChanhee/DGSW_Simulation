@@ -13,14 +13,14 @@ public class ChooseName : MonoBehaviour
     void Start()
     {
         pName.onEndEdit.AddListener(SetName);
-        StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 1.0f, 1.0f));
+        UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 1.0f, 1.0f);
     }
 
     void SetName(string name)
     {
-        if (name.Length == 0 || !Input.GetKey(KeyCode.End)) return;
+        if (name.Length == 0 || !Input.GetKey(KeyCode.Return)) return;
         CharacterManager.Get_instance().playerName = name;
-        StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 0f, 1.0f));
-        StartCoroutine(TaskManager.Delay(1.0f, () => { SceneManager.LoadScene("Prologue_birthday", LoadSceneMode.Single); }));
+        UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 0f, 1.0f);
+        TaskManager.Delay(1.0f, () => SceneManager.LoadScene("Prologue_birthday", LoadSceneMode.Single));
     }
 }

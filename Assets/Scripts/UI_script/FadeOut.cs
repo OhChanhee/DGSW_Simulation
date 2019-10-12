@@ -13,7 +13,7 @@ public class FadeOut : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(TaskManager.Delay(startTime, () => StartCoroutine(UIEffect.Fade(canvasGroup, 0f, duration))));
-        StartCoroutine(TaskManager.Delay(startTime + duration, () => SceneManager.LoadScene(nextScene)));
+        TaskManager.Delay(startTime, () => UIEffect.Fade(canvasGroup, 0f, duration));
+        TaskManager.Delay(startTime + duration, () => SceneManager.LoadScene(nextScene));
     }
 }

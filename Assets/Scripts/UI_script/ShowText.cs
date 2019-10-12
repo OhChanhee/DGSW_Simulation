@@ -14,12 +14,12 @@ public class ShowText : MonoBehaviour
     {
         string text = textComponent.text;
         textComponent.text = "";
-        StartCoroutine(TaskManager.Delay(startTime,
+        TaskManager.Delay(startTime,
         () =>
         {
             textComponent.text = text;
-            StartCoroutine(UIEffect.ShowEachChar(textComponent, 0.1f));
-        }));
+            UIEffect.ShowEachChar(textComponent, 0.1f);
+        });
     }
 
     // Update is called once per frame

@@ -15,6 +15,6 @@ public class FadeIn : MonoBehaviour
     {
         canvasGroup.alpha = 0f;
 
-        StartCoroutine(TaskManager.Delay(startTime, () => StartCoroutine(UIEffect.Fade(canvasGroup, 1f, duration))));
+        TaskManager.Delay(startTime, () => UIEffect.Fade(canvasGroup, 1f, duration));
     }
 }

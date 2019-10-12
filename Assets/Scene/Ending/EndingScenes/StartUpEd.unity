@@ -416,5 +416,30 @@ PrefabInstance:
       propertyPath: m_Text
       value: ABCDE|CDEFG|EDCBA
       objectReference: {fileID: 0}
+    - target: {fileID: 4955329304708174682, guid: c3d5a0923b6823a4495e0f4a0eb10144,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955329304708174682, guid: c3d5a0923b6823a4495e0f4a0eb10144,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955329304708174682, guid: c3d5a0923b6823a4495e0f4a0eb10144,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955329305462646766, guid: c3d5a0923b6823a4495e0f4a0eb10144,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955329305462646766, guid: c3d5a0923b6823a4495e0f4a0eb10144,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3d5a0923b6823a4495e0f4a0eb10144, type: 3}

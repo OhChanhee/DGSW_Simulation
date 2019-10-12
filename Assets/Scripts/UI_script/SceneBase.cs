@@ -16,7 +16,7 @@ public abstract class SceneBase : MonoBehaviour
     protected void Start()
     {
         canvasGroup.alpha = 0f;
-        StartCoroutine(UIEffect.Fade(canvasGroup, 1f ,fadeInTime));
+        UIEffect.Fade(canvasGroup, 1f ,fadeInTime);
     }
 
     // Update is called once per frame
@@ -31,9 +31,9 @@ public abstract class SceneBase : MonoBehaviour
 
         if(nextScene != null)
         {
-            StartCoroutine(TaskManager.Delay(fadeOutTime, () => SceneManager.LoadScene(nextScene, LoadSceneMode.Single)));
+            TaskManager.Delay(fadeOutTime, () => SceneManager.LoadScene(nextScene, LoadSceneMode.Single));
         }
 
-        StartCoroutine(UIEffect.Fade(canvasGroup, 0f, fadeOutTime));
+        UIEffect.Fade(canvasGroup, 0f, fadeOutTime);
     }
 }

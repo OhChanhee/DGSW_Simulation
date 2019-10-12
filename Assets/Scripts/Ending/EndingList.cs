@@ -52,11 +52,10 @@ public class EndingList : MonoBehaviour
             GameObject content = GameObject.Find(ending.GetType().Name);
             content.GetComponent<Button>().onClick.AddListener(() =>
             {
-                if (ending.CheckPossibility())
-                {
-                    UIEffect.Fade(GetComponent<CanvasGroup>(), 0f, 1f);
-                    TaskManager.Delay(1f, () => ending.LoadEnding());
-                }
+                if (!ending.CheckPossibility()) return;
+
+                UIEffect.Fade(GetComponent<CanvasGroup>(), 0f, 1f);
+                TaskManager.Delay(1f, () => ending.LoadEnding());
             });
         }
     }

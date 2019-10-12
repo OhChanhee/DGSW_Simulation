@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
+[Serializable]
 public class CharacterStat
 {
     const int MAX_HEALTH = 100;

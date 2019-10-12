@@ -36,11 +36,11 @@ public class ChoosePersonality : SceneBase
 
         base.Start();
 
-        StartCoroutine(TaskManager.Delay(fadeInTime, () =>
+        TaskManager.Delay(fadeInTime, () =>
         {
             textComponent.text = contentList[0];
-            StartCoroutine(UIEffect.ShowEachChar(textComponent, .1f));
-        }));
+            UIEffect.ShowEachChar(textComponent, .1f);
+        });
     }
 
     // Update is called once per frame
@@ -57,7 +57,7 @@ public class ChoosePersonality : SceneBase
         stop.gameObject.SetActive(true);
         textComponent.text = contentList[1];
         StopAllCoroutines();
-        StartCoroutine(UIEffect.ShowEachChar(textComponent, .1f));
+        UIEffect.ShowEachChar(textComponent, .1f);
     }
 
     void Submit()

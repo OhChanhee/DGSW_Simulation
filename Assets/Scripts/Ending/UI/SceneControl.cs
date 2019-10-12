@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 using UnityEngine.SceneManagement;
 
 public class SceneControl : MonoBehaviour
@@ -21,8 +23,8 @@ public class SceneControl : MonoBehaviour
 
         StartCoroutine(ShowContents(()=>
         {
-            StartCoroutine(UIEffect.Fade(canvasGroup, 0f, 1f));
-            StartCoroutine(TaskManager.Delay(1f, () => SceneManager.LoadScene("EndingCredit")));
+            UIEffect.Fade(canvasGroup, 0f, 1f);
+            TaskManager.Delay(1f, () => SceneManager.LoadScene("EndingCredit"));
         }));
     }
 
@@ -42,13 +44,13 @@ public class SceneControl : MonoBehaviour
 
             InitContent(i);
 
-            Coroutine fadeIn = StartCoroutine(UIEffect.Fade(canvasGroup, 1f, 1f));
+            Coroutine fadeIn = UIEffect.Fade(canvasGroup, 1f, 1f);
 
-            Coroutine showEachChar = StartCoroutine(TaskManager.Delay(1f, () =>
+            Coroutine showEachChar = TaskManager.Delay(1f, () =>
             {
                 textComponent.text = contents[i];
-                StartCoroutine(UIEffect.ShowEachChar(textComponent, showCharInterval));
-            }));
+                UIEffect.ShowEachChar(textComponent, showCharInterval);
+            });
 
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) && Time.time -  loopStartTime > 1f);
 
@@ -57,7 +59,7 @@ public class SceneControl : MonoBehaviour
 
             if (i != contents.Length - 1 && images[GetImageIdx(i)] != images[GetImageIdx(i + 1)])
             {
-                StartCoroutine(UIEffect.Fade(canvasGroup, 0f, 1f));
+                UIEffect.Fade(canvasGroup, 0f, 1f);
 
                 yield return new WaitForSeconds(1f);
             }
