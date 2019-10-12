@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ConvenienceStoreEd : MonoBehaviour
+public class ConvenienceStoreEd : Ending
 {
-    // Start is called before the first frame update
-    void Start()
+    public override bool CheckPossibility()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        return true;
     }
 }
