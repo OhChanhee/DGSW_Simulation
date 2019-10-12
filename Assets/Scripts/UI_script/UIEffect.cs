@@ -15,7 +15,9 @@ public class UIEffect
         for(; Time.time <= startTime + duration;)
         {
             group.alpha = MapRange(Time.time, startTime, startTime + duration, initialAlpha, alpha);
+
             yield return new WaitForSeconds(0.05f);
+            
         }
     }
 

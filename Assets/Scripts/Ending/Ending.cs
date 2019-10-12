@@ -10,6 +10,5 @@ public abstract class Ending : ScriptableObject
     public void LoadEnding()
     {
         SceneManager.LoadScene(GetType().Name);
-        Debug.Log("Test");
     }
 }

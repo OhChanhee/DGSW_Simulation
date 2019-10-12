@@ -6,6 +6,8 @@ using System;
 
 public class EndingList : MonoBehaviour
 {
+    public GameObject contents;
+    public VerticalLayoutGroup verticalGroup;
     List<Ending> endingList;
 
     // Start is called before the first frame update
@@ -14,6 +16,16 @@ public class EndingList : MonoBehaviour
         InitEndingList();
 
         UpdateEndingList();
+
+        float contentsHeight = 0f;
+        foreach(Transform transform in contents.transform)
+        {
+            contentsHeight += (transform as RectTransform).rect.height;
+            contentsHeight += verticalGroup.spacing;
+        }
+
+        Rect contentsRect = (contents.transform as RectTransform).rect;
+        (contents.transform as RectTransform).sizeDelta = new Vector2(contentsRect.x, contentsHeight);
     }
 
     void InitEndingList()
