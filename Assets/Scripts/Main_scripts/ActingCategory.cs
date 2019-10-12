@@ -3,7 +3,7 @@
     Study,
     Leisure,
     Rest,
-    Leisure_weekend,
+    LeisureWeekend,
     Shopping,
     Visit
 }
