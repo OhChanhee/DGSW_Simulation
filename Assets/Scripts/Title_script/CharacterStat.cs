@@ -226,6 +226,37 @@ public class CharacterStat
             return clone;
         }
     }
+
+    public static CharacterStat operator +(CharacterStat param1, CharacterStat param2)
+    {
+        CharacterStat result = new CharacterStat();
+
+        result.hp = param1.hp + param2.hp;
+        result.sociability = param1.sociability + param2.sociability;
+        result.intelligence = param1.intelligence + param2.intelligence;
+        result.sensibility = param1.sensibility + param2.sensibility;
+        result.charm = param1.charm + param2.charm;
+        result.fatigue = param1.fatigue + param2.fatigue;
+        result.stress = param1.stress + param2.stress;
+        result.programming = param1.programming + param2.programming;
+        result.music = param1.music + param2.music;
+        result.design = param1.design + param2.design;
+        result.exercise = param1.exercise + param2.exercise;
+        result.creative = param1.creative + param2.creative;
+        result.leadership = param1.leadership + param2.leadership;
+        result.rewardPoint = param1.rewardPoint + param2.rewardPoint;
+        result.web = param1.web + param2.web;
+        result.windows = param1.windows + param2.windows;
+        result.mobile = param1.mobile + param2.mobile;
+        result.embedded = param1.embedded + param2.embedded;
+        result.server = param1.server + param2.server;
+        result.game = param1.game + param2.game;
+        result.database = param1.database + param2.database;
+        result.dataStructure = param1.dataStructure + param2.dataStructure;
+
+        return result;
+    }
+
     public float GetStatRatio(string statName)
     {
         int value = (int)GetType().GetProperty(statName).GetValue(this);
