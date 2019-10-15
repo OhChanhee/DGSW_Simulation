@@ -11,6 +11,7 @@ public class DataManager : MonoBehaviour
     eCategory CurCategory;
     void Start()
     {
+        
         data = CSVReader.Read("csvFolder/Action");
         //Listitem = Listitem.GetComponent<Acting>();
         for (int i = 0;i<3;i++)
@@ -65,13 +66,12 @@ public class DataManager : MonoBehaviour
 
     void Click_Category(int idx)
     {
-        Debug.Log(Categorys[idx].GetComponent<Category>().category);
         
         CurCategory = Categorys[idx].GetComponent<Category>().category;
         UpdateActingList();
     }
 
-    public GameObject ListView;
+    public GameObject contents;
     void UpdateActingList()
     {       
          SetData();
@@ -79,20 +79,23 @@ public class DataManager : MonoBehaviour
 
     void SetData()
     {
-        for(int i=0;i<ListView.transform.childCount;i++)
+        for (int i=0;i<contents.transform.childCount;i++)
         {
-            Destroy(ListView.transform.GetChild(i).gameObject);
+            Destroy(contents.transform.GetChild(i).gameObject);
         }
-        
+       
         for (int i = 0; i < data.Count; i++)
         {
             if(data[i]["item_var_name"].ToString().Split(new char[] { '_' })[1] == CurCategory.ToString())
             {
                 GameObject obj = Instantiate(Listitem);
-                obj.transform.SetParent(ListView.transform);
+                obj.transform.SetParent(contents.transform);
                 obj.GetComponent<Acting>().Title.text = data[i]["item_name"].ToString();
+                obj.GetComponent<Acting>().Description.text = data[i]["item_desc"].ToString();
+                obj.GetComponent<Image>().sprite = Resources.Load("Main/m_schedule/" + data[i]["item_var_name"],typeof(Sprite)) as Sprite;
             }
         }
+        
     }
 
 
