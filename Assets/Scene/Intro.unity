@@ -313,7 +313,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977123530}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db7ce03fa2d2f3a43ab2efc8f771f16d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 977123533}
+  canvasGroup: {fileID: 977123535}
   startTime: 3
   duration: 2
   nextScene: Title
@@ -345,7 +345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f83c3bcbd552d8d49be64e4b73ac124e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 977123533}
+  canvasGroup: {fileID: 977123535}
   startTime: 0
   duration: 2
 --- !u!1 &1129484306

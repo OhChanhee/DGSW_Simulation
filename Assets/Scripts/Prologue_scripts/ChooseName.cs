@@ -6,20 +6,21 @@ using UnityEngine.SceneManagement;
 
 public class ChooseName : MonoBehaviour
 {
-    public InputField PName;
+    public InputField pName;
     public Canvas canvas;
 
     // Start is called before the first frame update
     void Start()
     {
-        PName.onEndEdit.AddListener(SetName);
-        StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 1.0f, 1.0f));
+        pName.onEndEdit.AddListener(SetName);
+        UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 1.0f, 1.0f);
     }
 
     void SetName(string name)
     {
+        if (name.Length == 0 || !Input.GetKey(KeyCode.Return)) return;
         CharacterManager.Get_instance().playerName = name;
-        StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 0f, 1.0f));
-        StartCoroutine(TaskManager.Delay(1.0f, () => { SceneManager.LoadScene("Prologue_birthday", LoadSceneMode.Single); }));
+        UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 0f, 1.0f);
+        TaskManager.Delay(1.0f, () => SceneManager.LoadScene("Prologue_birthday", LoadSceneMode.Single));
     }
 }

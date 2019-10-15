@@ -2,28 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartUpEd : MonoBehaviour, IEnding
+public class StartUpEd : Ending
 {
-    public bool CheckPossibility()
+    public override bool CheckPossibility()
     {
-        CharacterStat currentStat = CharacterManager.Get_instance().characterStat.clone;
-        return false;
-    }
-
-    public void LoadEnding()
-    {
-        throw new System.NotImplementedException();
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        CharacterStat currentStat = CharacterManager.Get_instance().characterStat;
+        return currentStat.leadership >= 800 && currentStat.creative >= 800;
     }
 }

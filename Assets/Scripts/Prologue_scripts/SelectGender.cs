@@ -14,7 +14,7 @@ public class SelectGender : MonoBehaviour
     {
         genderM.onClick.AddListener(SetGenderM);
         genderF.onClick.AddListener(SetGenderF);
-        StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 1.0f, 1.0f));
+        UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 1.0f, 1.0f);
     }
 
     // Update is called once per frame
@@ -26,14 +26,14 @@ public class SelectGender : MonoBehaviour
     void SetGenderM()
     {
         CharacterManager.Get_instance().gender = Gender.man;
-        StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 0.0f, 1.0f));
-        StartCoroutine(TaskManager.Delay(1.0f, () => { SceneManager.LoadScene("Prologue_name", LoadSceneMode.Single); })); 
+        UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 0.0f, 1.0f);
+        TaskManager.Delay(1.0f, () => { SceneManager.LoadScene("Prologue_name", LoadSceneMode.Single); }); 
     }
 
     void SetGenderF()
     {
         CharacterManager.Get_instance().gender = Gender.woman;
-        StartCoroutine(UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 0.0f, 1.0f));
-        StartCoroutine(TaskManager.Delay(1.0f, () => { SceneManager.LoadScene("Prologue_name", LoadSceneMode.Single); }));
+        UIEffect.Fade(canvas.GetComponent<CanvasGroup>(), 0.0f, 1.0f);
+        TaskManager.Delay(1.0f, () => { SceneManager.LoadScene("Prologue_name", LoadSceneMode.Single); });
     }
 }

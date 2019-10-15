@@ -981,9 +981,9 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 511056566}
   m_PrefabAsset: {fileID: 0}
---- !u!223 &511056568 stripped
-Canvas:
-  m_CorrespondingSourceObject: {fileID: 3567640536370760653, guid: b40577a387e4ad945859a8361ea6c80b,
+--- !u!1 &511056568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3567640536370760648, guid: b40577a387e4ad945859a8361ea6c80b,
     type: 3}
   m_PrefabInstance: {fileID: 511056566}
   m_PrefabAsset: {fileID: 0}
@@ -1005,7 +1005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c31c43afb3ee0984883744ff1819fa33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 511056568}
+  canvasGroup: {fileID: 511056574}
   tYear: {fileID: 1833452754}
   tMonth: {fileID: 1898154894}
   calendar: {fileID: 511056573}
@@ -1047,6 +1047,27 @@ MonoBehaviour:
   m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &511056574 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 3567640536370760655, guid: b40577a387e4ad945859a8361ea6c80b,
+    type: 3}
+  m_PrefabInstance: {fileID: 511056566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &511056575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511056568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83c3bcbd552d8d49be64e4b73ac124e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasGroup: {fileID: 511056574}
+  startTime: 0
+  duration: 1
 --- !u!1001 &533649495
 PrefabInstance:
   m_ObjectHideFlags: 0

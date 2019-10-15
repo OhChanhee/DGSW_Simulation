@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using System;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 using UnityEngine.SceneManagement;
+using Assets.Scripts.Utilities;
 
-public class CharacterManager : ScriptableObject 
+[Serializable]
+public class CharacterManager 
 {
     /*
     [MenuItem("Tools/MyTool/Do It in C#")]
@@ -26,8 +30,6 @@ public class CharacterManager : ScriptableObject
     public Personality personality;
     public int Money;
     public CharacterStat characterStat = new CharacterStat();
-
-    
 
     public static CharacterManager operator+(CharacterManager param1, CharacterManager param2)
     {
@@ -62,18 +64,49 @@ public class CharacterManager : ScriptableObject
         return result;
     }
 
-    
-
     public static CharacterManager Get_instance()
     {
         if (instance == null)
         {
-            instance = CreateInstance<CharacterManager>();
+            instance = new CharacterManager();
         }
 
         return instance;
     }
 
+    public void Save()
+    {
+        string filePath = "";
+        if (playerName != null)
+            filePath = Application.dataPath + "/" + playerName + ".bin";
+        else
+            filePath = Application.dataPath + "/테스트.bin";
+        
+        BinaryFormatter formatter = new BinaryFormatter();
+
+        FileStream stream = new FileStream(filePath, FileMode.Create);
+        formatter.Serialize(stream, this);
+        stream.Close();
+    }
+
+    public CharacterManager Load()
+    {
+        string filePath;
+        if (playerName != null)
+            filePath = Application.dataPath + "/" + playerName + ".bin";
+        else
+            filePath = Application.dataPath + "/테스트.bin";
+
+        BinaryFormatter formatter = new BinaryFormatter();
+
+        FileStream stream = new FileStream(filePath, FileMode.Open);
+        CharacterManager characterManager = formatter.Deserialize(stream) as CharacterManager;
+        stream.Close();
+
+        return characterManager;
+    }
+
+    [Serializable]
     public class Gamedate
     {
         DateTime _dateTime = new DateTime();

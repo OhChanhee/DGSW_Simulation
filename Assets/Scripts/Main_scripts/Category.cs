@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class Category : MonoBehaviour
 {
-    [HideInInspector]
+    //[HideInInspector]
     public eCategory category;
 }
