@@ -16,8 +16,7 @@ public class DataManager : MonoBehaviour
         //Listitem = Listitem.GetComponent<Acting>();
         for (int i = 0;i<3;i++)
         {
-            Categorys[i].GetComponent<Category_btn>().btn_index = i;
-            int idx = Categorys[i].GetComponent<Category_btn>().btn_index;
+            int idx = i;
             Categorys[i].onClick.AddListener(() =>
             {
                 Click_Category(idx);
