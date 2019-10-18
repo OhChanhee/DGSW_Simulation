@@ -435,19 +435,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e2fa7aacce50f743a875fb96fb0012e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Categorys:
+  Categories:
   - {fileID: 1702973034}
   - {fileID: 1639957988}
   - {fileID: 151155285}
   Listitem: {fileID: 1674049257440422579, guid: 846898fb5e9de5949a3033970f16a7e0,
     type: 3}
-  CategoryImages:
-  - {fileID: 21300000, guid: 994a6429a87a56042b10e5bf59e232f1, type: 3}
-  - {fileID: 21300000, guid: b025e3f12d4036148acd849971688f8a, type: 3}
-  - {fileID: 21300000, guid: a57c8ada741ead047a70297aba10f863, type: 3}
-  - {fileID: 21300000, guid: b025e3f12d4036148acd849971688f8a, type: 3}
-  - {fileID: 21300000, guid: 1933ccf862cc7a9428f7f48ec7b476a4, type: 3}
-  - {fileID: 21300000, guid: abfb28f7b824af74c9dbb0340722585c, type: 3}
+  WeekdayCategories: 000000000100000002000000
+  WeekendCategories: 030000000400000005000000
   contents: {fileID: 1664167430}
 --- !u!1 &151155283
 GameObject:
