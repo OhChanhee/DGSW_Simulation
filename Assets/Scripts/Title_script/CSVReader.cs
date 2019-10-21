@@ -15,7 +15,6 @@ public class CSVReader : MonoBehaviour
     {
         var list = new List<Dictionary<string, object>>();
         TextAsset data = Resources.Load(file) as TextAsset;
-        Debug.Log(data);
         var lines = Regex.Split(data.text, LINE_SPLIT_RE);
 
         if (lines.Length <= 1) return list;
