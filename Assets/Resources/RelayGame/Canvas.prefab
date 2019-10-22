@@ -2975,6 +2975,8 @@ GameObject:
   - component: {fileID: 2471411309694612204}
   - component: {fileID: 2471411309694612202}
   - component: {fileID: 2471411309694612205}
+  - component: {fileID: 3706117613399015687}
+  - component: {fileID: 359162837389751925}
   m_Layer: 5
   m_Name: Background Color
   m_TagString: Untagged
@@ -3036,6 +3038,43 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!50 &3706117613399015687
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471411309694612207}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!70 &359162837389751925
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471411309694612207}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 136.54494, y: 2.1017907}
+  m_Size: {x: 1695.0696, y: 1067.3314}
+  m_Direction: 1
 --- !u!1 &2471411309714820104
 GameObject:
   m_ObjectHideFlags: 0
