@@ -7,7 +7,7 @@ public class Week : MonoBehaviour
     
     public int NumOfWeek;
     public bool isWeekend;
-
+    public CharacterStat WeekStat;
     void Start()
     {
         this.gameObject.GetComponent<Button>().onClick.AddListener(Choose_Week);

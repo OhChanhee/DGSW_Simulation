@@ -10,5 +10,14 @@ public class Acting : MonoBehaviour
     public eCategory category;
     public CharacterStat Changement;
 
+    void Start()
+    {
+        this.GetComponent<Button>().onClick.AddListener(Click_Acting);
+    }
+
+    void Click_Acting()
+    {
+        DataManager dataManager = new DataManager();
+    }
 
 }
