@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -171,16 +172,6 @@ public class CharacterStat
         set { _game = Math.Min(value, MAX_STAT); }
     }
 
-    public int programmingKnowledge
-    {
-        get
-        {
-            int result = Mathf.Max(web, windows, mobile, embedded, server, game) + Mathf.Max(dataStructure, database); ;
-
-            return result;
-        }
-    }
-
     int _database = 0;
     public int database
     {
@@ -195,34 +186,29 @@ public class CharacterStat
         set { _dataStructure = Math.Min(value, MAX_STAT); }
     }
 
+    public int programmingKnowledge
+    {
+        get
+        {
+            int result = Mathf.Max(web, windows, mobile, embedded, server, game) / 2 + dataStructure / 4 + database / 4;
+
+            return result;
+        }
+    }
+
     public CharacterStat clone
     {
         get
         {
             CharacterStat clone = new CharacterStat();
 
-            clone.hp = hp;
-            clone.sociability = sociability;
-            clone.intelligence = intelligence;
-            clone.sensibility = sensibility;
-            clone.charm = charm;
-            clone.fatigue = fatigue;
-            clone.stress = stress;
-            clone.programming = programming;
-            clone.music = music;
-            clone.design = design;
-            clone.exercise = exercise;
-            clone.creative = creative;
-            clone.leadership = leadership;
-            clone.rewardPoint = rewardPoint;
-            clone.web = web;
-            clone.windows = windows;
-            clone.mobile = mobile;
-            clone.embedded = embedded;
-            clone.server = server;
-            clone.game = game;
-            clone.database = database;
-            clone.dataStructure = dataStructure;
+            PropertyInfo[] properties = GetType().GetProperties(BindingFlags.SetProperty);
+            
+
+            foreach(PropertyInfo property in properties)
+            {
+                property.SetValue(clone, property.GetValue(this));
+            }
 
             return clone;
         }
@@ -232,28 +218,13 @@ public class CharacterStat
     {
         CharacterStat result = new CharacterStat();
 
-        result.hp = param1.hp + param2.hp;
-        result.sociability = param1.sociability + param2.sociability;
-        result.intelligence = param1.intelligence + param2.intelligence;
-        result.sensibility = param1.sensibility + param2.sensibility;
-        result.charm = param1.charm + param2.charm;
-        result.fatigue = param1.fatigue + param2.fatigue;
-        result.stress = param1.stress + param2.stress;
-        result.programming = param1.programming + param2.programming;
-        result.music = param1.music + param2.music;
-        result.design = param1.design + param2.design;
-        result.exercise = param1.exercise + param2.exercise;
-        result.creative = param1.creative + param2.creative;
-        result.leadership = param1.leadership + param2.leadership;
-        result.rewardPoint = param1.rewardPoint + param2.rewardPoint;
-        result.web = param1.web + param2.web;
-        result.windows = param1.windows + param2.windows;
-        result.mobile = param1.mobile + param2.mobile;
-        result.embedded = param1.embedded + param2.embedded;
-        result.server = param1.server + param2.server;
-        result.game = param1.game + param2.game;
-        result.database = param1.database + param2.database;
-        result.dataStructure = param1.dataStructure + param2.dataStructure;
+        PropertyInfo[] properties = result.GetType().GetProperties(BindingFlags.SetProperty);
+
+        foreach (PropertyInfo property in properties)
+        {
+            int sum = (int)property.GetValue(param1) + (int)property.GetValue(param2);
+            property.SetValue(result, sum);
+        }
 
         return result;
     }
