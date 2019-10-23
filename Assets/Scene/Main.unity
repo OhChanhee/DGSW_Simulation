@@ -443,7 +443,8 @@ MonoBehaviour:
     type: 3}
   WeekdayCategories: 000000000100000002000000
   WeekendCategories: 030000000400000005000000
-  contents: {fileID: 1664167430}
+  Contents: {fileID: 1664167430}
+  Confirm: {fileID: 1578880640}
 --- !u!1 &151155283
 GameObject:
   m_ObjectHideFlags: 0
@@ -4608,7 +4609,7 @@ GameObject:
   - component: {fileID: 1578880638}
   - component: {fileID: 1578880640}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Confirm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

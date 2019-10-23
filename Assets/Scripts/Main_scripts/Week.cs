@@ -4,14 +4,29 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Week : MonoBehaviour
 {
-    
     public int NumOfWeek;
     public bool isWeekend;
-    public CharacterStat WeekStat;
+
+    private Acting _act;
+    public Acting act
+    {
+        get
+        {
+            return _act;
+        }
+        set
+        {
+            _act = value;
+
+            GetComponent<Image>().sprite = Resources.Load<Sprite>("Main/m_schedule/Category/m_" + act.actName);
+        }
+    }
+
     void Start()
     {
-        this.gameObject.GetComponent<Button>().onClick.AddListener(Choose_Week);
+        gameObject.GetComponent<Button>().onClick.AddListener(Choose_Week);
     }
+
     public void Choose_Week()
     {
         if (CharacterManager.Get_instance().curdate.week == 1)

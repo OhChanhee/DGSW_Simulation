@@ -22,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
 
         checkPoint = transform.position;
         exerciseSkill = CharacterManager.Get_instance().characterStat.exercise;
-        exerciseSkill = 700;
     }
 
     // Update is called once per frame
@@ -48,6 +47,10 @@ public class PlayerMovement : MonoBehaviour
         {
             checkPoint = col.gameObject.transform.position;
             checkPoints.ToArray()[checkPoints.IndexOf(col.transform) + 1].gameObject.SetActive(true);
+        }
+        else if(col.tag == "playground")
+        {
+            transform.position = checkPoint;
         }
     }
 }

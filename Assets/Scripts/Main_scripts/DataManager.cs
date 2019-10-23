@@ -2,18 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Reflection;
+using System;
+
 public class DataManager : MonoBehaviour
 {
     const int ButtonCount = 3;
     public Button[] Categories = new Button[ButtonCount];
     public GameObject Listitem;
-    //public Sprite[] CategoryImages = new Sprite[6];
     public eCategory[] WeekdayCategories = new eCategory[ButtonCount];
     public eCategory[] WeekendCategories = new eCategory[ButtonCount];
-    public GameObject contents;
+    public GameObject Contents;
     List<Dictionary<string, object>> data;
     Week week;
-    eCategory CurCategory;
+    eCategory curCategory;
 
     GameObject _curWeek;
     public GameObject curWeek
@@ -33,8 +35,7 @@ public class DataManager : MonoBehaviour
     void Start()
     {
         data = CSVReader.Read("csvFolder/Action");
-        //Listitem = Listitem.GetComponent<Acting>();
-        for (int i = 0;i<3;i++)
+        for (int i = 0; i < 3; i++) 
         {
             int idx = i;
             Categories[i].onClick.AddListener(() =>
@@ -46,30 +47,9 @@ public class DataManager : MonoBehaviour
 
     void UpdateCategory(Week week)
     {
-        /*
-         if (week.isWeekend == false)
-        {
-            Categories[0].GetComponent<Image>().sprite = CategoryImages[0];
-            Categories[0].GetComponent<Category>().category = eCategory.Study;
-            Categories[1].GetComponent<Image>().sprite = CategoryImages[1];
-            Categories[1].GetComponent<Category>().category = eCategory.Leisure;
-            Categories[2].GetComponent<Image>().sprite = CategoryImages[2];
-            Categories[2].GetComponent<Category>().category = eCategory.Rest;
-        }
-        else
-        {
-            Categories[0].GetComponent<Image>().sprite = CategoryImages[3];
-            Categories[0].GetComponent<Category>().category = eCategory.LeisureWeekend;
-            Categories[1].GetComponent<Image>().sprite = CategoryImages[4];
-            Categories[1].GetComponent<Category>().category = eCategory.Shopping;
-            Categories[2].GetComponent<Image>().sprite = CategoryImages[5];
-            Categories[2].GetComponent<Category>().category = eCategory.Visit;
-        }
-        */
-
         eCategory[] categories = week.isWeekend ? WeekendCategories : WeekdayCategories;
 
-        for(int i = 0; i < ButtonCount; i++)
+        for (int i = 0; i < ButtonCount; i++) 
         {
             string categoryName = categories[i].ToString();
             categoryName = categoryName.EndsWith("Weekend") ? categoryName.Replace("Weekend", "") : categoryName;
@@ -81,7 +61,7 @@ public class DataManager : MonoBehaviour
 
     void Click_Category(int idx)
     {
-        CurCategory = Categories[idx].GetComponent<Category>().category;
+        curCategory = Categories[idx].GetComponent<Category>().category;
         UpdateActingList();
     }
 
@@ -94,9 +74,9 @@ public class DataManager : MonoBehaviour
 
     void InitContents()
     {
-        for (int i = 0; i < contents.transform.childCount; i++)
+        for (int i = 0; i < Contents.transform.childCount; i++)
         {
-            Destroy(contents.transform.GetChild(i).gameObject);
+            Destroy(Contents.transform.GetChild(i).gameObject);
         }
     }
 
@@ -106,14 +86,38 @@ public class DataManager : MonoBehaviour
         {
             string[] splitedData = data[i]["item_var_name"].ToString().Split(new char[] { '_' });
 
-            if (splitedData.Length > 1 && splitedData[1] == CurCategory.ToString())
+            if (splitedData.Length > 1 && splitedData[1] == curCategory.ToString())
             {
                 GameObject obj = Instantiate(Listitem);
-                obj.transform.SetParent(contents.transform);
-                obj.GetComponent<Acting>().Title.text = data[i]["item_name"].ToString();
-                obj.GetComponent<Acting>().Description.text = data[i]["item_desc"].ToString();
+                obj.transform.SetParent(Contents.transform);
+
+                Acting act = obj.GetComponent<Acting>();
+                act.Title.text = data[i]["item_name"].ToString();
+                act.Description.text = data[i]["item_desc"].ToString();
+                act.actName = splitedData[0];
+                act.Changement = GetChangement(i);
+
                 obj.GetComponent<Image>().sprite = Resources.Load("Main/m_schedule/" + data[i]["item_var_name"], typeof(Sprite)) as Sprite;
+
+                obj.GetComponent<Button>().onClick.AddListener(() => 
+                {
+                    curWeek.GetComponent<Week>().act = act;
+                });
             }
         }
+    }
+
+    CharacterStat GetChangement(int idx)
+    {
+        CharacterStat result = new CharacterStat();
+        Type type = typeof(CharacterStat);
+
+        foreach(PropertyInfo property in type.GetProperties(BindingFlags.SetProperty))
+        {
+            string propertyName = property.Name;
+            property.SetValue(result, data[idx][propertyName]);
+        }
+
+        return result;
     }
 }

@@ -7,12 +7,12 @@ public class ScheduleHandler : MonoBehaviour
 {
     public SpriteRenderer behaviour;
     public Slider progressBar;
-    List<string> actList;
+    List<Week> weekList;
 
     // Start is called before the first frame update
     void Start()
     {
-        //actList = GameObject.Find("obj").GetComponent<Info>().???;
+        weekList = GameObject.Find("dataHolder").GetComponent<Schedule>().weekList;
         progressBar.onValueChanged.AddListener((float value) => CheckSchedule(value));
         StartCoroutine(ProgressSchedule());
     }

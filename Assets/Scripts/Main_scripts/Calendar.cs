@@ -9,9 +9,4 @@ public class Calendar : Tap
     {
         exit_btn.onClick.AddListener(Close_tap);
     }
-
-    void UpDate()
-    {
-
-    }
 }

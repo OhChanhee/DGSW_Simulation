@@ -20,7 +20,7 @@ item_index,item_name,item_var_name,item_desc,hp,sociability,intelligence,sensibi
 118,쇼핑,shopping_LeisureWeekend,쇼핑을 합니다.,,,,,50,,-30,,,,,,,,,,,,,,
 119,숙면,deepSleep_LeisureWeekend,숙면을 취합니다.,50,,,,,-50,,,,,,,,,,,,,,,
 120,자습,selfStudy_LeisureWeekend,자습을 합니다.,,,30,,,20,20,,,,,,,,,,,,,,
-121,게임,hardGame_LeisureWeekend,게임을 합니다.,-20,,-50,,,,-150,,,-20,,,,,,,,,10,,
+121,게임,gaming_LeisureWeekend,게임을 합니다.,-20,,-50,,,,-150,,,-20,,,,,,,,,10,,
 122,오케스트라실,orchestra_Visit,오케스트라실에 갑니다.,,,,,,,-20,50,,,,,,,,,,,,,
 123,체육관,gym_Visit,체육관에 갑니다.,-5,,,,,30,,,,,,,,,,,,,,,
 124,회사 견학,company_Visit,회사 견학을 하러갑니다.,,50,20,,,,,,,,,,,,,,,,,,
