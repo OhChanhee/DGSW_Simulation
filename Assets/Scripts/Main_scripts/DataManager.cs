@@ -95,6 +95,7 @@ public class DataManager : MonoBehaviour
                 act.Title.text = data[i]["item_name"].ToString();
                 act.Description.text = data[i]["item_desc"].ToString();
                 act.actName = splitedData[0];
+                act.category = curCategory;
                 act.Changement = GetChangement(i);
 
                 obj.GetComponent<Image>().sprite = Resources.Load("Main/m_schedule/" + data[i]["item_var_name"], typeof(Sprite)) as Sprite;

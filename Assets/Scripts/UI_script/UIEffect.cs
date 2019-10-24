@@ -27,19 +27,19 @@ public class UIEffect
         TaskManager.Callback(onEndCoroutine);
     }
 
-    public static Coroutine ShowEachChar(Text text, float delay, Action onEndCoroutine = null)
+    public static Coroutine ShowEachChar(Text textComponent, float delay, Action onEndCoroutine = null)
     {
-        return StaticObject.instance.StartCoroutine(_ShowEachChar(text, delay, onEndCoroutine));
+        return StaticObject.instance.StartCoroutine(_ShowEachChar(textComponent, delay, onEndCoroutine));
     }
 
-    private static IEnumerator _ShowEachChar(Text text, float delay, Action onEndCoroutine)
+    private static IEnumerator _ShowEachChar(Text textComponent, float delay, Action onEndCoroutine)
     {
-        string content = text.text;
-        text.text = "";
+        string content = textComponent.text;
+        textComponent.text = "";
 
-        for (int i = 1; !text.text.Equals(content); i++)
+        for (int i = 1; !textComponent.text.Equals(content); i++)
         {
-            text.text = content.Substring(0, i);
+            textComponent.text = content.Substring(0, i);
             yield return new WaitForSeconds(delay);
         }
 
@@ -53,5 +53,41 @@ public class UIEffect
         float scale = (value - inRangeA) / (inRangeB - inRangeA);
 
         return scale * (outRangeB - outRangeA) + outRangeA;
+    }
+
+    public static Coroutine DotRepeat(Text textComponent, float interval, int max, float duration = -1f, Action onEndCoroutine = null)
+    {
+        return StaticObject.instance.StartCoroutine(_DotRepeat(textComponent, interval, max, duration, onEndCoroutine));
+    }
+
+    private static IEnumerator _DotRepeat(Text textComponent, float interval, int max, float duration = -1, Action onEndCoroutine = null)
+    {
+        string dots;
+        string textContent = textComponent.text;
+        float endTime = Time.time - duration;
+
+        bool isInfinity = duration < 0f;
+
+        while (isInfinity || Time.time < endTime)
+        {
+            dots = "";
+            for(int i = 0; i < GetRangeByTime(interval, max); i++)
+            {
+                dots += ".";
+                textComponent.text = textContent + dots;
+            }
+
+            yield return new WaitForSeconds(interval);
+        }
+
+        textComponent.text = textContent;
+
+        TaskManager.Callback(onEndCoroutine);
+    }
+
+    private static int GetRangeByTime(float unit, int max)
+    {
+        int valueByTime = (int)(Time.time / unit);
+        return valueByTime % (max + 1);
     }
 }

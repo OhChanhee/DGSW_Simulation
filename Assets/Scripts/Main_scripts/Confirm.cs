@@ -17,14 +17,14 @@ public class Confirm : MonoBehaviour
         confirmButton.onClick.AddListener(ConfirmSchedule);
         dataHolder = new GameObject("dataHolder");
         schedule = dataHolder.AddComponent<Schedule>();
+
         weeks = FindObjectsOfType<Week>();
-        weeks = System.Array.FindAll(weeks, (week) => 
+        System.Array.Sort(weeks, (Week week1, Week week2) =>
         {
-            int curWeekIdx = (CharacterManager.Get_instance().curdate.week - 1) * 2;
+            int weekIdx1= week1.NumOfWeek * 2 + (week1.isWeekend ? 1 : 0);
+            int weekIdx2 = week2.NumOfWeek * 2 + (week2.isWeekend ? 1 : 0);
 
-            int numOfWeek = System.Array.IndexOf(weeks, week);
-
-            return curWeekIdx < numOfWeek && numOfWeek < curWeekIdx;
+            return weekIdx1 - weekIdx2;
         });
     }
 
@@ -45,7 +45,9 @@ public class Confirm : MonoBehaviour
 
     bool IsAllSelected()
     {
-        for(int i = 0; i < weeks.Length; i++)
+        int curWeekIdx = (CharacterManager.Get_instance().curdate.week - 1) * 2;
+
+        for (int i = curWeekIdx; i < curWeekIdx + 3; i++)
         {
             if(weeks[i].act == null)
             {

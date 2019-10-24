@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Ending/EndingCredit.unity
     guid: 898227970c230824da027e7accc7c06e
+  - enabled: 1
+    path: Assets/Scene/Main_progress.unity
+    guid: 6fc1a94b72ecf634fb51c55fe9a7a17a
   m_configObjects: {}
