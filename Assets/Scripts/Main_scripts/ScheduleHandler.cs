@@ -8,6 +8,7 @@ public class ScheduleHandler : MonoBehaviour
     public SpriteRenderer behaviour;
     public Slider progressBar;
     public Text descText;
+    CharacterStat changement = new CharacterStat();
     Coroutine dotRepeat;
     Coroutine showEachChar;
     List<Week> weekList;
@@ -17,9 +18,21 @@ public class ScheduleHandler : MonoBehaviour
     void Start()
     {
         weekList = GameObject.Find("dataHolder").GetComponent<Schedule>().weekList;
+
+        GetChangement();
         InitProgressPointList();
         progressBar.onValueChanged.AddListener((float value) => CheckSchedule(value));
+
         StartCoroutine(ProgressSchedule());
+    }
+
+    void GetChangement()
+    {
+        foreach (Week week in weekList)
+        {
+            changement += week.act.Changement;
+            Debug.Log(week);
+        }
     }
 
     void InitProgressPointList()
@@ -27,14 +40,15 @@ public class ScheduleHandler : MonoBehaviour
         progressPointList = new List<float>();
 
         progressPointList.Add(0f);
-        progressPointList.Add(5f / 14f);
-        progressPointList.Add(7f / 14f);
-        progressPointList.Add(12f / 14f);
+        progressPointList.Add(5f * progressBar.maxValue / 14f);
+        progressPointList.Add(7f * progressBar.maxValue / 14f);
+        progressPointList.Add(12f * progressBar.maxValue / 14f);
     }
 
     IEnumerator ProgressSchedule()
     {
         UpdateSchedule();
+
         while(progressBar.value < progressBar.maxValue)
         {
             progressBar.value += progressBar.maxValue * Time.deltaTime / 10;
@@ -50,26 +64,31 @@ public class ScheduleHandler : MonoBehaviour
             progressPointList.RemoveAt(0);
             weekList.RemoveAt(0);
             UpdateSchedule();
-        }
-        else
-        {
-            /* 현재 행동의 설명을 보여주는 부분 (Coroutine의 선언이 겹쳐서 오류 발생)
-            if (showEachChar != null) StopCoroutine(showEachChar);
-            if (dotRepeat != null) StopCoroutine(dotRepeat);
 
-            descText.text = weekList[0].act.Description.text;
-            showEachChar = UIEffect.ShowEachChar(descText, .1f, () => dotRepeat = UIEffect.DotRepeat(descText, .5f, 3));
-            */
+            if (progressPointList.Count < 1) {
+                progressBar.onValueChanged.RemoveListener(CheckSchedule);
+                progressBar.onValueChanged.AddListener(CheckScheduleEnd);
+            };
+        }
+    }
+
+    void CheckScheduleEnd(float value)
+    {
+        if (value >= progressBar.maxValue)
+        {
+
         }
     }
 
     void UpdateSchedule()
     {
         Week curWeek = weekList[0];
+
         if (dotRepeat != null) StopCoroutine(dotRepeat);
         if (showEachChar != null) StopCoroutine(showEachChar);
+
         descText.text = curWeek.act.Description.text;
-        showEachChar = UIEffect.ShowEachChar(descText, .1f, () => dotRepeat = UIEffect.DotRepeat(descText, .5f, 3));
-        behaviour.sprite = Resources.Load<Sprite>("Main/m_schedule/" + curWeek.act.actName + "_" + curWeek.act.category);
+        showEachChar = UIEffect.ShowEachChar(descText, .1f, () => dotRepeat = UIEffect.DotRepeat(descText, .5f, 2));
+        behaviour.sprite = Resources.Load<Sprite>("Main/m_schedule/" + curWeek.act.ActName + "_" + curWeek.act.Category);
     }
 }

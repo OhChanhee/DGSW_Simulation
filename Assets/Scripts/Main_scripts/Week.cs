@@ -7,8 +7,8 @@ public class Week : MonoBehaviour
     public int NumOfWeek;
     public bool isWeekend;
 
-    private Acting _act;
-    public Acting act
+    private Act _act;
+    public Act act
     {
         get
         {
@@ -18,7 +18,7 @@ public class Week : MonoBehaviour
         {
             _act = value;
 
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("Main/m_schedule/Category/m_" + act.actName);
+            GetComponent<Image>().sprite = Resources.Load<Sprite>("Main/m_schedule/Category/m_" + act.ActName);
         }
     }
 
