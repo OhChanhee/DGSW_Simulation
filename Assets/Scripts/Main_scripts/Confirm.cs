@@ -49,12 +49,10 @@ public class Confirm : MonoBehaviour
 
         for (int i = curWeekIdx; i < curWeekIdx + 3; i++)
         {
-            /*
             if(weeks[i].act == null)
             {
                 return false;
             }
-            */
         }
 
         return true;

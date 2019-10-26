@@ -76,8 +76,7 @@ public class DataManager : MonoBehaviour
     {
         for (int i = 0; i < Contents.transform.childCount; i++)
         {
-            Contents.transform.GetChild(i).gameObject.SetActive(false);
-            //Destroy(Contents.transform.GetChild(i).gameObject);
+            Destroy(Contents.transform.GetChild(i).gameObject);
         }
     }
 
@@ -92,18 +91,18 @@ public class DataManager : MonoBehaviour
                 GameObject obj = Instantiate(Listitem);
                 obj.transform.SetParent(Contents.transform);
 
-                Acting acting = obj.GetComponent<Acting>();
-                acting.act.Title.text = data[i]["item_name"].ToString();
-                acting.act.Description.text = data[i]["item_desc"].ToString();
-                acting.act.ActName = splitedData[0];
-                acting.act.Category = curCategory;
-                acting.act.Changement = GetChangement(i);
+                Acting act = obj.GetComponent<Acting>();
+                act.Title.text = data[i]["item_name"].ToString();
+                act.Description.text = data[i]["item_desc"].ToString();
+                act.actName = splitedData[0];
+                act.category = curCategory;
+                act.Changement = GetChangement(i);
 
                 obj.GetComponent<Image>().sprite = Resources.Load("Main/m_schedule/" + data[i]["item_var_name"], typeof(Sprite)) as Sprite;
 
                 obj.GetComponent<Button>().onClick.AddListener(() => 
                 {
-                    curWeek.GetComponent<Week>().act = acting.act;
+                    curWeek.GetComponent<Week>().act = act;
                 });
             }
         }
