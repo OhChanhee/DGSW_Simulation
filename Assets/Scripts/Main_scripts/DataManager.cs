@@ -13,6 +13,7 @@ public class DataManager : MonoBehaviour
     public eCategory[] WeekdayCategories = new eCategory[ButtonCount];
     public eCategory[] WeekendCategories = new eCategory[ButtonCount];
     public GameObject Contents;
+    public GameObject WeekHolder;
     List<Dictionary<string, object>> data;
     Week week;
     eCategory curCategory;
@@ -35,6 +36,11 @@ public class DataManager : MonoBehaviour
     void Start()
     {
         data = CSVReader.Read("csvFolder/Action");
+        foreach(Button button in WeekHolder.GetComponentsInChildren<Button>())
+        {
+            button.onClick.AddListener(() => ClearContents());
+        }
+
         for (int i = 0; i < 3; i++) 
         {
             int idx = i;
@@ -67,16 +73,16 @@ public class DataManager : MonoBehaviour
 
     void UpdateActingList()
     {
-        InitContents();
+        ClearContents();
 
         InsertActData();
     }
 
-    void InitContents()
+    void ClearContents()
     {
         for (int i = 0; i < Contents.transform.childCount; i++)
         {
-            Destroy(Contents.transform.GetChild(i).gameObject);
+            Contents.transform.GetChild(i).gameObject.SetActive(false);
         }
     }
 
