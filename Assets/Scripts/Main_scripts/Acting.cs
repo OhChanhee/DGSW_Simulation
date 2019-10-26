@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class Acting : MonoBehaviour
+public class Acting
 {
     public Act act;
 }
