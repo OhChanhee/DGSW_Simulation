@@ -25,6 +25,8 @@ public class CharacterManager
     public string playerName;
     public Gender gender;
     public DateTime birthday;
+    public int grade;
+    public int season;
     public bool isCouple;
     public Gamedate curdate = new Gamedate();
     public Personality personality;
