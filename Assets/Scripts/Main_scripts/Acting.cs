@@ -5,6 +5,8 @@ using UnityEngine.UI;
 public class Acting : MonoBehaviour
 {
     [HideInInspector]
+    public int idx;
+    [HideInInspector]
     public Text Title;
     [HideInInspector]
     public Text Description;
@@ -14,4 +16,6 @@ public class Acting : MonoBehaviour
     public string actName;
     [HideInInspector]
     public CharacterStat Changement;
+    [HideInInspector]
+    public bool IsEvent;
 }

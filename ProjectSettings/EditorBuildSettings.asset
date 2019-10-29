@@ -68,4 +68,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Main_progress.unity
     guid: 6fc1a94b72ecf634fb51c55fe9a7a17a
+  - enabled: 1
+    path: Assets/Events/scenes/Birthday.unity
+    guid: 703b18a38ec06324f820949470b7a9df
+  - enabled: 1
+    path: Assets/Events/scenes/BloodDonation.unity
+    guid: d0d49062c771204448daabba4192bd39
+  - enabled: 1
+    path: Assets/Events/scenes/Confession.unity
+    guid: e64c55789a9ed224fb8c8c90d81fdcbe
+  - enabled: 1
+    path: Assets/Events/scenes/Election.unity
+    guid: 125659f63b0f4bc46b6643d43b51ca82
+  - enabled: 1
+    path: Assets/Events/scenes/FunctionalTeam_call.unity
+    guid: 66772082ae4381b4b874c9434a7c6377
+  - enabled: 1
+    path: Assets/Events/scenes/Hospital.unity
+    guid: ff4756a4eb47fdc41800429c277a9990
+  - enabled: 1
+    path: Assets/Events/scenes/Messenger_call.unity
+    guid: 0fbb1d612f59dbb4290d9bf122ab39ae
+  - enabled: 1
+    path: Assets/Events/scenes/Project_call.unity
+    guid: 5fe2702e26524b642aa1d378027c9243
   m_configObjects: {}

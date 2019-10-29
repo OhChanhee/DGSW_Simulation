@@ -11,6 +11,7 @@ public class Confirm : MonoBehaviour
     Schedule schedule;
     Week[] weeks;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,9 +35,13 @@ public class Confirm : MonoBehaviour
         {
             DontDestroyOnLoad(dataHolder);
 
-            foreach (Week week in weeks)
+            int curWeekIdx = (CharacterManager.Get_instance().curdate.week - 1) * 2;
+            Week[] weekList = new Week[4];
+            System.Array.Copy(weeks, curWeekIdx, weekList, 0, 4);
+
+            foreach (Week week in weekList)
             {
-                schedule.weekList.Add(week);
+                schedule.actList.Add(new Act(week.acting));
             }
 
             SceneManager.LoadScene("Main_progress");
@@ -49,7 +54,7 @@ public class Confirm : MonoBehaviour
 
         for (int i = curWeekIdx; i < curWeekIdx + 3; i++)
         {
-            if(weeks[i].act == null)
+            if(weeks[i].acting == null)
             {
                 return false;
             }
