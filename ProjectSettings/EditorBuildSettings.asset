@@ -93,16 +93,16 @@ EditorBuildSettings:
     path: Assets/Scene/HideGame.unity
     guid: f94fc1e05e493704281fe277c85ad7f9
   - enabled: 1
-    path: Assets/Scene/Events/scenes/FunctionalTeam_call.unity
+    path: Assets/Scene/Events/scenes/FunctionalTeamCall.unity
     guid: 66772082ae4381b4b874c9434a7c6377
   - enabled: 1
     path: Assets/Scene/Events/scenes/Hospital.unity
     guid: ff4756a4eb47fdc41800429c277a9990
   - enabled: 1
-    path: Assets/Scene/Events/scenes/Messenger_call.unity
+    path: Assets/Scene/Events/scenes/MessengerCall.unity
     guid: 0fbb1d612f59dbb4290d9bf122ab39ae
   - enabled: 1
-    path: Assets/Scene/Events/scenes/Project_call.unity
+    path: Assets/Scene/Events/scenes/ProjectCall.unity
     guid: 5fe2702e26524b642aa1d378027c9243
   - enabled: 1
     path: Assets/Scene/Event/sportDay.unity

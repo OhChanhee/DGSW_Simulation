@@ -130,9 +130,4 @@ public class ScheduleHandler : MonoBehaviour
             nextScene = act.Name;
         }
     }
-
-    void CheckSchedule()
-    {
-        if(CharacterManager.Get_instance().birthday == CharacterManager.Get_instance().curdate)
-    }
 }

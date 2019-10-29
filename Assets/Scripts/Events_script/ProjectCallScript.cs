@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Project_call : SceneBase
+public class ProjectCallScript : SceneBase
 {
     public Button yes;
     public Button no;

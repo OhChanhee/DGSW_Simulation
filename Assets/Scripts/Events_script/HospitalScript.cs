@@ -2,26 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class BloodDonation : SceneBase
+public class HospitalScript : SceneBase
 {
-    public Button yes;
-    public Button no;
+    public Button submit;
 
     // Start is called before the first frame update
     new void Start()
     {
-        nextScene = "Main";
-
-        yes.onClick.AddListener(() => 
-        {
-            // To do
-            EndScene();
-        });
-
-        no.onClick.AddListener(() => 
-        {
+        submit.onClick.AddListener(() => {
+            nextScene = "Main";
             EndScene();
         });
 

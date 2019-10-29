@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Election : SceneBase
+public class MessengerCallScript : SceneBase
 {
     public Button yes;
     public Button no;

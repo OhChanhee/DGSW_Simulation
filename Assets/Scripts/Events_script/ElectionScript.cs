@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FunctionalTeam_call : SceneBase
+public class ElectionScript : SceneBase
 {
     public Button yes;
     public Button no;

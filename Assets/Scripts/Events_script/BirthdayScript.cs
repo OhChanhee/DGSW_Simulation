@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Birthday : SceneBase
+public class BirthdayScript : SceneBase
 {
     public Button submit;
     public Text text;

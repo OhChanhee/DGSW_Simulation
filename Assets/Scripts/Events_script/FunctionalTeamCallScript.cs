@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Messenger_call : SceneBase
+public class FunctionalTeamCallScript : SceneBase
 {
     public Button yes;
     public Button no;

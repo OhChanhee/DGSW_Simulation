@@ -3,24 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Confession : SceneBase
+public class BullyingPreventScript : SceneBase
 {
-    public Button yes;
-    public Button no;
+    public Button submit;
 
     // Start is called before the first frame update
     new void Start()
     {
         nextScene = "Main";
 
-        yes.onClick.AddListener(() =>
-        {
+        submit.onClick.AddListener(() => {
             // To do
-            EndScene();
-        });
-
-        no.onClick.AddListener(() =>
-        {
             EndScene();
         });
 
@@ -30,6 +23,6 @@ public class Confession : SceneBase
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 }
