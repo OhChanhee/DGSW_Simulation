@@ -97,18 +97,19 @@ public class DataManager : MonoBehaviour
                 GameObject obj = Instantiate(Listitem);
                 obj.transform.SetParent(Contents.transform);
 
-                Acting act = obj.GetComponent<Acting>();
-                act.Title.text = data[i]["item_name"].ToString();
-                act.Description.text = data[i]["item_desc"].ToString();
-                act.actName = splitedData[0];
-                act.category = curCategory;
-                act.Changement = GetChangement(i);
+                Acting acting = obj.GetComponent<Acting>();
+                acting.idx = curWeek.GetComponent<Week>().NumOfWeek * 2 + (curWeek.GetComponent<Week>().isWeekend ? 1 : 0);
+                acting.Title.text = data[i]["item_name"].ToString();
+                acting.Description.text = data[i]["item_desc"].ToString();
+                acting.actName = splitedData[0];
+                acting.category = curCategory;
+                acting.Changement = GetChangement(i);
 
                 obj.GetComponent<Image>().sprite = Resources.Load("Main/m_schedule/" + data[i]["item_var_name"], typeof(Sprite)) as Sprite;
 
                 obj.GetComponent<Button>().onClick.AddListener(() => 
                 {
-                    curWeek.GetComponent<Week>().act = act;
+                    curWeek.GetComponent<Week>().acting = acting;
                 });
             }
         }

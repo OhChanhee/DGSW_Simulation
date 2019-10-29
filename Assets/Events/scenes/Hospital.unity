@@ -256,9 +256,9 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 498592853}
   m_PrefabAsset: {fileID: 0}
---- !u!223 &498592856 stripped
-Canvas:
-  m_CorrespondingSourceObject: {fileID: 1474367490230048561, guid: 77e33b03f465f9442add7eaa3a4bae9f,
+--- !u!225 &498592856 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 1474367490230048562, guid: 77e33b03f465f9442add7eaa3a4bae9f,
     type: 3}
   m_PrefabInstance: {fileID: 498592853}
   m_PrefabAsset: {fileID: 0}
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 564fe78128f4fbf4996eeaf867dd8ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 498592856}
+  canvasGroup: {fileID: 498592856}
   submit: {fileID: 1103866490}
 --- !u!1 &855788548
 GameObject:

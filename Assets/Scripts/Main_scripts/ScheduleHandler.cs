@@ -14,37 +14,25 @@ public class ScheduleHandler : MonoBehaviour
     public GameObject scoreBoard;
     Coroutine dotRepeat;
     Coroutine showEachChar;
-    List<Week> weekList;
+    List<Act> actList;
     List<float> progressPointList;
     CharacterStat changement = CharacterStat.zero;
 
-    Action onEndSchedule = () => { };
-
+    Action onEndSchedule;
+    
     // Start is called before the first frame update
     void Start()
     {
-        weekList = GameObject.Find("dataHolder").GetComponent<Schedule>().weekList;
-        Debug.Log(weekList);
-        InitChangement();
+        actList = GameObject.Find("dataHolder").GetComponent<Schedule>().actList;
         InitProgressPointList();
         progressBar.onValueChanged.AddListener((float value) => CheckSchedule(value));
         StartCoroutine(ProgressSchedule());
+        onEndSchedule += () => { };
     }
 
     void Update()
     {
         onEndSchedule();
-    }
-
-    void InitChangement()
-    {
-        for(int i = 0; i < 4; i++)
-        {
-            Debug.Log(weekList[i]);
-            changement += weekList[i].act.Changement;
-        }
-        
-        CharacterManager.Get_instance().characterStat += changement;
     }
 
     void InitProgressPointList()
@@ -74,9 +62,9 @@ public class ScheduleHandler : MonoBehaviour
         if (value > progressPointList[1])
         {
             progressPointList.RemoveAt(0);
-            weekList.RemoveAt(0);
+            actList.RemoveAt(0);
 
-            if (weekList.Count <= 1 || progressPointList.Count <= 1)
+            if (actList.Count <= 1 || progressPointList.Count <= 1)
             {
                 progressBar.onValueChanged.RemoveAllListeners();
                 progressBar.onValueChanged.AddListener(CheckScheduleEnd);
@@ -106,7 +94,7 @@ public class ScheduleHandler : MonoBehaviour
                 {
                     if (Input.anyKeyDown)
                     {
-                        weekList.Clear();
+                        actList.Clear();
                         SceneManager.LoadScene("Main");
                     }
                 };
@@ -116,11 +104,12 @@ public class ScheduleHandler : MonoBehaviour
 
     void UpdateSchedule()
     {
-        Week curWeek = weekList[0];
+        Act act = actList[0];
         if (dotRepeat != null) StopCoroutine(dotRepeat);
         if (showEachChar != null) StopCoroutine(showEachChar);
-        descText.text = curWeek.act.Description.text;
+        CharacterManager.Get_instance().characterStat += act.Changement;
+        descText.text = act.Description;
         showEachChar = UIEffect.ShowEachChar(descText, .1f, () => dotRepeat = UIEffect.DotRepeat(descText, .5f, 3));
-        behaviour.sprite = Resources.Load<Sprite>("Main/m_schedule/Category/m_" + curWeek.act.actName);
+        behaviour.sprite = Resources.Load<Sprite>("Main/m_schedule/Category/m_" + act.Name);
     }
 }

@@ -7,18 +7,18 @@ public class Week : MonoBehaviour
     List<Dictionary<string, object>> data;
     public int NumOfWeek;
     public bool isWeekend;
-    private Acting _act;
-    public Acting act
+    private Acting _acting;
+    public Acting acting
     {
         get
         {
-            return _act;
+            return _acting;
         }
         set
         {
-            _act = value;
+            _acting = value;
 
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("Main/m_schedule/Category/m_" + act.actName);
+            GetComponent<Image>().sprite = Resources.Load<Sprite>("Main/m_schedule/Category/m_" + acting.actName);
         }
     }
 
@@ -32,9 +32,9 @@ public class Week : MonoBehaviour
                 CharacterManager.Get_instance().curdate.week.ToString() == data[i]["week"].ToString()
                 )
             {
-                _act.Title.text = data[i]["item_name"].ToString();
-                _act.actName = data[i]["item_var_name"].ToString();
-                _act.Description.text = data[i]["item_desc"].ToString();
+                _acting.Title.text = data[i]["item_name"].ToString();
+                _acting.actName = data[i]["item_var_name"].ToString();
+                _acting.Description.text = data[i]["item_desc"].ToString();
             }
         }
         gameObject.GetComponent<Button>().onClick.AddListener(Choose_Week);

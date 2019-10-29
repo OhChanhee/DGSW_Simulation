@@ -5,6 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [Serializable]
 public class CharacterStat
@@ -17,13 +18,19 @@ public class CharacterStat
     public int hp
     {
         get { return _hp * MAX_HEALTH / MAX_STAT; }
-        set { _hp = Math.Min(value * MAX_STAT / MAX_HEALTH, MAX_STAT); }
+        set
+        {
+            _hp = Math.Min(value * MAX_STAT / MAX_HEALTH, MAX_STAT);
+        }
     }
 
     public int rawHp
     {
         get { return _hp; }
-        set { _hp = Math.Min(value, MAX_STAT); }
+        set
+        {
+            _hp = Math.Min(value, MAX_STAT);
+        }
     }
 
     int _sociability = 50;

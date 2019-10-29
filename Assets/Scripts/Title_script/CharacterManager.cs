@@ -89,7 +89,10 @@ public class CharacterManager
         public int week
         {
             get { return _week; }
-            set { _week = value > 4 || value < 1 ? value % 4 + 1 : value; }
+            set
+            {
+                _week = value > 4 || value < 1 ? value % 4 : value;
+            }
         }
     }
 }

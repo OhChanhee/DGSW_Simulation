@@ -5,5 +5,5 @@ using UnityEngine;
 public class Schedule : MonoBehaviour
 {
     [HideInInspector]
-    public List<Week> weekList = new List<Week>();
+    public List<Act> actList = new List<Act>();
 }
