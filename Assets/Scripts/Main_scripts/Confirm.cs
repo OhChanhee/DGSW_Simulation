@@ -41,7 +41,6 @@ public class Confirm : MonoBehaviour
 
             foreach (Week week in weekList)
             {
-                Debug.Log(week);
                 schedule.actList.Add(new Act(week.acting));
             }
 

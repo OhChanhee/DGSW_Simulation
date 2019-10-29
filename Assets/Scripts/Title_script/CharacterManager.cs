@@ -92,6 +92,18 @@ public class CharacterManager
             get { return _week; }
             set
             {
+                if(value > 4)
+                {
+                    bool isDecember = (dateTime.Month == 12);
+
+                    if (isDecember) dateTime = new DateTime(dateTime.Year + 1, 1, 1);
+                    else
+                    {
+                        if(dateTime.Month == 3) Get_instance().grade++;
+
+                        dateTime = new DateTime(dateTime.Year, dateTime.Month + 1, 1);
+                    }
+                }
                 _week = value > 4 || value < 1 ? value % 4 : value;
             }
         }
