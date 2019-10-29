@@ -973,6 +973,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1967835720395265353, guid: b40577a387e4ad945859a8361ea6c80b,
+        type: 3}
+      propertyPath: m_Name
+      value: Calendar
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b40577a387e4ad945859a8361ea6c80b, type: 3}
 --- !u!224 &511056567 stripped
@@ -981,9 +986,9 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 511056566}
   m_PrefabAsset: {fileID: 0}
---- !u!223 &511056568 stripped
-Canvas:
-  m_CorrespondingSourceObject: {fileID: 3567640536370760653, guid: b40577a387e4ad945859a8361ea6c80b,
+--- !u!225 &511056568 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 3567640536370760655, guid: b40577a387e4ad945859a8361ea6c80b,
     type: 3}
   m_PrefabInstance: {fileID: 511056566}
   m_PrefabAsset: {fileID: 0}
@@ -1005,36 +1010,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c31c43afb3ee0984883744ff1819fa33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 511056568}
+  canvasGroup: {fileID: 511056568}
   tYear: {fileID: 1833452754}
   tMonth: {fileID: 1898154894}
   calendar: {fileID: 511056573}
---- !u!114 &511056571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511056569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fd29349bb83aa84d9c6a0d81c490dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  month: {fileID: 1898154894}
---- !u!114 &511056572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511056569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7646672e15db8eb42b980e579e5f680c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  year: {fileID: 1833452754}
 --- !u!114 &511056573 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3199800316671652960, guid: b40577a387e4ad945859a8361ea6c80b,

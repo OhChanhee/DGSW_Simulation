@@ -13,6 +13,12 @@ public class ChooseDate : SceneBase
     GameObject[] objList;
     int year, month, day;
 
+    void Awake()
+    {
+        tYear.text = (System.DateTime.Now.Year - 16).ToString();
+        tMonth.text = System.DateTime.Now.Month.ToString();
+    }
+
     // Start is called before the first frame update
     new void Start()
     {

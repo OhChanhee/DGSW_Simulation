@@ -9,8 +9,8 @@ using UnityEngine;
 [Serializable]
 public class CharacterStat
 {
-    const int MAX_HEALTH = 100;
-    const int MAX_STAT = 1000;
+    public static int MAX_HEALTH = 100;
+    public static int MAX_STAT = 1000;
 
     // 캐릭터의 스탯
     int _hp = 1000;
@@ -23,7 +23,7 @@ public class CharacterStat
     public int rawHp
     {
         get { return _hp; }
-        set { _hp = value; }
+        set { _hp = Math.Min(value, MAX_STAT); }
     }
 
     int _sociability = 50;
@@ -64,7 +64,7 @@ public class CharacterStat
     public int rawFatigue
     {
         get { return _fatigue; }
-        set { _fatigue = value; }
+        set { _fatigue = Math.Min(value, MAX_STAT); }
     }
 
     int _stress = 0;
@@ -77,14 +77,12 @@ public class CharacterStat
     public int rawStress
     {
         get { return _stress; }
-        set { _stress = value; }
+        set { _stress = Math.Min(value, MAX_STAT); }
     }
 
-    int _programming = 50;
     public int programming
     {
-        get { return _programming; }
-        set { _programming = Math.Min(value, MAX_STAT); }
+        get { return Mathf.Max(web, operSystem, mobile, embedded, server, game);}
     }
 
     int _music = 50;
@@ -137,11 +135,11 @@ public class CharacterStat
         set { _web = Math.Min(value, MAX_STAT); }
     }
 
-    int _windows = 0;
-    public int windows
+    int _operSystem = 0;
+    public int operSystem
     {
-        get { return _windows; }
-        set { _windows = Math.Min(value, MAX_STAT); }
+        get { return _operSystem; }
+        set { _operSystem = Math.Min(value, MAX_STAT); }
     }
 
     int _mobile = 0;
@@ -190,7 +188,29 @@ public class CharacterStat
     {
         get
         {
-            int result = Mathf.Max(web, windows, mobile, embedded, server, game) / 2 + dataStructure / 4 + database / 4;
+            int result = programming / 2 + (dataStructure + database) / 2;
+
+            return result;
+        }
+    }
+
+    public static CharacterStat zero
+    {
+        get
+        {
+            CharacterStat result = new CharacterStat();
+
+            PropertyInfo[] properties = typeof(CharacterStat).GetProperties();
+
+            foreach(PropertyInfo property in properties)
+            {
+                if(property.SetMethod == null)
+                {
+                    continue;
+                }
+
+                property.SetValue(result, 0);
+            }
 
             return result;
         }
@@ -202,11 +222,12 @@ public class CharacterStat
         {
             CharacterStat clone = new CharacterStat();
 
-            PropertyInfo[] properties = GetType().GetProperties(BindingFlags.SetProperty);
-            
+            PropertyInfo[] properties = GetType().GetProperties();
 
             foreach(PropertyInfo property in properties)
             {
+                if (property.SetMethod == null) continue;
+
                 property.SetValue(clone, property.GetValue(this));
             }
 
@@ -218,10 +239,12 @@ public class CharacterStat
     {
         CharacterStat result = new CharacterStat();
 
-        PropertyInfo[] properties = result.GetType().GetProperties(BindingFlags.SetProperty);
+        PropertyInfo[] properties = result.GetType().GetProperties();
 
         foreach (PropertyInfo property in properties)
         {
+            if (property.SetMethod == null) continue;
+
             int sum = (int)property.GetValue(param1) + (int)property.GetValue(param2);
             property.SetValue(result, sum);
         }

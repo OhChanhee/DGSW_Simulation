@@ -116,13 +116,21 @@ public class DataManager : MonoBehaviour
 
     CharacterStat GetChangement(int idx)
     {
-        CharacterStat result = new CharacterStat();
+        CharacterStat result = CharacterStat.zero;
         Type type = typeof(CharacterStat);
 
-        foreach(PropertyInfo property in type.GetProperties(BindingFlags.SetProperty))
+        foreach(PropertyInfo property in type.GetProperties())
         {
             string propertyName = property.Name;
-            property.SetValue(result, data[idx][propertyName]);
+            if (propertyName.StartsWith("raw") || property.SetMethod == null)
+            {
+                continue;
+            }
+
+            object value = data[idx][propertyName];
+
+            if (value.ToString().Length == 0) continue;
+            property.SetValue(result, int.Parse(data[idx][propertyName].ToString()));
         }
 
         return result;

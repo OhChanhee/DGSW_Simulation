@@ -1,4 +1,4 @@
-item_index,item_name,item_var_name,item_desc,hp,sociability,intelligence,sensibility,charm,fatigue,stress,music,design,exercise,creative,leadership,rewardPoint,web,operSystem,mobile,embedded,server,game,database,data_structure,grade,month,week
+item_index,item_name,item_var_name,item_desc,hp,sociability,intelligence,sensibility,charm,fatigue,stress,music,design,exercise,creative,leadership,rewardPoint,web,operSystem,mobile,embedded,server,game,database,dataStructure,grade,month,week
 100,자료구조,dataStruct_Study,자료구조를 공부합니다.,-10,,,,,,,,,-5,,,,,,,,,,,50,,,
 101,게임 개발,game_Study,게임 개발을 공부합니다.,-10,,,,,,,,,-5,,,,,,,,,50,,,,,
 102,데이터베이스,database_Study,데이터베이스를 공부합니다.,-10,,,,,,,,,-5,,,,,,,,,,50,,,,

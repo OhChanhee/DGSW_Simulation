@@ -121,12 +121,6 @@ public class HandleStat : SceneBase
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void UpdateGaugeBar(Stat stat, CharacterStat src)
     {
         stat.gaugeBar.fillAmount = src.GetStatRatio(stat.statType.name);
@@ -141,7 +135,7 @@ public class HandleStat : SceneBase
         int normalized = Mathf.Clamp(amountOfChange, -1, 1);
 
         string sign = normalized > 0 ? "+" : "-";
-        int scale = stat.statType.name.StartsWith("raw") ? 10 : 1;
+        int scale = stat.statType.name.StartsWith("raw") ? CharacterStat.MAX_STAT / CharacterStat.MAX_HEALTH : 1;
 
         for (int i = 0; i <= Mathf.Abs(amountOfChange) && normalized != 0; i++)
         {
