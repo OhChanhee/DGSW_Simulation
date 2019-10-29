@@ -312,17 +312,17 @@ PrefabInstance:
         type: 3}
       propertyPath: images.Array.data[0]
       value: 
-      objectReference: {fileID: 2800000, guid: 4ee38b9f105ed994fa4080b4405812f4, type: 3}
+      objectReference: {fileID: 2800000, guid: c58d8182a910dc74bb6b3b35e0c8daa3, type: 3}
     - target: {fileID: 4955329304961593073, guid: c3d5a0923b6823a4495e0f4a0eb10144,
         type: 3}
       propertyPath: images.Array.data[1]
       value: 
-      objectReference: {fileID: 2800000, guid: 4ee38b9f105ed994fa4080b4405812f4, type: 3}
+      objectReference: {fileID: 2800000, guid: c58d8182a910dc74bb6b3b35e0c8daa3, type: 3}
     - target: {fileID: 4955329304961593073, guid: c3d5a0923b6823a4495e0f4a0eb10144,
         type: 3}
       propertyPath: images.Array.data[2]
       value: 
-      objectReference: {fileID: 2800000, guid: 4ee38b9f105ed994fa4080b4405812f4, type: 3}
+      objectReference: {fileID: 2800000, guid: c58d8182a910dc74bb6b3b35e0c8daa3, type: 3}
     - target: {fileID: 4955329304961593073, guid: c3d5a0923b6823a4495e0f4a0eb10144,
         type: 3}
       propertyPath: showCharInterval
@@ -410,7 +410,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 07b15772f7ab8bd47a114944e29ae3e9, type: 3}
+      objectReference: {fileID: 2800000, guid: bce284074d7b736408d746694dd41f01, type: 3}
     - target: {fileID: 4955329305370899555, guid: c3d5a0923b6823a4495e0f4a0eb10144,
         type: 3}
       propertyPath: m_Color.r
