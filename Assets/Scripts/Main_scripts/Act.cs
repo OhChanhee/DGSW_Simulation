@@ -16,6 +16,7 @@ public class Act
         Category = act.Category;
         Name = string.Copy(act.Name);
         Changement = act.Changement.clone;
+        IsEvent = act.IsEvent;
     }
 
     public Act(Acting acting)
@@ -25,6 +26,7 @@ public class Act
         Category = acting.category;
         Name = string.Copy(acting.actName);
         Changement = acting.Changement.clone;
+        IsEvent = acting.IsEvent;
     }
 
     public string Title
@@ -52,6 +54,12 @@ public class Act
     }
 
     public CharacterStat Changement
+    {
+        get;
+        set;
+    }
+
+    public bool IsEvent
     {
         get;
         set;

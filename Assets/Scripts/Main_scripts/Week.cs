@@ -35,6 +35,7 @@ public class Week : MonoBehaviour
                 _acting.Title.text = data[i]["item_name"].ToString();
                 _acting.actName = data[i]["item_var_name"].ToString();
                 _acting.Description.text = data[i]["item_desc"].ToString();
+                _acting.IsEvent = true;
             }
         }
         gameObject.GetComponent<Button>().onClick.AddListener(Choose_Week);

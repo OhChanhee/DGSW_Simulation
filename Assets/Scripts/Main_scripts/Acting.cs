@@ -16,4 +16,6 @@ public class Acting : MonoBehaviour
     public string actName;
     [HideInInspector]
     public CharacterStat Changement;
+    [HideInInspector]
+    public bool IsEvent;
 }
