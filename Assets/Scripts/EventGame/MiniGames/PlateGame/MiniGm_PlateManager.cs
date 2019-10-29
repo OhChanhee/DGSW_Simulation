@@ -26,6 +26,7 @@ public class MiniGm_PlateManager : MonoBehaviour
     private float strength;
     private int balance;
     private int balanceTime;
+    private bool isWin = false;
 
     void Start()
     {
@@ -76,7 +77,16 @@ public class MiniGm_PlateManager : MonoBehaviour
         else
         {
             whoWin();
+            MinigameResult.LoadResultScene(isWin, setStat);
         }
+    }
+
+    public void setStat()
+    {
+        CharacterManager.Get_instance().characterStat.hp += 10;
+        CharacterManager.Get_instance().characterStat.sociability += 5;
+        CharacterManager.Get_instance().characterStat.fatigue += 15;
+        CharacterManager.Get_instance().characterStat.exercise += 10;
     }
 
     IEnumerator changeColor_Ai()
@@ -99,15 +109,18 @@ public class MiniGm_PlateManager : MonoBehaviour
     {
         if(red_count > blue_count)
         {
-            Debug.Log("플레이어 승!");
+            //Debug.Log("플레이어 승!");
+            isWin = true;
         }
         else if(red_count < blue_count)
         {
-            Debug.Log("Ai 승!");
+            //Debug.Log("Ai 승!");
+            isWin = false;
         }
         else
         {
-            Debug.Log("무승부!");
+            //Debug.Log("무승부!");
+            isWin = false;
         }
     }
 

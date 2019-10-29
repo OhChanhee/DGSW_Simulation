@@ -7,6 +7,9 @@ TagManager:
   - grass
   - checkPoint
   - playground
+  - Day
+  - odd
+  - even
   layers:
   - Default
   - TransparentFX

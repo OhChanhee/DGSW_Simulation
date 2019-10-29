@@ -12,6 +12,7 @@ public class MiniGm_LineManager : MonoBehaviour
     private float time;
     private Text time_Text;
     private float strength;
+    private bool isWin = false;
 
     void Start()
     {
@@ -48,7 +49,18 @@ public class MiniGm_LineManager : MonoBehaviour
                 pullingLine_ToPlayer();
             }
             pullingLine_ToAi();
+        } else
+        {
+            MinigameResult.LoadResultScene(isWin, setStat);
         }
+    }
+
+    public void setStat()
+    {
+        CharacterManager.Get_instance().characterStat.hp += 10;
+        CharacterManager.Get_instance().characterStat.sociability += 5;
+        CharacterManager.Get_instance().characterStat.fatigue += 15;
+        CharacterManager.Get_instance().characterStat.exercise += 10;
     }
 
     public void pullingLine_ToPlayer()
@@ -78,24 +90,28 @@ public class MiniGm_LineManager : MonoBehaviour
     {
         if(line_Transform.position.x >= 9)
         {
-            Debug.Log("Ai 승!");
+            //Debug.Log("Ai 승!");
+            isWin = false;
             return true;
         }
         else if(line_Transform.position.x <= -9)
         {
-            Debug.Log("플레이어 승!");
+            //Debug.Log("플레이어 승!");
+            isWin = true;
             return true;
         }
         else if(time <= 0)
         {
-            Debug.Log("게임 끝!");
+            //Debug.Log("게임 끝!");
             if(line_Transform.position.x <= 0 && line_Transform.position.x > -9)
             {
-                Debug.Log("타임오버 플레이어 승!");
+                //Debug.Log("타임오버 플레이어 승!");
+                isWin = true;
             }
             else if (line_Transform.position.x >= 0 && line_Transform.position.x < 9)
             {
-                Debug.Log("타임오버 Ai 승!");
+                //Debug.Log("타임오버 Ai 승!");
+                isWin = false;
             }
             return true;
         }
