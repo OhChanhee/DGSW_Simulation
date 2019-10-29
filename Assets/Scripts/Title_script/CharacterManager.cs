@@ -24,7 +24,7 @@ public class CharacterManager
     // 캐릭터의 정보
     public string playerName;
     public Gender gender;
-    public DateTime birthday;
+    public Gamedate birthday = new Gamedate();
     public Major major = Major.공통과;
     public int grade = 1;
     public int season = 1;

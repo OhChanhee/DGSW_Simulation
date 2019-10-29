@@ -50,7 +50,8 @@ public class Week : MonoBehaviour
     {
         return (CharacterManager.Get_instance().curdate.dateTime.Month.ToString() == data[idx]["month"].ToString() &&
         (CharacterManager.Get_instance().grade.ToString() == data[idx]["grade"].ToString() || "4" == data[idx]["grade"].ToString()) &&
-        GetComponent<Week>().NumOfWeek.ToString() == data[idx]["week"].ToString());
+        GetComponent<Week>().NumOfWeek.ToString() == data[idx]["week"].ToString() &&
+        !isWeekend);
     }
 
     public void Choose_Week()

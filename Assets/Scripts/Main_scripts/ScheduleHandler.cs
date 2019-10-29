@@ -110,15 +110,29 @@ public class ScheduleHandler : MonoBehaviour
         if (dotRepeat != null) StopCoroutine(dotRepeat);
         if (showEachChar != null) StopCoroutine(showEachChar);
         CharacterManager.Get_instance().characterStat += act.Changement;
+
         descText.text = act.Description;
-        showEachChar = UIEffect.ShowEachChar(descText, .1f, () => dotRepeat = UIEffect.DotRepeat(descText, .5f, 3));
+        showEachChar = UIEffect.ShowEachChar(descText, .1f, () => 
+        {
+            if(!act.IsEvent) dotRepeat = UIEffect.DotRepeat(descText, .5f, 3);
+        });
         behaviour.sprite = Resources.Load<Sprite>("Main/m_schedule/Category/m_" + act.Name);
 
+        CheckEvent(act);
+    }
+
+    void CheckEvent(Act act)
+    {
         if (act.IsEvent)
         {
             hasEvent = true;
 
             nextScene = act.Name;
         }
+    }
+
+    void CheckSchedule()
+    {
+        if(CharacterManager.Get_instance().birthday == CharacterManager.Get_instance().curdate)
     }
 }

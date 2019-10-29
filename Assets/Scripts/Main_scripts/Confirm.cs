@@ -56,8 +56,6 @@ public class Confirm : MonoBehaviour
         {
             if(weeks[i].act == null)
             {
-                Debug.Log("CurWeek : " + weeks[i].name);
-                Debug.Log("안돼");
                 return false;
             }
         }

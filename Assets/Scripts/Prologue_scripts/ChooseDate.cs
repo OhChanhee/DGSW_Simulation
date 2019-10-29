@@ -29,8 +29,9 @@ public class ChooseDate : SceneBase
             obj.GetComponentInParent<Button>().onClick.AddListener(() =>
             {
                 day = Int32.Parse(obj.GetComponentInChildren<Text>().text);
-                CharacterManager.Get_instance().birthday = new DateTime(year, month, day);
-                CharacterManager.Get_instance().curdate.dateTime = new DateTime(CharacterManager.Get_instance().birthday.Year + 16, 5, 1);
+                CharacterManager.Get_instance().birthday.dateTime = new DateTime(year, month, day);
+                CharacterManager.Get_instance().birthday.week = Math.Min(day / 7 + 1, 4);
+                CharacterManager.Get_instance().curdate.dateTime = new DateTime(CharacterManager.Get_instance().birthday.dateTime.Year + 16, 5, 1);
                 nextScene = "Prologue_personality";
                 base.EndScene();
             });
@@ -68,6 +69,7 @@ public class ChooseDate : SceneBase
 
         for (int i = 1, index = dayOfWeek.GetHashCode(); i <= maxDay; i++, index++)
         {
+            Array.Sort(objList, (GameObject obj1, GameObject obj2) => int.Parse(obj1.name) - int.Parse(obj2.name));
             objList[index].GetComponentInChildren<Text>().text = i.ToString();
         }
     }

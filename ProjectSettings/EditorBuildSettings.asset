@@ -92,4 +92,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Events/scenes/Project_call.unity
     guid: 5fe2702e26524b642aa1d378027c9243
+  - enabled: 1
+    path: Assets/Scene/Event/sportDay.unity
+    guid: 5e44a08bae21607499f7d0849208c508
   m_configObjects: {}
