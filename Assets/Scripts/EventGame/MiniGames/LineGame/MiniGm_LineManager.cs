@@ -90,27 +90,22 @@ public class MiniGm_LineManager : MonoBehaviour
     {
         if(line_Transform.position.x >= 9)
         {
-            //Debug.Log("Ai 승!");
             isWin = false;
             return true;
         }
         else if(line_Transform.position.x <= -9)
         {
-            //Debug.Log("플레이어 승!");
             isWin = true;
             return true;
         }
         else if(time <= 0)
         {
-            //Debug.Log("게임 끝!");
             if(line_Transform.position.x <= 0 && line_Transform.position.x > -9)
             {
-                //Debug.Log("타임오버 플레이어 승!");
                 isWin = true;
             }
             else if (line_Transform.position.x >= 0 && line_Transform.position.x < 9)
             {
-                //Debug.Log("타임오버 Ai 승!");
                 isWin = false;
             }
             return true;

@@ -98,7 +98,7 @@ public class DataManager : MonoBehaviour
                 obj.transform.SetParent(Contents.transform);
 
                 Acting acting = obj.GetComponent<Acting>();
-                acting.idx = curWeek.GetComponent<Week>().NumOfWeek * 2 + (curWeek.GetComponent<Week>().isWeekend ? 1 : 0);
+
                 acting.Title.text = data[i]["item_name"].ToString();
                 acting.Description.text = data[i]["item_desc"].ToString();
                 acting.actName = splitedData[0];
@@ -109,11 +109,13 @@ public class DataManager : MonoBehaviour
 
                 obj.GetComponent<Button>().onClick.AddListener(() => 
                 {
-                    curWeek.GetComponent<Week>().acting = acting;
+                    curWeek.GetComponent<Week>().act = new Act(acting);
                 });
             }
         }
     }
+
+    
 
     CharacterStat GetChangement(int idx)
     {

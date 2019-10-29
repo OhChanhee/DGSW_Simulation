@@ -99,7 +99,7 @@ public class CharacterManager
                     if (isDecember) dateTime = new DateTime(dateTime.Year + 1, 1, 1);
                     else
                     {
-                        if(dateTime.Month == 3) Get_instance().grade++;
+                        if(dateTime.Month == 2 && _week > 2) Get_instance().grade++;
 
                         dateTime = new DateTime(dateTime.Year, dateTime.Month + 1, 1);
                     }
