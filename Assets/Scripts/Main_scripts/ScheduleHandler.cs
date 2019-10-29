@@ -16,13 +16,15 @@ public class ScheduleHandler : MonoBehaviour
     Coroutine showEachChar;
     List<Act> actList;
     List<float> progressPointList;
-    CharacterStat changement = CharacterStat.zero;
+    string nextScene;
+    bool hasEvent;
 
     Action onEndSchedule;
     
     // Start is called before the first frame update
     void Start()
     {
+        nextScene = "Main";
         actList = GameObject.Find("dataHolder").GetComponent<Schedule>().actList;
         InitProgressPointList();
         progressBar.onValueChanged.AddListener((float value) => CheckSchedule(value));
@@ -95,7 +97,7 @@ public class ScheduleHandler : MonoBehaviour
                     if (Input.anyKeyDown)
                     {
                         actList.Clear();
-                        SceneManager.LoadScene("Main");
+                        SceneManager.LoadScene(nextScene);
                     }
                 };
             });
@@ -111,5 +113,12 @@ public class ScheduleHandler : MonoBehaviour
         descText.text = act.Description;
         showEachChar = UIEffect.ShowEachChar(descText, .1f, () => dotRepeat = UIEffect.DotRepeat(descText, .5f, 3));
         behaviour.sprite = Resources.Load<Sprite>("Main/m_schedule/Category/m_" + act.Name);
+
+        if (act.IsEvent)
+        {
+            hasEvent = true;
+
+            nextScene = act.Name;
+        }
     }
 }
