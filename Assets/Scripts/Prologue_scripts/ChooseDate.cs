@@ -9,7 +9,7 @@ using System;
 public class ChooseDate : SceneBase
 {
     public Text tYear, tMonth;
-    public RawImage calendar;
+    //public RawImage calendar;
     GameObject[] objList;
     int year, month, day;
 
@@ -28,7 +28,7 @@ public class ChooseDate : SceneBase
         {
             obj.GetComponentInParent<Button>().onClick.AddListener(() =>
             {
-                day = Int32.Parse(obj.GetComponent<Text>().text);
+                day = Int32.Parse(obj.GetComponentInChildren<Text>().text);
                 CharacterManager.Get_instance().birthday = new DateTime(year, month, day);
                 CharacterManager.Get_instance().curdate.dateTime = new DateTime(CharacterManager.Get_instance().birthday.Year + 16, 3, 1);
                 nextScene = "Prologue_personality";
@@ -63,12 +63,12 @@ public class ChooseDate : SceneBase
 
         foreach(GameObject obj in objList)
         {
-            obj.GetComponent<Text>().text = "";
+            obj.GetComponentInChildren<Text>().text = "";
         }
 
         for (int i = 1, index = dayOfWeek.GetHashCode(); i <= maxDay; i++, index++)
         {
-            objList[index].GetComponent<Text>().text = i.ToString();
+            objList[index].GetComponentInChildren<Text>().text = i.ToString();
         }
     }
 }
