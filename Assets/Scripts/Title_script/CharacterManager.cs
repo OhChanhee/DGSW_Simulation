@@ -25,8 +25,9 @@ public class CharacterManager
     public string playerName;
     public Gender gender;
     public DateTime birthday;
-    public int grade;
-    public int season;
+    public Major major = Major.공통과;
+    public int grade = 1;
+    public int season = 1;
     public bool isCouple;
     public Gamedate curdate = new Gamedate();
     public Personality personality;

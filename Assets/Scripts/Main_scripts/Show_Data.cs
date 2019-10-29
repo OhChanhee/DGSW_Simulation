@@ -9,6 +9,9 @@ public class Show_Data : MonoBehaviour
     
     // 캐릭터 정보
     public Text playerName;
+    public Text grade;
+    public Text season;
+    public Text major;
     public DateTime birthday;
     public Text year;
     public Text month;
@@ -45,6 +48,9 @@ public class Show_Data : MonoBehaviour
         updateData = delegate ()
         {
             playerName.text = CharacterManager.Get_instance().playerName;
+            grade.text = CharacterManager.Get_instance().grade.ToString();
+            season.text = CharacterManager.Get_instance().season.ToString();
+            major.text = CharacterManager.Get_instance().major.ToString();
             year.text = CharacterManager.Get_instance().curdate.dateTime.Year.ToString();
             month.text = CharacterManager.Get_instance().curdate.dateTime.Month.ToString();
             Week.text = String.Format("{0}", CharacterManager.Get_instance().curdate.week);
