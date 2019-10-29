@@ -402,6 +402,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerName: {fileID: 828229873}
+  grade: {fileID: 524714990}
+  season: {fileID: 265133864}
+  major: {fileID: 830590560}
   year: {fileID: 1544330082}
   month: {fileID: 1851389016}
   Week: {fileID: 836918913}
@@ -1800,7 +1803,7 @@ GameObject:
   - component: {fileID: 524714991}
   - component: {fileID: 524714990}
   m_Layer: 5
-  m_Name: Ch_Class
+  m_Name: Ch_Grade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
