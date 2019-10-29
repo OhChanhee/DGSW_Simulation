@@ -41,7 +41,7 @@ public class Confirm : MonoBehaviour
 
             foreach (Week week in weekList)
             {
-                schedule.actList.Add(new Act(week.acting));
+                schedule.actList.Add(week.act);
             }
 
             SceneManager.LoadScene("Main_progress");
@@ -54,8 +54,10 @@ public class Confirm : MonoBehaviour
 
         for (int i = curWeekIdx; i < curWeekIdx + 3; i++)
         {
-            if(weeks[i].acting == null)
+            if(weeks[i].act == null)
             {
+                Debug.Log("CurWeek : " + weeks[i].name);
+                Debug.Log("안돼");
                 return false;
             }
         }
