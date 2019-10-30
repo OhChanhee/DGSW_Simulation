@@ -27,7 +27,7 @@ public class Week : MonoBehaviour
         data = CSVReader.Read("csvFolder/Action");
         for (int i = 0; i < data.Count; i++)
         {
-            if (isEvent(i))
+            if (hasEvent(i))
             {
                 Act act = new Act();
 
@@ -46,7 +46,7 @@ public class Week : MonoBehaviour
         gameObject.GetComponent<Button>().onClick.AddListener(Choose_Week);
     }
 
-    bool isEvent(int idx)
+    bool hasEvent(int idx)
     {
         return (CharacterManager.Get_instance().curdate.dateTime.Month.ToString() == data[idx]["month"].ToString() &&
         (CharacterManager.Get_instance().grade.ToString() == data[idx]["grade"].ToString() || "4" == data[idx]["grade"].ToString()) &&
