@@ -14,6 +14,9 @@ public class MoveTeacher : MonoBehaviour
     private float[,] places;
     private int place;
     private bool isPlayer = false;
+    private bool isRoam = false;
+    public bool isWin = false;
+    public bool isEnd = false;
 
     void Start()
     {
@@ -35,29 +38,56 @@ public class MoveTeacher : MonoBehaviour
         roam();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         seeing();
+    }
 
-        if ((vector.x + 1 >= teacherTransform.position.x && vector.x - 1 <= teacherTransform.position.x) && (vector.y + 1 >= teacherTransform.position.y && vector.y - 1 <= teacherTransform.position.y) && (vector.z + 1 >= teacherTransform.position.z && vector.z - 1 <= teacherTransform.position.z) || isPlayer == false)
+    void Update()
+    {
+        if(isEnd == false)
         {
-            roam();
+            if (isPlayer == true)
+            {
+                following();
+            }
+            else if (isPlayer == false)
+            {
+                if ((vector.x + 1 >= teacherTransform.position.x && vector.x - 1 <= teacherTransform.position.x) && (vector.y + 1 >= teacherTransform.position.y && vector.y - 1 <= teacherTransform.position.y) && (vector.z + 1 >= teacherTransform.position.z && vector.z - 1 <= teacherTransform.position.z))
+                {
+                    roam();
+                }
+                else if (isRoam == false)
+                {
+                    roam();
+                }
+            }
+        } else {
+            MinigameResult.LoadResultScene(isWin, setStat);
         }
-        else if(isPlayer == true)
-        {
-            playerVector = new Vector3(playerTransform.position.x, teacherTransform.position.y, playerTransform.position.z);
-            nva.SetDestination(playerVector);
-            Debug.Log(playerVector);
-        }
+    }
+
+    public void setStat()
+    {
+        CharacterManager.Get_instance().characterStat.stress += 20;
+        CharacterManager.Get_instance().characterStat.exercise += 10;
+        CharacterManager.Get_instance().characterStat.leadership += 5;
+    }
+
+    public void following()
+    {
+        playerVector = new Vector3(playerTransform.position.x, teacherTransform.position.y, playerTransform.position.z);
+        nva.speed = 20f;
+        nva.SetDestination(playerVector);
     }
 
     public void roam()
     {
         nva.speed = 15f;
         place = Rand();
-        Debug.Log(place);
         vector = new Vector3(places[place, 0], places[place, 1], places[place, 2]);
         nva.SetDestination(vector);
+        isRoam = true;
     }
 
     public int Rand()
@@ -67,20 +97,25 @@ public class MoveTeacher : MonoBehaviour
 
     public void seeing()
     {
-        float maxDistance = 50;
+        float maxDistance = 50f;
         RaycastHit hit;
 
         if (Physics.SphereCast(raiserPlace, transform.lossyScale.x / 2, transform.forward, out hit, maxDistance))
         {
-            Debug.Log(hit.transform.name);
             if(hit.transform.name == "Player")
             {
                 isPlayer = true;
             }
-            else
-            {
-                isPlayer = false;
-            }
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "Player")
+        {
+            isPlayer = false;
+            isEnd = true;
+            isWin = false;
         }
     }
 }

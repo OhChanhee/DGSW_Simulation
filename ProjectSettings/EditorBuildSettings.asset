@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scene/Prologue_gender.unity
     guid: 20ab206dfed747145adb0f85d95e1780
   - enabled: 1
+    path: Assets/Scene/Event/winterVacation.unity
+    guid: 83b331fc33ae917439eefa5f19828b12
+  - enabled: 1
     path: Assets/Scene/Prologue_name.unity
     guid: af3bd6a47874c6746bd0049dfa163fb6
   - enabled: 1
@@ -29,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resources/Result/Result.unity
     guid: 1f57d19dd30b9274ca127a87a9a2308f
+  - enabled: 1
+    path: Assets/Scene/Ending/Ending.unity
+    guid: 0654329b63e6b1545b4f546e492a75f8
+  - enabled: 1
+    path: Assets/Scene/PlateGame.unity
+    guid: bdff40783500089429f662192f9c3f4b
   - enabled: 1
     path: Assets/Scene/Ending/EndingScenes/ComposerEd.unity
     guid: d969cfa6d1596244ea81d38f01f30340
@@ -69,27 +78,60 @@ EditorBuildSettings:
     path: Assets/Scene/Main_progress.unity
     guid: 6fc1a94b72ecf634fb51c55fe9a7a17a
   - enabled: 1
-    path: Assets/Events/scenes/Birthday.unity
+    path: Assets/Scene/Events/scenes/Birthday.unity
     guid: 703b18a38ec06324f820949470b7a9df
   - enabled: 1
-    path: Assets/Events/scenes/BloodDonation.unity
+    path: Assets/Scene/Events/scenes/BloodDonation.unity
     guid: d0d49062c771204448daabba4192bd39
   - enabled: 1
-    path: Assets/Events/scenes/Confession.unity
+    path: Assets/Scene/Events/scenes/Confession.unity
     guid: e64c55789a9ed224fb8c8c90d81fdcbe
   - enabled: 1
-    path: Assets/Events/scenes/Election.unity
+    path: Assets/Scene/Events/scenes/Election.unity
     guid: 125659f63b0f4bc46b6643d43b51ca82
   - enabled: 1
-    path: Assets/Events/scenes/FunctionalTeam_call.unity
+    path: Assets/Scene/AvoidTeacher.unity
+    guid: cf24bc03ce1ae894c9523e18291aa2e2
+  - enabled: 1
+    path: Assets/Scene/Event/careerCamp.unity
+    guid: 48016886870e16940875b844f964dbfe
+  - enabled: 1
+    path: Assets/Scene/Event/christmas.unity
+    guid: 6bdcefa14f82033419d0d53d2cbceb03
+  - enabled: 1
+    path: Assets/Scene/Event/summerVacation.unity
+    guid: 3ac4f7e84007074499fdb7a35afdd412
+  - enabled: 1
+    path: Assets/Scene/Event/overseasTrip.unity
+    guid: 9a69602881c66e74aa9e8235cf8a951c
+  - enabled: 1
+    path: Assets/Scene/Event/ICT.unity
+    guid: e9295177a2f2eb348b0b79742648097e
+  - enabled: 1
+    path: Assets/Scene/Event/selecting_Major.unity
+    guid: 95b5964bb83e3744ea6e18dd6fa3d513
+  - enabled: 1
+    path: Assets/Scene/Event/springVacation.unity
+    guid: a9ec51deb2d04364d8d11e455b0fd15e
+  - enabled: 1
+    path: Assets/Scene/HideGame.unity
+    guid: f94fc1e05e493704281fe277c85ad7f9
+  - enabled: 1
+    path: Assets/Scene/Events/scenes/FunctionalTeamCall.unity
     guid: 66772082ae4381b4b874c9434a7c6377
   - enabled: 1
-    path: Assets/Events/scenes/Hospital.unity
+    path: Assets/Scene/Events/scenes/Hospital.unity
     guid: ff4756a4eb47fdc41800429c277a9990
   - enabled: 1
-    path: Assets/Events/scenes/Messenger_call.unity
+    path: Assets/Scene/Event/narsha.unity
+    guid: 77de9b29ff3ed7e458f115e932f6b101
+  - enabled: 1
+    path: Assets/Scene/Events/scenes/MessengerCall.unity
     guid: 0fbb1d612f59dbb4290d9bf122ab39ae
   - enabled: 1
-    path: Assets/Events/scenes/Project_call.unity
+    path: Assets/Scene/Events/scenes/ProjectCall.unity
     guid: 5fe2702e26524b642aa1d378027c9243
+  - enabled: 1
+    path: Assets/Scene/Event/sportDay.unity
+    guid: 5e44a08bae21607499f7d0849208c508
   m_configObjects: {}

@@ -24,7 +24,7 @@ public class SceneControl : MonoBehaviour
         StartCoroutine(ShowContents(()=>
         {
             UIEffect.Fade(canvasGroup, 0f, 1f);
-            TaskManager.Delay(1f, () => SceneManager.LoadScene("EndingCredit"));
+            TaskManager.Delay(1f, () => SceneManager.LoadScene("Intro"));
         }));
     }
 

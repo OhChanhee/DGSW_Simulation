@@ -6,6 +6,6 @@ public class Exit_Game : Tap
 {
     public void Onclick_Yes()
     {
-        Debug.Log("게임 종료");
+        Application.Quit();
     }
 }

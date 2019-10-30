@@ -24,10 +24,11 @@ public class CharacterManager
     // 캐릭터의 정보
     public string playerName;
     public Gender gender;
-    public DateTime birthday;
+    public Gamedate birthday = new Gamedate();
     public Major major = Major.공통과;
     public int grade = 1;
     public int season = 1;
+    public bool hasTeam;
     public bool isCouple;
     public Gamedate curdate = new Gamedate();
     public Personality personality;
@@ -75,38 +76,36 @@ public class CharacterManager
 
         return characterManager;
     }
+}
 
-    [Serializable]
-    public class Gamedate
+[Serializable]
+public class Gamedate
+{
+    DateTime _dateTime = new DateTime();
+    public DateTime dateTime
     {
-        DateTime _dateTime = new DateTime();
-        public System.DateTime dateTime
-        {
-            get { return _dateTime; }
-            set { _dateTime = value; }
-        }
+        get { return _dateTime; }
+        set { _dateTime = value; }
+    }
 
-        int _week = 1;
-        public int week
+    int _week = 1;
+    public int week
+    {
+        get { return _week; }
+        set
         {
-            get { return _week; }
-            set
+            if (value > 4)
             {
-                if(value > 4)
+                bool isDecember = (dateTime.Month == 12);
+
+                if (isDecember) dateTime = new DateTime(dateTime.Year + 1, 1, 1);
+                else if (dateTime.Month == 2 && _week > 2) CharacterManager.Get_instance().grade++;
+                else
                 {
-                    bool isDecember = (dateTime.Month == 12);
-
-                    if (isDecember) dateTime = new DateTime(dateTime.Year + 1, 1, 1);
-                    else
-                    {
-                        if(dateTime.Month == 3) Get_instance().grade++;
-
-                        dateTime = new DateTime(dateTime.Year, dateTime.Month + 1, 1);
-                    }
+                    dateTime = new DateTime(dateTime.Year, dateTime.Month + 1, 1);
                 }
-                _week = value > 4 || value < 1 ? value % 4 : value;
             }
+            _week = value > 4 || value < 1 ? value % 4 : value;
         }
     }
 }
-

@@ -8,6 +8,7 @@ public class EndingList : MonoBehaviour
 {
     public GameObject contents;
     public VerticalLayoutGroup verticalGroup;
+    public CanvasGroup canvasGroup;
     List<Ending> endingList;
 
     // Start is called before the first frame update
@@ -43,6 +44,25 @@ public class EndingList : MonoBehaviour
             Ending instance = ScriptableObject.CreateInstance(type) as Ending;
             endingList.Add(instance);
         }
+
+        foreach(Ending ending in endingList)
+        {
+            GameObject content = GameObject.Find(ending.GetType().Name);
+
+            if (ending.CheckPossibility())
+            {
+                Button button = content.GetComponent<Button>();
+                button.interactable = true;
+
+                button.onClick.AddListener(() =>
+                {
+                    UIEffect.Fade(canvasGroup, 0f, 1f);
+                    TaskManager.Delay(1f, () => ending.LoadEnding());
+                });
+
+                content.GetComponent<Image>().sprite = Resources.Load<Sprite>("Ending/Image/el_unlockListItem");
+            }
+        }
     }
 
     void UpdateEndingList()
@@ -54,7 +74,7 @@ public class EndingList : MonoBehaviour
             {
                 if (!ending.CheckPossibility()) return;
 
-                UIEffect.Fade(GetComponent<CanvasGroup>(), 0f, 1f);
+                UIEffect.Fade(canvasGroup, 0f, 1f);
                 TaskManager.Delay(1f, () => ending.LoadEnding());
             });
         }
