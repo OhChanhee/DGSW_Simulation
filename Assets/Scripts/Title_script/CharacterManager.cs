@@ -28,6 +28,7 @@ public class CharacterManager
     public Major major = Major.공통과;
     public int grade = 1;
     public int season = 1;
+    public bool hasTeam;
     public bool isCouple;
     public Gamedate curdate = new Gamedate();
     public Personality personality;
