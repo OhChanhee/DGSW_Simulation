@@ -12,6 +12,7 @@ public class ScheduleHandler : MonoBehaviour
     public Slider progressBar;
     public Text descText;
     public GameObject scoreBoard;
+
     Coroutine dotRepeat;
     Coroutine showEachChar;
     List<Act> actList;
@@ -80,6 +81,8 @@ public class ScheduleHandler : MonoBehaviour
     {
         if(value >= progressBar.maxValue)
         {
+
+
             CharacterManager.Get_instance().curdate.week += 2;
 
             TaskManager.Delay(1f, () => {

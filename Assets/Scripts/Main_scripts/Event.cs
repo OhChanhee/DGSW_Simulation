@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 
 public abstract class Event : ScriptableObject
 {
+    public int Priority = 0;
+    
     public abstract bool HasEvent();
 
     public void LoadEvent()
