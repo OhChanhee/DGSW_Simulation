@@ -1163,7 +1163,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BGM_Speaker: {fileID: 1385079709}
   Effect_Speaker: {fileID: 1385079711}
-  BGM: []
+  BGM:
+  - {fileID: 8300000, guid: 478ae81e784b2c24587ce2204bf41230, type: 3}
+  - {fileID: 8300000, guid: 3e49e6937b60c2b449c2f8effff75b78, type: 3}
+  - {fileID: 8300000, guid: 19fa2e2993729ba48a2b0fded640a717, type: 3}
+  - {fileID: 8300000, guid: 463824b803eb8fa43b1be2fc727189f6, type: 3}
+  - {fileID: 8300000, guid: ff1f469acd75f1c4a9bb56ebcd40f056, type: 3}
+  - {fileID: 8300000, guid: c5dc004272850d44db502515d440f494, type: 3}
+  - {fileID: 8300000, guid: 1dc741e0d59495041958ccd6bc8b59ca, type: 3}
   EffectSound: []
 --- !u!82 &1385079709
 AudioSource:
@@ -1478,7 +1485,7 @@ RectTransform:
   m_GameObject: {fileID: 1509578619}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.01, y: 1.01, z: 1.01}
   m_Children: []
   m_Father: {fileID: 926647611}
   m_RootOrder: 7
@@ -1834,6 +1841,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8018895360599303338, guid: dab6564e5af080f47bba017351d90660,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Onclick_apply_btn
+      objectReference: {fileID: 0}
     - target: {fileID: 3254764788312345511, guid: dab6564e5af080f47bba017351d90660,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2028,11 +2040,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Onclick_init_btn
-      objectReference: {fileID: 0}
-    - target: {fileID: 8018895360599303338, guid: dab6564e5af080f47bba017351d90660,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Onclick_apply_btn
       objectReference: {fileID: 0}
     - target: {fileID: 3254764788937779743, guid: dab6564e5af080f47bba017351d90660,
         type: 3}

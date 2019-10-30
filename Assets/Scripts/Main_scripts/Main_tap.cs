@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Main_tap : MonoBehaviour
 {
@@ -28,6 +29,16 @@ public class Main_tap : MonoBehaviour
     {
         option.SetActive(true);
         Pause_Tap.SetActive(false);
+    }
+
+    public void OnClick_GoTitle()
+    {
+        SceneManager.LoadScene("Title");
+
+        CharacterManager instance = CharacterManager.Get_instance();
+        instance = new CharacterManager();
+        
+        CharacterManager.Get_instance().characterStat = new CharacterManager().characterStat;
     }
 
    

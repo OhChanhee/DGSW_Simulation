@@ -99,9 +99,13 @@ public class Gamedate
                 bool isDecember = (dateTime.Month == 12);
 
                 if (isDecember) dateTime = new DateTime(dateTime.Year + 1, 1, 1);
-                else if (dateTime.Month == 2 && _week > 2) CharacterManager.Get_instance().grade++;
                 else
                 {
+                    if (dateTime.Month == 2 && _week > 2)
+                    {
+                        CharacterManager.Get_instance().grade++;
+                    }
+
                     dateTime = new DateTime(dateTime.Year, dateTime.Month + 1, 1);
                 }
             }
