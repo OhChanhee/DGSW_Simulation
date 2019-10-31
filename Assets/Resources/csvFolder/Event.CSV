@@ -1,4 +1,4 @@
-item_index,item_name,item_var_name,item_desc,hp,sociability,intelligence,sensibility,charm,fatigue,stress,music,design,exercise,creative,leadership,rewardPoint,web,windows,mobile,embedded,server,game,database,dataStructure,grade,month,week
+item_index,item_name,item_var_name,item_desc,hp,sociability,intelligence,sensibility,charm,fatigue,stress,music,design,exercise,creative,leadership,rewardPoint,web,operSystem,mobile,embedded,server,game,database,dataStructure,grade,month,week
 200,화재 예방 교육,firePreventionTrainingEv,기숙사에서 화재 예방 교육을 하는 게임이다.,,,5,,,10,,,,,,5,,,,,,,,,,4,,
 201,메신저 제의,suggestionMessengerEv,바인드에서 스카웃제의가 들어오는 이벤트이다.,,15,50,,,10,5,,,,10,20,,30,30,30,,30,,30,30,,,
 202,기능반 제의,suggestionFunctionalClassEv,기능반에서 스카웃제의가 들어오는 이벤트이다.,,15,20,,,10,5,,,-10,,,,20,20,,,,,20,20,,,

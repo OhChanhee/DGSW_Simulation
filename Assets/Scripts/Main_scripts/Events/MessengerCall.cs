@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Messenger : Event
+public class MessengerCall : Event
 {
-    public Messenger()
+    public MessengerCall()
     {
         Priority =  1;
     }

@@ -12,6 +12,9 @@ public class HospitalScript : SceneBase
     {
         submit.onClick.AddListener(() => {
             nextScene = "Main";
+
+            AddStat("sick");
+
             EndScene();
         });
 

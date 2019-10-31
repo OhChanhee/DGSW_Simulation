@@ -25,7 +25,7 @@ public class CharacterManager
     // 캐릭터의 정보
     public string playerName;
     public Gender gender;
-    public Gamedate birthday = new Gamedate();
+    public BirthdayDate birthday = new BirthdayDate();
     public Major major = Major.공통과;
     public int grade = 1;
     public int season = 1;
@@ -92,6 +92,19 @@ public class CharacterManager
         stream.Close();
 
         return characterManager;
+    }
+}
+
+[Serializable]
+public class BirthdayDate
+{
+    public int grade = 1;
+
+    Gamedate _gamedate = new Gamedate();
+    public Gamedate gamedate
+    {
+        get { return _gamedate; }
+        set { _gamedate = value; }
     }
 }
 

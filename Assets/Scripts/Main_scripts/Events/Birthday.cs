@@ -10,7 +10,7 @@ public class Birthday : Event
     {
         CharacterManager instance = CharacterManager.Get_instance();
         Gamedate curdate = instance.curdate;
-        Gamedate birthday = instance.birthday;
-        return (curdate.dateTime.Month == birthday.dateTime.Month && curdate.week == birthday.week);
+        BirthdayDate birthday = instance.birthday;
+        return (curdate.dateTime.Month == birthday.gamedate.dateTime.Month && (curdate.week == birthday.gamedate.week - 1 || curdate.week == birthday.gamedate.week) && instance.birthday.grade == instance.grade);
     }
 }

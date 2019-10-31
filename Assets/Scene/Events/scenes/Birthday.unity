@@ -525,11 +525,69 @@ PrefabInstance:
       propertyPath: m_Text
       value: "\uB2F9\uC2E0\uC758 \uC0DD\uC77C\uC785\uB2C8\uB2E4!"
       objectReference: {fileID: 0}
+    - target: {fileID: 1474367490042276131, guid: 77e33b03f465f9442add7eaa3a4bae9f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474367490042276131, guid: 77e33b03f465f9442add7eaa3a4bae9f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474367490230048562, guid: 77e33b03f465f9442add7eaa3a4bae9f,
+        type: 3}
+      propertyPath: m_Alpha
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474367490042276130, guid: 77e33b03f465f9442add7eaa3a4bae9f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474367490042276128, guid: 77e33b03f465f9442add7eaa3a4bae9f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474367490042276128, guid: 77e33b03f465f9442add7eaa3a4bae9f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474367490042276128, guid: 77e33b03f465f9442add7eaa3a4bae9f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474367490042276128, guid: 77e33b03f465f9442add7eaa3a4bae9f,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 862af3a6299dea94cbe4f805f0684487, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e33b03f465f9442add7eaa3a4bae9f, type: 3}
 --- !u!224 &1270472699 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1474367490967762641, guid: 77e33b03f465f9442add7eaa3a4bae9f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1270472698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1270472700 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1474367489798538956, guid: 77e33b03f465f9442add7eaa3a4bae9f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1270472698}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &1270472701 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 1474367490230048562, guid: 77e33b03f465f9442add7eaa3a4bae9f,
     type: 3}
   m_PrefabInstance: {fileID: 1270472698}
   m_PrefabAsset: {fileID: 0}
@@ -617,11 +675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83ad1c6889244144590fa8271cb8bc00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 1460641772}
+  canvasGroup: {fileID: 1270472701}
   submit: {fileID: 483041385}
---- !u!223 &1460641772 stripped
-Canvas:
-  m_CorrespondingSourceObject: {fileID: 1474367490230048561, guid: 77e33b03f465f9442add7eaa3a4bae9f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1270472698}
-  m_PrefabAsset: {fileID: 0}
+  text: {fileID: 1270472700}

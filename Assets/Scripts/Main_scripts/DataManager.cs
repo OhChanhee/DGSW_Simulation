@@ -105,6 +105,8 @@ public class DataManager : MonoBehaviour
                 acting.category = curCategory;
                 acting.Changement = GetChangement(i);
 
+                acting.IsEvent = (splitedData[1] == "event");
+
                 obj.GetComponent<Image>().sprite = Resources.Load("Main/m_schedule/" + data[i]["item_var_name"], typeof(Sprite)) as Sprite;
 
                 obj.GetComponent<Button>().onClick.AddListener(() => 
