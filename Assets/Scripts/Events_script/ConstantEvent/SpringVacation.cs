@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class SpringVacation : MonoBehaviour
 {
@@ -22,6 +23,9 @@ public class SpringVacation : MonoBehaviour
     void ChangeStat()
     {
         CharacterManager.Get_instance().characterStat += changement;
-        CharacterManager.Get_instance().curdate.dateTime.AddMonths(1);
+
+        DateTime curTime = CharacterManager.Get_instance().curdate.dateTime;
+
+        CharacterManager.Get_instance().curdate.dateTime = new DateTime(curTime.Year, curTime.Month == 12 ? 1 : curTime.Month + 1, curTime.Day);
     }
 }

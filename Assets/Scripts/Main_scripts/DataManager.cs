@@ -130,10 +130,13 @@ public class DataManager : MonoBehaviour
                 continue;
             }
 
-            object value = data[idx][propertyName];
+            string value = data[idx][propertyName].ToString();
 
             if (value.ToString().Length == 0) continue;
-            property.SetValue(result, int.Parse(data[idx][propertyName].ToString()));
+
+            int integerValue = int.Parse(value);
+            
+            property.SetValue(result, integerValue);
         }
 
         return result;

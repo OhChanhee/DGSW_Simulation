@@ -14,6 +14,6 @@ public class Hospital : Event
 
     public override bool HasEvent()
     {
-        return (CharacterManager.Get_instance().characterStat.hp <= 0);
+        return (CharacterManager.Get_instance().characterStat.hp < CharacterManager.Get_instance().characterStat.fatigue);
     }
 }

@@ -24,7 +24,7 @@ public class Week : MonoBehaviour
 
     void Start()
     {
-        data = CSVReader.Read("csvFolder/Action");
+        data = CSVReader.Read("csvFolder/Event");
         for (int i = 0; i < data.Count; i++)
         {
             if (hasEvent(i))

@@ -81,8 +81,6 @@ public class ScheduleHandler : MonoBehaviour
     {
         if(value >= progressBar.maxValue)
         {
-
-
             CharacterManager.Get_instance().curdate.week += 2;
 
             TaskManager.Delay(1f, () => {
