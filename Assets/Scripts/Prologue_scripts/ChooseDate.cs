@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Events;
 using System;
 
-public class ChooseDate : SceneBase
+public class ChooseDate : EventScript
 {
     public Text tYear, tMonth;
     //public RawImage calendar;
@@ -20,7 +20,7 @@ public class ChooseDate : SceneBase
     }
 
     // Start is called before the first frame update
-    new void Start()
+    void Start()
     {
         objList = GameObject.FindGameObjectsWithTag("Day");
 
@@ -33,12 +33,12 @@ public class ChooseDate : SceneBase
                 CharacterManager.Get_instance().birthday.gamedate.week = Math.Min(day / 7 + 1, 4);
                 CharacterManager.Get_instance().curdate.dateTime = new DateTime(CharacterManager.Get_instance().birthday.gamedate.dateTime.Year + 16, 3, 1);
                 nextScene = "Prologue_personality";
-                base.EndScene();
+
+                EndScene();
             });
         }
 
         Show();
-        base.Start();
     }
 
     // Update is called once per frame

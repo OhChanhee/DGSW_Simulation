@@ -5,49 +5,30 @@ using UnityEngine.SceneManagement;
 using System;
 using System.Reflection;
 
-public abstract class SceneBase : MonoBehaviour
+public abstract class EventScript : MonoBehaviour
 {
     public CanvasGroup canvasGroup;
-    protected Action endScene = () => { };
-    protected float fadeInTime = 1f;
-    protected float fadeOutTime = 1f;
-    protected string nextScene = null;
-    protected List<Dictionary<string, object>> data;
 
-    // Start is called before the first frame update
-    protected void Start()
+    protected string nextScene = "Main";
+    List<Dictionary<string, object>> fixedEventData;
+
+    private void Awake()
     {
-        canvasGroup.alpha = 0f;
-        UIEffect.Fade(canvasGroup, 1f ,fadeInTime);
-
-        data = CSVReader.Read("csvFolder/Event");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        fixedEventData = CSVReader.Read("csvFolder/FixedEvent");
     }
 
     protected void EndScene()
     {
-        endScene();
-
-        if(nextScene != null)
-        {
-            TaskManager.Delay(fadeOutTime, () => SceneManager.LoadScene(nextScene, LoadSceneMode.Single));
-        }
-
-        UIEffect.Fade(canvasGroup, 0f, fadeOutTime);
+        SceneManager.LoadScene(nextScene);
     }
-
+    
     protected void AddStat(string eventName)
     {
-        if (data == null) return;
+        if (fixedEventData == null) return;
 
-        for (int i = 0; i < data.Count; i++)
+        for (int i = 0; i < fixedEventData.Count; i++)
         {
-            if (data[i]["item_var_name"].ToString() == (eventName + "Ev"))
+            if (fixedEventData[i]["item_var_name"].ToString() == (eventName + "Ev"))
             {
                 CharacterManager.Get_instance().characterStat += GetChangement(i);
             }
@@ -67,7 +48,7 @@ public abstract class SceneBase : MonoBehaviour
                 continue;
             }
 
-            string value = data[idx][propertyName].ToString();
+            string value = fixedEventData[idx][propertyName].ToString();
 
             if (value.ToString().Length == 0) continue;
 

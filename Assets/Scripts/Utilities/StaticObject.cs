@@ -14,11 +14,14 @@ namespace Assets.Scripts.Utilities
         {
             get
             {
-                mInstance = FindObjectOfType<StaticObject>();
-
-                if(mInstance == null)
+                if (mInstance == null)
                 {
-                    mInstance = new GameObject("StaticObject").AddComponent<StaticObject>();
+                    mInstance = FindObjectOfType<StaticObject>();
+
+                    if (mInstance == null)
+                    {
+                        mInstance = new GameObject("StaticObject").AddComponent<StaticObject>();
+                    }
                 }
 
                 return mInstance;

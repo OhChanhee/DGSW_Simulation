@@ -14,7 +14,7 @@ public class DataManager : MonoBehaviour
     public eCategory[] WeekendCategories = new eCategory[ButtonCount];
     public GameObject Contents;
     public GameObject WeekHolder;
-    List<Dictionary<string, object>> data;
+    List<Dictionary<string, object>> actionData;
     Week week;
     eCategory curCategory;
 
@@ -35,13 +35,29 @@ public class DataManager : MonoBehaviour
 
     void Start()
     {
-        data = CSVReader.Read("csvFolder/Action");
-        foreach(Button button in WeekHolder.GetComponentsInChildren<Button>())
+        InitActionData();
+
+        AddListenerOnWeeks();
+
+        AddListenerOnCategories();
+    }
+
+    void InitActionData()
+    {
+        actionData = CSVReader.Read("csvFolder/Action");
+    }
+
+    void AddListenerOnWeeks()
+    {
+        foreach (Button button in WeekHolder.GetComponentsInChildren<Button>())
         {
             button.onClick.AddListener(() => ClearContents());
         }
+    }
 
-        for (int i = 0; i < 3; i++) 
+    void AddListenerOnCategories()
+    {
+        for (int i = 0; i < 3; i++)
         {
             int idx = i;
             Categories[i].onClick.AddListener(() =>
@@ -75,6 +91,8 @@ public class DataManager : MonoBehaviour
     {
         ClearContents();
 
+        InitContentsRect();
+
         InsertActData();
     }
 
@@ -88,9 +106,9 @@ public class DataManager : MonoBehaviour
 
     void InsertActData()
     {
-        for (int i = 0; i < data.Count; i++)
+        for (int i = 0; i < actionData.Count; i++)
         {
-            string[] splitedData = data[i]["item_var_name"].ToString().Split(new char[] { '_' });
+            string[] splitedData = actionData[i]["item_var_name"].ToString().Split(new char[] { '_' });
 
             if (splitedData.Length > 1 && splitedData[1] == curCategory.ToString())
             {
@@ -99,22 +117,40 @@ public class DataManager : MonoBehaviour
 
                 Acting acting = obj.GetComponent<Acting>();
 
-                acting.Title.text = data[i]["item_name"].ToString();
-                acting.Description.text = data[i]["item_desc"].ToString();
+                acting.Title.text = actionData[i]["item_name"].ToString();
+                acting.Description.text = actionData[i]["item_desc"].ToString();
                 acting.actName = splitedData[0];
                 acting.category = curCategory;
                 acting.Changement = GetChangement(i);
 
-                acting.IsEvent = (splitedData[1] == "event");
-
-                obj.GetComponent<Image>().sprite = Resources.Load("Main/m_schedule/" + data[i]["item_var_name"], typeof(Sprite)) as Sprite;
+                obj.GetComponent<Image>().sprite = Resources.Load("Main/m_schedule/" + actionData[i]["item_var_name"], typeof(Sprite)) as Sprite;
 
                 obj.GetComponent<Button>().onClick.AddListener(() => 
                 {
                     curWeek.GetComponent<Week>().act = new Act(acting);
                 });
+
+                IncreaseContentsHeight((obj.transform as RectTransform).rect.height);
             }
         }
+
+        
+    }
+
+    void InitContentsRect()
+    {
+        RectTransform rectTransform = Contents.transform as RectTransform;
+
+        Rect curRect = rectTransform.rect;
+        rectTransform.sizeDelta = new Vector2(curRect.width, 0);
+    }
+
+    void IncreaseContentsHeight(float additionalHeight)
+    {
+        RectTransform rectTransform = Contents.transform as RectTransform;
+        
+        Rect curRect = rectTransform.rect;
+        rectTransform.sizeDelta = new Vector2(curRect.width, curRect.height + additionalHeight);
     }
 
     
@@ -132,7 +168,7 @@ public class DataManager : MonoBehaviour
                 continue;
             }
 
-            string value = data[idx][propertyName].ToString();
+            string value = actionData[idx][propertyName].ToString();
 
             if (value.ToString().Length == 0) continue;
 

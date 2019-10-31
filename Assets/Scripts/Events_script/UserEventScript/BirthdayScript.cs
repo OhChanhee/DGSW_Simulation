@@ -4,15 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class BirthdayScript : SceneBase
+public class BirthdayScript : EventScript
 {
     public Button submit;
 
     // Start is called before the first frame update
-    new void Start()
+    void Start()
     {
-        nextScene = "Main";
-
         CharacterManager.Get_instance().birthday.grade++;
 
         submit.onClick.AddListener(() => {
@@ -20,13 +18,5 @@ public class BirthdayScript : SceneBase
 
             EndScene();
         });
-
-        base.Start();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

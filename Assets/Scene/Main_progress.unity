@@ -399,7 +399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -430,11 +430,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 123408012}
     m_Modifications:
-    - target: {fileID: 8090801086852280982, guid: 8eea22ffb55d7f04db5ba1973b91230b,
-        type: 3}
-      propertyPath: m_Name
-      value: TextBox
-      objectReference: {fileID: 0}
     - target: {fileID: 8090801086852280983, guid: 8eea22ffb55d7f04db5ba1973b91230b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -539,6 +534,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090801086852280982, guid: 8eea22ffb55d7f04db5ba1973b91230b,
+        type: 3}
+      propertyPath: m_Name
+      value: TextBox
       objectReference: {fileID: 0}
     - target: {fileID: 8090801086852280984, guid: 8eea22ffb55d7f04db5ba1973b91230b,
         type: 3}

@@ -4,9 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Week : MonoBehaviour
 {
-    List<Dictionary<string, object>> data;
     public int NumOfWeek;
     public bool isWeekend;
+
+    List<Dictionary<string, object>> fixedEventData;
+
     private Act _act;
     public Act act
     {
@@ -24,17 +26,40 @@ public class Week : MonoBehaviour
 
     void Start()
     {
-        data = CSVReader.Read("csvFolder/Event");
-        for (int i = 0; i < data.Count; i++)
+        InitWeek();
+
+        InitEventData();
+
+        CheckEvent();
+
+        gameObject.GetComponent<Button>().onClick.AddListener(Choose_Week);
+    }
+
+    void InitWeek()
+    {
+        int curWeek = CharacterManager.Get_instance().curdate.week;
+
+        if (NumOfWeek == curWeek || NumOfWeek == curWeek + 1)
+            GetComponent<Button>().interactable = true;
+    }
+
+    void InitEventData()
+    {
+        fixedEventData = CSVReader.Read("csvFolder/FixedEvent");
+    }
+
+    void CheckEvent()
+    {
+        for (int i = 0; i < fixedEventData.Count; i++)
         {
-            if (hasEvent(i))
+            if (hasFixedEvent(i))
             {
                 Act act = new Act();
 
-                act.Title = data[i]["item_name"].ToString();
-                act.Name = data[i]["item_var_name"].ToString();
-                act.Description = data[i]["item_desc"].ToString();
-                act.Changement = CharacterStat.zero;              
+                act.Title = fixedEventData[i]["item_name"].ToString();
+                act.Name = fixedEventData[i]["item_var_name"].ToString();
+                act.Description = fixedEventData[i]["item_desc"].ToString();
+                act.Changement = CharacterStat.zero;
                 act.IsEvent = true;
 
                 GetComponent<Button>().interactable = false;
@@ -42,34 +67,18 @@ public class Week : MonoBehaviour
                 this.act = act;
             }
         }
-
-        gameObject.GetComponent<Button>().onClick.AddListener(Choose_Week);
     }
 
-    bool hasEvent(int idx)
+    bool hasFixedEvent(int idx)
     {
-        return (CharacterManager.Get_instance().curdate.dateTime.Month.ToString() == data[idx]["month"].ToString() &&
-        (CharacterManager.Get_instance().grade.ToString() == data[idx]["grade"].ToString() || "4" == data[idx]["grade"].ToString()) &&
-        GetComponent<Week>().NumOfWeek.ToString() == data[idx]["week"].ToString() &&
+        return (CharacterManager.Get_instance().curdate.dateTime.Month.ToString() == fixedEventData[idx]["month"].ToString() &&
+        (CharacterManager.Get_instance().grade.ToString() == fixedEventData[idx]["grade"].ToString() || "4" == fixedEventData[idx]["grade"].ToString()) &&
+        GetComponent<Week>().NumOfWeek.ToString() == fixedEventData[idx]["week"].ToString() &&
         !isWeekend);
     }
 
     public void Choose_Week()
-    {      
-        if (CharacterManager.Get_instance().curdate.week == 1)
-        {
-            if (NumOfWeek == 1 || NumOfWeek == 2)
-            {
-                FindObjectOfType<DataManager>().curWeek = gameObject;
-                   
-            }
-        }
-        else if (CharacterManager.Get_instance().curdate.week == 3)
-        {
-            if (NumOfWeek == 3 || NumOfWeek == 4)
-            {
-                FindObjectOfType<DataManager>().curWeek = gameObject;
-            }
-        }
+    {
+        FindObjectOfType<DataManager>().curWeek = gameObject;
     }
 }

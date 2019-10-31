@@ -13,20 +13,19 @@ public class ScheduleHandler : MonoBehaviour
     public Text descText;
     public GameObject scoreBoard;
 
-    Coroutine dotRepeat;
     Coroutine showEachChar;
+    GameObject dataHolder;
     List<Act> actList;
     List<float> progressPointList;
-    string nextScene;
-    bool hasEvent;
+    string nextScene = "Main";
 
     Action onEndSchedule;
     
     // Start is called before the first frame update
     void Start()
     {
-        nextScene = "Main";
-        actList = GameObject.Find("dataHolder").GetComponent<Schedule>().actList;
+        dataHolder = GameObject.Find("dataHolder");
+        actList = dataHolder.GetComponent<Schedule>().actList;
         InitProgressPointList();
         progressBar.onValueChanged.AddListener((float value) => CheckSchedule(value));
         StartCoroutine(ProgressSchedule());
@@ -40,12 +39,22 @@ public class ScheduleHandler : MonoBehaviour
 
     void InitProgressPointList()
     {
-        progressPointList = new List<float>();
+        progressBar.value = dataHolder.GetComponent<Schedule>().progressPoint;
 
-        progressPointList.Add(0f);
-        progressPointList.Add(5f / 14f);
-        progressPointList.Add(7f / 14f);
-        progressPointList.Add(12f / 14f);
+        progressPointList = new List<float>()
+        {
+            0f,
+            .25f,
+            .5f,
+            .75f
+        };
+
+        progressPointList.ForEach((float value) =>
+        {
+            value *= progressBar.maxValue;
+        });
+
+        progressPointList = progressPointList.FindAll((float value) => { return value > progressBar.value - progressPointList[1]; });
     }
 
     IEnumerator ProgressSchedule()
@@ -54,7 +63,7 @@ public class ScheduleHandler : MonoBehaviour
 
         while(progressBar.value < progressBar.maxValue)
         {
-            progressBar.value += progressBar.maxValue * Time.deltaTime / 10;
+            progressBar.value += progressBar.maxValue * Time.deltaTime / 5;
 
             yield return new WaitForEndOfFrame();
         }
@@ -64,6 +73,12 @@ public class ScheduleHandler : MonoBehaviour
     {
         if (value > progressPointList[1])
         {
+            if (actList[0].IsEvent)
+            {
+                dataHolder.GetComponent<Schedule>().progressPoint = progressBar.value;
+                SceneManager.LoadScene(actList[0].Name);
+            }
+
             progressPointList.RemoveAt(0);
             actList.RemoveAt(0);
 
@@ -79,44 +94,42 @@ public class ScheduleHandler : MonoBehaviour
 
     void CheckScheduleEnd(float value)
     {
-        if(value >= progressBar.maxValue)
+        if (value < progressBar.maxValue) return;
+
+        CharacterManager.Get_instance().curdate.week += 2;
+
+        TaskManager.Delay(1f, EndSchedule);
+    }
+
+    void EndSchedule()
+    {
+        if (showEachChar != null) StopCoroutine(showEachChar);
+
+        Destroy(dataHolder);
+        behaviour.sprite = null;
+        descText.text = "계속하려면 아무키를 입력하십시오...";
+
+        scoreBoard.SetActive(true);
+
+        onEndSchedule = () =>
         {
-            CharacterManager.Get_instance().curdate.week += 2;
-
-            TaskManager.Delay(1f, () => {
-                StopCoroutine(dotRepeat);
-                StopCoroutine(showEachChar);
-
-                Destroy(GameObject.Find("dataHolder"));
-                behaviour.sprite = null;
-                descText.text = "계속하려면 아무키를 입력하십시오...";
-
-                scoreBoard.SetActive(true);
-
-                onEndSchedule = () =>
-                {
-                    if (Input.anyKeyDown)
-                    {
-                        actList.Clear();
-                        SceneManager.LoadScene(nextScene);
-                    }
-                };
-            });
-        }
+            if (Input.anyKeyDown)
+            {
+                actList.Clear();
+                SceneManager.LoadScene(nextScene);
+            }
+        };
     }
 
     void UpdateSchedule()
     {
         Act act = actList[0];
-        if (dotRepeat != null) StopCoroutine(dotRepeat);
+
         if (showEachChar != null) StopCoroutine(showEachChar);
         CharacterManager.Get_instance().characterStat += act.Changement;
 
         descText.text = act.Description;
-        showEachChar = UIEffect.ShowEachChar(descText, .1f, () => 
-        {
-            if(!act.IsEvent) dotRepeat = UIEffect.DotRepeat(descText, .5f, 3);
-        });
+        showEachChar = UIEffect.ShowEachChar(descText, .05f);
         behaviour.sprite = Resources.Load<Sprite>("Main/m_schedule/Category/m_" + act.Name);
 
         CheckEvent(act);
@@ -126,8 +139,6 @@ public class ScheduleHandler : MonoBehaviour
     {
         if (act.IsEvent)
         {
-            hasEvent = true;
-
             nextScene = act.Name;
         }
     }

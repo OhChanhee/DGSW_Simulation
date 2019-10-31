@@ -224,7 +224,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 1fe8f581dfb07364bbc499cb99acd3d0, type: 3}
+  m_Texture: {fileID: 2800000, guid: a228ba2ecbab7b54c8ccacf7a4806d3b, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -653,7 +653,7 @@ MonoBehaviour:
   showCharInterval: 0.1
   canvasGroup: {fileID: 1864952459}
   next_btn: {fileID: 1780754465}
-  nextScene: Main
+  nextScene: Main_progress
 --- !u!225 &1864952459
 CanvasGroup:
   m_ObjectHideFlags: 0

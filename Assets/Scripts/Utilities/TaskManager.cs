@@ -28,4 +28,9 @@ public class TaskManager : MonoBehaviour
         if (action == null) return;
         action();
     }
+
+    internal static void Delay(float v1, object v2)
+    {
+        throw new NotImplementedException();
+    }
 }

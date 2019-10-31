@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ConfessionScript : SceneBase
+public class ConfessionScript : EventScript
 {
     public Button yes;
     public Button no;
 
     // Start is called before the first frame update
-    new void Start()
+    void Start()
     {
-        nextScene = "Main";
-
         yes.onClick.AddListener(() =>
         {
             // To do
@@ -23,13 +21,5 @@ public class ConfessionScript : SceneBase
         {
             EndScene();
         });
-
-        base.Start();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

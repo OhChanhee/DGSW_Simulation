@@ -3,26 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BullyingPreventScript : SceneBase
+public class HospitalScript : EventScript
 {
     public Button submit;
 
     // Start is called before the first frame update
-    new void Start()
+    void Start()
     {
-        nextScene = "Main";
-
         submit.onClick.AddListener(() => {
-            // To do
+            AddStat("sick");
+
             EndScene();
         });
-
-        base.Start();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

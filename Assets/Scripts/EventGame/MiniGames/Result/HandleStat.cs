@@ -4,7 +4,7 @@ using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HandleStat : SceneBase
+public class HandleStat : EventScript
 {
     public GameObject statTypes;
     public GameObject gaugeBars;
@@ -34,19 +34,16 @@ public class HandleStat : SceneBase
     CharacterStat oldStat;
 
     // Start is called before the first frame update
-    new void Start()
+    void Start()
     {
         oldStat = FindObjectOfType<StatHolder>().oldStat;
 
         if(oldStat != null)
         {
-            TaskManager.Delay(fadeInTime, () =>
+            foreach (Stat stat in statList)
             {
-                foreach (Stat stat in statList)
-                {
-                    StartCoroutine(IncreaseStat(stat));
-                }
-            });
+                StartCoroutine(IncreaseStat(stat));
+            }
         }
 
         LoadStatInfoList();
@@ -55,13 +52,10 @@ public class HandleStat : SceneBase
 
         UpdateStatList();
 
-        nextScene = "Main";
         done.onClick.AddListener(() =>
         {
             EndScene();
         });
-
-        base.Start();
     }
 
     void LoadStatInfoList()
