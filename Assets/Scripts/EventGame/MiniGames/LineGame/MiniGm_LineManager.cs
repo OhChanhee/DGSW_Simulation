@@ -51,7 +51,7 @@ public class MiniGm_LineManager : MonoBehaviour
             pullingLine_ToAi();
         } else
         {
-            MinigameResult.LoadResultScene(isWin, setStat);
+            //MinigameResult.LoadResultScene(isWin, setStat);
         }
     }
 
