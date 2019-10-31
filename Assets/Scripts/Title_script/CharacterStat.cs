@@ -20,7 +20,7 @@ public class CharacterStat
         get { return _hp * MAX_HEALTH / MAX_STAT; }
         set
         {
-            _hp = Math.Max(Math.Min(value * MAX_STAT / MAX_HEALTH, MAX_STAT), 0);
+            _hp = (Math.Min(value * MAX_STAT / MAX_HEALTH, MAX_STAT));
         }
     }
 
@@ -29,7 +29,7 @@ public class CharacterStat
         get { return _hp; }
         set
         {
-            _hp = Math.Max(Math.Min(value, MAX_STAT), 0);
+            _hp = (Math.Min(value, MAX_STAT));
         }
     }
 
@@ -37,54 +37,54 @@ public class CharacterStat
     public int sociability
     {
         get { return _sociability; }
-        set { _sociability = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _sociability = (Math.Min(value, MAX_STAT)); }
     }
 
     int _intelligence = 50;
     public int intelligence
     {
         get { return _intelligence; }
-        set { _intelligence = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _intelligence = (Math.Min(value, MAX_STAT)); }
     }
 
     int _sensibility = 50;
     public int sensibility
     {
         get { return _sensibility; }
-        set { _sensibility = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _sensibility = (Math.Min(value, MAX_STAT)); }
     }
 
     int _charm = 50;
     public int charm
     {
         get { return _charm; }
-        set { _charm = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _charm = (Math.Min(value, MAX_STAT)); }
     }
 
     int _fatigue = 500;
     public int fatigue
     {
         get { return _fatigue * MAX_HEALTH / MAX_STAT; }
-        set { _fatigue = Math.Max(Math.Min(value * MAX_STAT / MAX_HEALTH, MAX_STAT), 0); }
+        set { _fatigue = (Math.Min(value * MAX_STAT / MAX_HEALTH, MAX_STAT)); }
     }
 
     public int rawFatigue
     {
         get { return _fatigue; }
-        set { _fatigue = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _fatigue = (Math.Min(value, MAX_STAT)); }
     }
 
     int _stress = 0;
     public int stress
     {
         get { return _stress * MAX_HEALTH / MAX_STAT; }
-        set { _stress = Math.Max(Math.Min(value * MAX_STAT / MAX_HEALTH, MAX_STAT), 0); }
+        set { _stress = (Math.Min(value * MAX_STAT / MAX_HEALTH, MAX_STAT)); }
     }
 
     public int rawStress
     {
         get { return _stress; }
-        set { _stress = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _stress = (Math.Min(value, MAX_STAT)); }
     }
 
     public int programming
@@ -96,35 +96,35 @@ public class CharacterStat
     public int music
     {
         get { return _music; }
-        set { _music = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _music = (Math.Min(value, MAX_STAT)); }
     }
 
     int _design = 50;
     public int design
     {
         get { return _design; }
-        set { _design = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _design = (Math.Min(value, MAX_STAT)); }
     }
 
     int _exercise = 50;
     public int exercise
     {
         get { return _exercise; }
-        set { _exercise = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _exercise = (Math.Min(value, MAX_STAT)); }
     }
 
     int _creative = 50;
     public int creative
     {
         get { return _creative; }
-        set { _creative = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _creative = (Math.Min(value, MAX_STAT)); }
     }
 
     int _leadership = 50;
     public int leadership
     {
         get { return _leadership; }
-        set { _leadership = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _leadership = (Math.Min(value, MAX_STAT)); }
     }
 
     int _rewardPoint = 0;
@@ -139,56 +139,56 @@ public class CharacterStat
     public int web
     {
         get { return _web; }
-        set { _web = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _web = (Math.Min(value, MAX_STAT)); }
     }
 
     int _operSystem = 0;
     public int operSystem
     {
         get { return _operSystem; }
-        set { _operSystem = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _operSystem = (Math.Min(value, MAX_STAT)); }
     }
 
     int _mobile = 0;
     public int mobile
     {
         get { return _mobile; }
-        set { _mobile = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _mobile = (Math.Min(value, MAX_STAT)); }
     }
 
     int _embedded = 0;
     public int embedded
     {
         get { return _embedded; }
-        set { _embedded = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _embedded = (Math.Min(value, MAX_STAT)); }
     }
 
     int _server = 0;
     public int server
     {
         get { return _server; }
-        set { _server = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _server = Math.Min(value, MAX_STAT); }
     }
 
     int _game = 0;
     public int game
     {
         get { return _game; }
-        set { _game = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _game = Math.Min(value, MAX_STAT); }
     }
 
     int _database = 0;
     public int database
     {
         get { return _database; }
-        set { _database = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _database = Math.Min(value, MAX_STAT); }
     }
 
     int _dataStructure = 0;
     public int dataStructure
     {
         get { return _dataStructure; }
-        set { _dataStructure = Math.Max(Math.Min(value, MAX_STAT), 0); }
+        set { _dataStructure = Math.Min(value, MAX_STAT); }
     }
 
     public int programmingKnowledge
@@ -250,9 +250,10 @@ public class CharacterStat
 
         foreach (PropertyInfo property in properties)
         {
-            if (property.SetMethod == null) continue;
+            if (property.SetMethod == null || property.Name.StartsWith("raw")) continue;
 
             int sum = (int)property.GetValue(param1) + (int)property.GetValue(param2);
+
             property.SetValue(result, sum);
         }
 

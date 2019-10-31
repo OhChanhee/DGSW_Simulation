@@ -102,7 +102,7 @@ EditorBuildSettings:
     path: Assets/Scene/Event/summerVacation.unity
     guid: 3ac4f7e84007074499fdb7a35afdd412
   - enabled: 1
-    path: Assets/Scene/Event/overseasTrip.unity
+    path: Assets/Scene/Event/overSeasTrip.unity
     guid: 9a69602881c66e74aa9e8235cf8a951c
   - enabled: 1
     path: Assets/Scene/Event/ICT.unity
