@@ -5,6 +5,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using UnityEngine.SceneManagement;
 using Assets.Scripts.Utilities;
+using System.Reflection;
 
 [Serializable]
 public class CharacterManager 
@@ -24,16 +25,32 @@ public class CharacterManager
     // 캐릭터의 정보
     public string playerName;
     public Gender gender;
-    public Gamedate birthday = new Gamedate();
+    public BirthdayDate birthday = new BirthdayDate();
     public Major major = Major.공통과;
-    public int grade = 1;
+    public int grade = 3;
     public int season = 1;
     public bool hasTeam;
     public bool isCouple;
     public Gamedate curdate = new Gamedate();
     public Personality personality;
     public int Money;
-    public CharacterStat characterStat = new CharacterStat();
+    public CharacterStat _characterStat = new CharacterStat();
+    public CharacterStat characterStat
+    {
+        get { return _characterStat; }
+
+        set
+        {
+            PropertyInfo[] properties = typeof(CharacterStat).GetProperties();
+
+            foreach(PropertyInfo property in properties)
+            {
+                if (property.SetMethod == null || Array.Exists(properties, (item) => { return (item.Name == "raw" + property.Name); })) continue;
+
+                property.SetValue(characterStat, Math.Max(Math.Min((int)property.GetValue(value), MAX_STAT),0));
+            }
+        }
+    }
 
     public static CharacterManager Get_instance()
     {
@@ -75,6 +92,19 @@ public class CharacterManager
         stream.Close();
 
         return characterManager;
+    }
+}
+
+[Serializable]
+public class BirthdayDate
+{
+    public int grade = 3;
+
+    Gamedate _gamedate = new Gamedate();
+    public Gamedate gamedate
+    {
+        get { return _gamedate; }
+        set { _gamedate = value; }
     }
 }
 

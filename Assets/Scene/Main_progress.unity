@@ -275,6 +275,7 @@ MonoBehaviour:
   progressBar: {fileID: 1059215594}
   descText: {fileID: 471672472}
   scoreBoard: {fileID: 1452936695}
+  timeToSchedule: 5
 --- !u!1 &123940029
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,7 +400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

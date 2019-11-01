@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ChoosePersonality : SceneBase
+public class ChoosePersonality : EventScript
 {
     public Button yes;
     public Button no;
     public Button report;
     public Button stop;
     public Text textComponent;
+
+    Coroutine showEachChar;
 
     bool isExtroverted;
     bool isEmotional;
@@ -25,28 +27,18 @@ public class ChoosePersonality : SceneBase
     }
 
     // Start is called before the first frame update
-    new void Start()
+    void Start()
     {
         yes.onClick.AddListener(ChooseY);
         no.onClick.AddListener(ChooseN);
         report.onClick.AddListener(ChooseReport);
         stop.onClick.AddListener(ChooseStop);
+
         report.gameObject.SetActive(false);
         stop.gameObject.SetActive(false);
 
-        base.Start();
-
-        TaskManager.Delay(fadeInTime, () =>
-        {
-            textComponent.text = contentList[0];
-            UIEffect.ShowEachChar(textComponent, .1f);
-        });
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        textComponent.text = contentList[0];
+        showEachChar = UIEffect.ShowEachChar(textComponent, .1f);
     }
 
     void ChangeQuestion()
@@ -55,8 +47,9 @@ public class ChoosePersonality : SceneBase
         no.gameObject.SetActive(false);
         report.gameObject.SetActive(true);
         stop.gameObject.SetActive(true);
+        StopCoroutine(showEachChar);
+
         textComponent.text = contentList[1];
-        StopAllCoroutines();
         UIEffect.ShowEachChar(textComponent, .1f);
     }
 
@@ -67,7 +60,6 @@ public class ChoosePersonality : SceneBase
 
         CharacterManager.Get_instance().personality = (Personality)((int)(extroverted | emotional));
 
-        nextScene = "Main"; //메인화면으로 이동
         EndScene();
     }
 

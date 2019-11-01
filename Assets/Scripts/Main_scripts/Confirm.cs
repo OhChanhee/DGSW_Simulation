@@ -52,7 +52,7 @@ public class Confirm : MonoBehaviour
     {
         int curWeekIdx = (CharacterManager.Get_instance().curdate.week - 1) * 2;
 
-        for (int i = curWeekIdx; i < curWeekIdx + 3; i++)
+        for (int i = curWeekIdx; i < curWeekIdx + 4; i++)
         {
             if(weeks[i].act == null)
             {

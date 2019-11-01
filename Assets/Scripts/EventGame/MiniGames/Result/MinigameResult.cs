@@ -12,7 +12,8 @@ public class MinigameResult
     {
         SaveStat();
 
-        transformation(); //스탯 변화
+        if(isWin)
+            transformation(); //스탯 변화
 
         SaveResult(isWin);
 
@@ -24,7 +25,8 @@ public class MinigameResult
 
         SaveStat();
 
-        CharacterManager.Get_instance().characterStat = newStat; //스탯 변화
+        if(isWin)
+            CharacterManager.Get_instance().characterStat = newStat; //스탯 변화
 
         SaveResult(isWin);
 
