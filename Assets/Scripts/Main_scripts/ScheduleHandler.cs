@@ -12,6 +12,7 @@ public class ScheduleHandler : MonoBehaviour
     public Slider progressBar;
     public Text descText;
     public GameObject scoreBoard;
+    public float timeToSchedule;
 
     Coroutine showEachChar;
     GameObject dataHolder;
@@ -28,6 +29,7 @@ public class ScheduleHandler : MonoBehaviour
         actList = dataHolder.GetComponent<Schedule>().actList;
         InitProgressPointList();
         progressBar.onValueChanged.AddListener((float value) => CheckSchedule(value));
+
         StartCoroutine(ProgressSchedule());
         onEndSchedule += () => { };
     }
@@ -54,7 +56,7 @@ public class ScheduleHandler : MonoBehaviour
             value *= progressBar.maxValue;
         });
 
-        progressPointList = progressPointList.FindAll((float value) => { return value > progressBar.value - progressPointList[1]; });
+        progressPointList = progressPointList.FindAll((float value) => { return value > progressBar.value - .25f; });
     }
 
     IEnumerator ProgressSchedule()
@@ -63,7 +65,7 @@ public class ScheduleHandler : MonoBehaviour
 
         while(progressBar.value < progressBar.maxValue)
         {
-            progressBar.value += progressBar.maxValue * Time.deltaTime / 5;
+            progressBar.value += progressBar.maxValue * Time.deltaTime / timeToSchedule;
 
             yield return new WaitForEndOfFrame();
         }
@@ -73,14 +75,16 @@ public class ScheduleHandler : MonoBehaviour
     {
         if (value > progressPointList[1])
         {
+            progressPointList.RemoveAt(0);
+            actList.RemoveAt(0);
+
             if (actList[0].IsEvent)
             {
                 dataHolder.GetComponent<Schedule>().progressPoint = progressBar.value;
                 SceneManager.LoadScene(actList[0].Name);
-            }
 
-            progressPointList.RemoveAt(0);
-            actList.RemoveAt(0);
+                return;
+            }
 
             if (actList.Count <= 1 || progressPointList.Count <= 1)
             {
@@ -131,15 +135,5 @@ public class ScheduleHandler : MonoBehaviour
         descText.text = act.Description;
         showEachChar = UIEffect.ShowEachChar(descText, .05f);
         behaviour.sprite = Resources.Load<Sprite>("Main/m_schedule/Category/m_" + act.Name);
-
-        CheckEvent(act);
-    }
-
-    void CheckEvent(Act act)
-    {
-        if (act.IsEvent)
-        {
-            nextScene = act.Name;
-        }
     }
 }
