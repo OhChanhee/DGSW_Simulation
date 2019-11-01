@@ -78,14 +78,6 @@ public class ScheduleHandler : MonoBehaviour
             progressPointList.RemoveAt(0);
             actList.RemoveAt(0);
 
-            if (actList[0].IsEvent)
-            {
-                dataHolder.GetComponent<Schedule>().progressPoint = progressBar.value;
-                SceneManager.LoadScene(actList[0].Name);
-
-                return;
-            }
-
             if (actList.Count <= 1 || progressPointList.Count <= 1)
             {
                 progressBar.onValueChanged.RemoveAllListeners();
@@ -128,6 +120,17 @@ public class ScheduleHandler : MonoBehaviour
     void UpdateSchedule()
     {
         Act act = actList[0];
+
+        if (act.IsEvent)
+        {
+            dataHolder.GetComponent<Schedule>().progressPoint = progressBar.value;
+
+            act.IsEvent = false; // 더이상 유효하지 않은 이벤트
+
+            SceneManager.LoadScene(act.Name);
+
+            return;
+        }
 
         if (showEachChar != null) StopCoroutine(showEachChar);
         CharacterManager.Get_instance().characterStat += act.Changement;

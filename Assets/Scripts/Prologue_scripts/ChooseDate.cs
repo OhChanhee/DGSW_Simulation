@@ -31,7 +31,7 @@ public class ChooseDate : EventScript
                 day = Int32.Parse(obj.GetComponentInChildren<Text>().text);
                 CharacterManager.Get_instance().birthday.gamedate.dateTime = new DateTime(year, month, day);
                 CharacterManager.Get_instance().birthday.gamedate.week = Math.Min(day / 7 + 1, 4);
-                CharacterManager.Get_instance().curdate.dateTime = new DateTime(CharacterManager.Get_instance().birthday.gamedate.dateTime.Year + 16, 3, 1);
+                CharacterManager.Get_instance().curdate.dateTime = new DateTime(CharacterManager.Get_instance().birthday.gamedate.dateTime.Year + 16, 5, 1);
                 nextScene = "Prologue_personality";
 
                 EndScene();

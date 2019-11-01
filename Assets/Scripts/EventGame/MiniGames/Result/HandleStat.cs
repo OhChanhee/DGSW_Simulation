@@ -38,19 +38,21 @@ public class HandleStat : EventScript
     {
         oldStat = FindObjectOfType<StatHolder>().oldStat;
 
-        if(oldStat != null)
-        {
-            foreach (Stat stat in statList)
-            {
-                StartCoroutine(IncreaseStat(stat));
-            }
-        }
+        nextScene = "Main_progress";
 
         LoadStatInfoList();
 
         LoadStatList();
 
         UpdateStatList();
+
+        if (oldStat != null)
+        {
+            foreach (Stat stat in statList)
+            {
+                StartCoroutine(IncreaseStat(stat));
+            }
+        }
 
         done.onClick.AddListener(() =>
         {
