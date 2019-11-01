@@ -27,7 +27,7 @@ public class CharacterManager
     public Gender gender;
     public BirthdayDate birthday = new BirthdayDate();
     public Major major = Major.공통과;
-    public int grade = 1;
+    public int grade = 3;
     public int season = 1;
     public bool hasTeam;
     public bool isCouple;
@@ -98,7 +98,7 @@ public class CharacterManager
 [Serializable]
 public class BirthdayDate
 {
-    public int grade = 1;
+    public int grade = 3;
 
     Gamedate _gamedate = new Gamedate();
     public Gamedate gamedate
